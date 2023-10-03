@@ -1,0 +1,46 @@
+version: '3'
+services:
+    web:
+        image: nginx:latest
+        build:
+            context: .
+            dockerfile: nginx.dockerfile
+        ports:
+            - "80:80"
+        volumes:
+            - ./nginx.conf:/etc/nginx/conf.d/app.conf
+            - ./app:/app
+    php:
+        image: php:latest
+        build:
+            context: .
+            dockerfile: PHP.dockerfile
+        environment:
+            - DB_SERVER=${DB_SERVER}
+            - DB_USER=${DB_ROOT_USER}
+            - DB_PASSWORD=${DB_ROOT_PASSWORD}
+        volumes:
+            - ./app:/app
+            - ./custom.php.ini:/usr/local/etc/php/conf.d/php.ini
+        depends_on:
+            - web
+    mysql:
+        image: mariadb:latest
+        environment:
+            MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+        volumes:
+            - mysqldata:/var/lib/mysql
+        ports:
+            - 3306:3306
+    phpmyadmin:
+        image: phpmyadmin
+        restart: always
+        ports:
+            - 8080:80
+        environment:
+            PMA_HOST: mysql
+        depends_on:
+            - web
+            - mysql
+volumes:
+    mysqldata: {}

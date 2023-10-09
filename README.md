@@ -12,5 +12,3 @@ Geen Gerard Joling placeholders
 Maak gebruik van sections met een "ID en class"
 De containers worden geclassificeerd met de class. 
 Met flex gebruik je rows.
-
-test mart 2

@@ -56,12 +56,27 @@ a:visited {
     justify-content: space-between;
     align-items: flex-end;
     align-items: center;
-    padding: 30px;
+    padding-left: 30px;
     background-color: #FFFFFF;
     stroke: #D3D3D3;
     stroke-width: 1px;
     box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
     border-radius: 8px;
+}
+
+.faq-popup-box-collapsible {
+    border: 0px;
+    height: 88px;
+    width: 88px;
+    background-color: #FFFFFF;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.faq-popup-box-collapsible-content {
+    overflow: hidden;
+    
 }
 
 #faq-leesmeer {

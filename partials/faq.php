@@ -13,19 +13,19 @@
     <main  id="faq-outer-flex">
         <h1>F.A.Q.</1>
         <h2>Veel gestelde vragen</h2>
-        <a id="faq-leesmeer" href="../index.php">Meer weergeven &gt;</a>
+        <a id="faq-leesmeer" href="#">Meer weergeven &gt;</a>
         <div id="faq-inner-flex">
             <div class="faq-popup-box-flex">
                 <p>Hello, World!</p>
-                <button>&darr;</button>
+                <button type="button" class="faq-popup-box-collapsible">&darr;</button>
             </div>
             <div class="faq-popup-box-flex">
                 <p>Hello, World!</p>
-                <p>&darr;</p>
+                <button type="button" class="faq-popup-box-collapsible">&darr;</button>
             </div>
             <div class="faq-popup-box-flex">
                 <p>Hello, World!</p>
-                <p>&darr;</p>
+                <button type="button" class="faq-popup-box-collapsible">&darr;</button>
             </div>
         </div>
     </main>

@@ -16,6 +16,8 @@
 
     include "partials/about-us.php";
 
+    include "partials/line.php";
+    
     include "partials/values.php";
 
     include "partials/services.php";

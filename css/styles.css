@@ -1,4 +1,6 @@
+@import url(navbar.css);
 @import url(values.css);
+@import url(line.css);
 
 * {
     margin: 0;
@@ -16,41 +18,6 @@
     --dark-background: #1C1C1C;
     --text-color: #3C3C43;
     --white: #FFFFFF;
-}
-
-a:visited {
-    color: var(--dark-blue);
-}
-
-nav {
-    width: 100%;
-    height: 10vh;
-    background-color: var(--white);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Calibre-Bold;
-    font-size: 18px;
-    color: var(--dark-blue);
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-right: 10rem;
-}
-
-nav ul li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 1rem;
-    margin-left: 1rem;
-}
-
-nav img {
-    padding-left: 10rem;
 }
 
 body {
@@ -78,8 +45,4 @@ body {
 @font-face {
     font-family: Calibre-Bold;
     src: url(/fonts/Calibre-Bold.otf);
-}
-
-body {
-    background-color: var(--light-background);
 }

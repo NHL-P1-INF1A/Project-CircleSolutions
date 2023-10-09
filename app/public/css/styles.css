@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    /* Dit zijn de basis wit ruimtes van de pagina. */
+    display: flex;
+    padding-left: 10rem; 
+    padding-right: 10rem; 
+    flex-direction: column;
+  
+  }

@@ -15,11 +15,14 @@
     --dark-background: #1C1C1C;
 }
 
+body {
+    background-color: var(--light-background);
+}
+
 .container {
     /* Dit zijn de basis wit ruimtes van de pagina. */
     display: flex;
-    padding-left: 10rem; 
-    padding-right: 10rem; 
+    padding: 0 20rem;
     flex-direction: column;
 }
 

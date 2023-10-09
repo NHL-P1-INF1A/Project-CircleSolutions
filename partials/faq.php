@@ -15,27 +15,22 @@
             <h1>F.A.Q.</1>
             <h2>Veel gestelde vragen</h2>
             <a id="faq-leesmeer" href="../index.php">Meer weergeven &gt;</a>
-            <div id="faq-inner-grid">
-                <div class="faq-popup-box-1">   
+            <div id="faq-inner-flex">
+                <div class="faq-popup-box-flex">
                     <p>Hello, World!</p>
+                    <p>&darr;</p>
                 </div>
-                <div class="faq-popup-box-2">   
-                    <p>Hello, World!</p>
+                <div class="faq-popup-box-flex">
+                
                 </div>
-                <div class="faq-popup-box-3">   
-                    <p>Hello, World!</p>
+                <div class="faq-popup-box-flex">
+                
                 </div>
-                <a class="faq-popup-arrow-1">&#x1F893;</a>
-                <a class="faq-popup-arrow-2">&#x1F893;</a>
-                <a class="faq-popup-arrow-3">&#x1F893;</a>
-                <div class="faq-popup-spacer"></div>
+                <div class="faq-popup-box-flex">
+                
+                </div>
             </div>
         </div>
     </main>
-    <!--
-        <?php
-            include "#"
-        ?>
-    !-->
 </body>
 </html>

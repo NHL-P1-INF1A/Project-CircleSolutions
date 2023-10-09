@@ -11,12 +11,30 @@
         include "header.php"
     ?>
     <main>
-        <div class="faq-outer-flex">
+        <div id="faq-outer-flex">
             <h1>F.A.Q.</1>
             <h2>Veel gestelde vragen</h2>
-            <a href="../index.php">&lt;&lt;Home</a> <!-- Negeren, is voor Mart !-->
-            <div class="faq-outer-grid">
-                <p>Hello, World!</p>
+            <a id="faq-leesmeer" href="../index.php">&lt;&lt;Home</a>
+            <div id="faq-inner-grid">
+                <div class="faq-popup-box-1">   
+                    <p>Hello, World!</p>
+                </div>
+                <div class="faq-popup-box-2">   
+                    <p>Hello, World!</p>
+                </div>
+                <div class="faq-popup-box-3">   
+                    <p>Hello, World!</p>
+                </div>
+                <div class="faq-popup-arrow-1">
+                    <p>&darr;</p>
+                </div>
+                <div class="faq-popup-arrow-2">
+                    <p>&darr;</p>
+                </div>
+                <div class="faq-popup-arrow-3">
+                    <p>&darr;</p>
+                </div>
+                <div class="faq-popup-spacer"></div>
             </div>
         </div>
     </main>

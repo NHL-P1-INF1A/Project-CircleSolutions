@@ -1,4 +1,4 @@
-    <section id="values">
+<section id="values">
         <div class="container">
             <div class="values_title">
                 <h1>Waarden</h1>

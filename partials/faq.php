@@ -14,7 +14,7 @@
         <div id="faq-outer-flex">
             <h1>F.A.Q.</1>
             <h2>Veel gestelde vragen</h2>
-            <a id="faq-leesmeer" href="../index.php">&lt;&lt;Home</a>
+            <a id="faq-leesmeer" href="../index.php">Meer weergeven &gt;</a>
             <div id="faq-inner-grid">
                 <div class="faq-popup-box-1">   
                     <p>Hello, World!</p>
@@ -25,15 +25,9 @@
                 <div class="faq-popup-box-3">   
                     <p>Hello, World!</p>
                 </div>
-                <div class="faq-popup-arrow-1">
-                    <p>&darr;</p>
-                </div>
-                <div class="faq-popup-arrow-2">
-                    <p>&darr;</p>
-                </div>
-                <div class="faq-popup-arrow-3">
-                    <p>&darr;</p>
-                </div>
+                <a class="faq-popup-arrow-1">&#x1F893;</a>
+                <a class="faq-popup-arrow-2">&#x1F893;</a>
+                <a class="faq-popup-arrow-3">&#x1F893;</a>
                 <div class="faq-popup-spacer"></div>
             </div>
         </div>

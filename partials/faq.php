@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style_faq.css" rel="stylesheet">
 </head>
 <body>
     <?php
@@ -12,7 +12,9 @@
     ?>
     <main>
         <a href="../index.php">&lt;&lt;Home</a> <!-- Negeren, is voor Mart !-->
-        <p>Hello, World!</p>
+        <div class="faq-grid">
+            <p>Hello, World!</p>
+        </div>
     </main>
     <!--
         <?php

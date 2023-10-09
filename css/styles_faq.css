@@ -14,3 +14,15 @@
     --light-background: #EFEFF1;
     --dark-background: #1C1C1C;
 }
+
+.faq-grid {
+    display: grid;
+    width: 1rem;
+    background-color: var(--normal-blue);
+}
+
+.faq-flex {
+    display: flex;
+}
+
+

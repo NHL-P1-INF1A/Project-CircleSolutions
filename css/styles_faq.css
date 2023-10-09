@@ -15,14 +15,31 @@
     --dark-background: #1C1C1C;
 }
 
-.faq-grid {
+.faq-outer-grid {
     display: grid;
-    width: 1rem;
-    background-color: var(--normal-blue);
+    width: 50rem;
+    grid-template-rows: repeat(6 , 1fr);
+    grid-template-columns: 1fr 10%;
 }
 
-.faq-flex {
+.faq-outer-flex {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
+.faq-inner-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*a {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}*/
 

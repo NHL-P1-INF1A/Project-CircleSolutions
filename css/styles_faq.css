@@ -55,8 +55,11 @@ a:visited {
     height: 88px;
     justify-content: space-between;
     align-items: flex-end;
-    background-color: var(--light-blue);
-    padding: 2rem;
+    align-items: center;
+    padding: 30px;
+    background-color: #FFFFFF;
+    stroke: #D3D3D3;
+    stroke-width: 1px;
     box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }

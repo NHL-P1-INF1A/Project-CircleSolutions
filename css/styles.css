@@ -25,11 +25,14 @@ nav {
     align-items: center;
 }
 
+body {
+    background-color: var(--light-background);
+}
+
 .container {
     /* Dit zijn de basis wit ruimtes van de pagina. */
     display: flex;
-    padding-left: 10rem; 
-    padding-right: 10rem; 
+    padding: 0 20rem;
     flex-direction: column;
 }
 

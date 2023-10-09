@@ -48,7 +48,7 @@ body {
     text-align: center;
 }
 
-.values_title h1{
+.values_title h1 {
     font-family: Calibre-Bold;
     font-size: 1.5rem;
 }
@@ -116,66 +116,32 @@ body {
     background-color: white;
     box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    position: relative;
+    display: flex;
+    align-items: center;
 }
 
-.icon1 {
-    /* happy */
+.icon {
+    padding-left: 1rem;
+}
 
-position: absolute;
-width: 41px;
-height: 41px;
-left: 14px;
-top: 29px;
+.icon img {
+    height: 3rem;
+}
 
-border-radius: 18px;
+.values_small_box_text {
+    padding-left: 1rem;
+    padding-top: 0.6rem;
+    line-height: 24px;
+}
 
+.values_small_box_text h1 {
+    font-family: Calibre-Bold;
+    color: var(--dark-blue);
+    font-size: 2rem;
+}
 
-/* Ellipse 87 */
-
-position: absolute;
-left: 12.5%;
-right: 12.5%;
-top: 12.5%;
-bottom: 12.5%;
-
-border: 3px solid #799DAB;
-
-
-/* Ellipse 90 */
-
-position: absolute;
-left: 40%;
-right: 43.33%;
-top: 50%;
-bottom: 33.33%;
-
-border: 2px solid #799DAB;
-
-
-/* Rectangle 3973 */
-
-position: absolute;
-left: 29.17%;
-right: 58.33%;
-top: 33.33%;
-bottom: 58.33%;
-
-background: #799DAB;
-border: 0.25px solid #799DAB;
-border-radius: 27px;
-
-
-/* Rectangle 3974 */
-
-position: absolute;
-left: 58.33%;
-right: 29.17%;
-top: 33.33%;
-bottom: 58.33%;
-
-background: #799DAB;
-border: 0.25px solid #799DAB;
-border-radius: 27px;
-
+.values_small_box_text p {
+    font-family: Calibre-Regular;
+    color: var(--text-color);
+    font-size: 1.3rem;
 }

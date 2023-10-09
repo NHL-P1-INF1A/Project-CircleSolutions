@@ -1,3 +1,5 @@
+@import url(values.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +14,7 @@
     --light-blue: #dcf1f9;
     --light-background: #EFEFF1;
     --dark-background: #1C1C1C;
+    --text-color: #3C3C43;
     --white: #FFFFFF;
 }
 
@@ -52,6 +55,7 @@ nav img {
 
 body {
     background-color: var(--light-background);
+    color: var(--text-color);
 }
 
 .container {
@@ -74,4 +78,8 @@ body {
 @font-face {
     font-family: Calibre-Bold;
     src: url(/fonts/Calibre-Bold.otf);
+}
+
+body {
+    background-color: var(--light-background);
 }

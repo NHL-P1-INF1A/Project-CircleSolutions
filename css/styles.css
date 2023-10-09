@@ -1,6 +1,7 @@
 @import url(navbar.css);
 @import url(values.css);
 @import url(line.css);
+@import url(reviews.css);
 
 * {
     margin: 0;

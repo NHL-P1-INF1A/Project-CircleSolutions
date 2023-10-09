@@ -20,11 +20,19 @@
     
     include "partials/values.php";
 
+    include "partials/line.php";
+
     include "partials/services.php";
+
+    include "partials/line.php";
 
     include "partials/faq.php";
 
+    include "partials/line.php";
+
     include "partials/reviews.php";
+
+    include "partials/line.php";
 
     include "partials/contact.php";
 
@@ -32,4 +40,5 @@
 
     ?>
 </body>
+<script src="js/carousel.js"></script>
 </html>

@@ -15,12 +15,25 @@
     --dark-background: #1C1C1C;
 }
 
-
 .container {
     /* Dit zijn de basis wit ruimtes van de pagina. */
     display: flex;
     padding-left: 10rem; 
     padding-right: 10rem; 
     flex-direction: column;
-  
-  }
+}
+
+@font-face {
+    font-family: Calibre-Medium;
+    src: url(/fonts/Calibre-Medium.otf);
+}
+
+@font-face {
+    font-family: Calibre-Regular;
+    src: url(/fonts/Calibre-Regular.otf);
+}
+
+@font-face {
+    font-family: Calibre-Bold;
+    src: url(/fonts/Calibre-Bold.otf);
+}

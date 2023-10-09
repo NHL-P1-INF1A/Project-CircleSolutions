@@ -3,10 +3,11 @@ Regels
 Code convention: Maak gebruik van de "snake_case"
 
 Kleurencode: 
+```
             blue grey -- CMYK 56 29 27 0 -- RGB 121 167 171 -- HEX 799dab
             blue -- CMYK 20 0 1 0 -- RGB 199 234 248 -- HEX C7eaf8 -- 
             light blue grey -- CMYK 12 0 1 0 -- RGB 220 241 249 -- HEX dcf1f9
-
+```
 Geen Gerard Joling placeholders
 
 Maak gebruik van sections met een "ID en class"
@@ -14,5 +15,8 @@ De containers worden geclassificeerd met de class.
 Met flex gebruik je rows.
 
 We maken gebruik van REM, geen PX, % etc.
+<<<<<<< HEAD
 
 Voor de typography wordt gebruik gemaakt van Calibre: Regular, Medium en Bold.
+=======
+>>>>>>> 272c5b2f532a16ce5f1e14d6b86ff7fac8f22eba

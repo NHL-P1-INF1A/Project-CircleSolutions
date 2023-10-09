@@ -5,3 +5,12 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+:root {
+    --dark-blue: #799dab;
+    --normal-blue: #c7eaf8;
+    --light-blue: #dcf1f9;
+
+    --light-background: #EFEFF1;
+    --dark-background: #1C1C1C;
+}

@@ -10,8 +10,14 @@
     <?php
         include "header.php"
     ?>
-    <?php
-        include "#"
-    ?>
+    <main>
+        <a href="../index.php">&lt;&lt;Home</a> <!-- Negeren, is voor Mart !-->
+        <p>Hello, World!</p>
+    </main>
+    <!--
+        <?php
+            include "#"
+        ?>
+    !-->
 </body>
 </html>

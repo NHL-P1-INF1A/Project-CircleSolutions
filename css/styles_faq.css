@@ -4,7 +4,25 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: "Calibre", sans-serif;
+    font-size: 24px;
 }
+/*
+@media screen and (min-width: 640px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}*/
 
 :root {
     --dark-blue: #799dab;
@@ -31,7 +49,6 @@ a:visited {
     color: var(--dark-blue);
 }
 
-
 #faq-outer-flex { /*Flexbox used for configuring the main FAQ page*/
     display: flex;
     flex-direction: column;
@@ -46,12 +63,12 @@ a:visited {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.25rem;
 }
 
 #faq-leesmeer { /*Flexbox used for aligning the "Lees Meer" button*/
     display: flex;
-    width: 770px;
+    width: 32rem;
     justify-content: flex-end;
     font-size: large;
     margin-bottom: 1rem;
@@ -59,12 +76,11 @@ a:visited {
 
 .faq-popup-box-flex { /*Flexbox used for the dropdown popup boxes*/
     display: flex;
-    width: 770px;
-    height: 88px;
+    width: 32rem;
+    height: 3.6rem;
     justify-content: space-between;
-    align-items: flex-end;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 1.25rem;
     background-color: #FFFFFF;
     stroke: #D3D3D3;
     stroke-width: 1px;
@@ -74,8 +90,8 @@ a:visited {
 
 .faq-popup-box-collapsible { /*Box used for the dropdown popup boxes arrows*/
     border: 0px;
-    height: 88px;
-    width: 88px;
+    height: 3.6rem;
+    width: 3.6rem;
     background-color: #FFFFFF;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;

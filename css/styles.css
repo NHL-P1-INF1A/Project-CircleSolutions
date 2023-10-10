@@ -1,7 +1,13 @@
 @import url(navbar.css);
+@import url(header.css);
+@import url(about-us.css);
 @import url(values.css);
-@import url(line.css);
+@import url(services.css);
+@import url(faq.css);
 @import url(reviews.css);
+@import url(contact.css);
+@import url(footer.css);
+@import url(line.css);
 
 * {
     margin: 0;

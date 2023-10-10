@@ -1,14 +1,18 @@
 <div class="container">
     <div class=contact-form>
         <div class="contact-left">
-            <h2>voor vragen, neem gerust contact op</h2>
+            <h1>voor vragen, neem gerust contact op</h1>
             <div class="contact-links">
                 <p>contact@circlesolutions.com </p>
                 <div class="blue-box">
                     <i> <img src="img/phone.svg"></i>
                     <p> +31 06 123 123 123 </p>
                 </div>
-                <p> Van Schaikweg 94, 7811 KL Emmen </p>
+                <div class="contact-text-left">
+                    <i><img src="img/location.svg"></i>
+                    <p> Van Schaikweg 94, 7811 KL Emmen </p>
+                </div>
+
             </div>
             <div class="social-media-icons-left">
                 <i>
@@ -23,7 +27,7 @@
             </div>
         </div>
         <div class="contact-right">
-            <h3 class="test">Ik ben geintreseerd in:</h3>
+            <h2>Ik ben geintreseerd in:</h2>
             <div class="buttons-contact-right">
                 <button class="selected-button">Algemene Vraag</button>
                 <button class="unselected-button">Circle D.O.T.S</button>

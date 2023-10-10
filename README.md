@@ -15,3 +15,5 @@ De containers worden geclassificeerd met de class.
 Met flex gebruik je rows.
 
 We maken gebruik van REM, geen PX, % etc.
+
+Voor de typography wordt gebruik gemaakt van Calibre: Regular, Medium en Bold.

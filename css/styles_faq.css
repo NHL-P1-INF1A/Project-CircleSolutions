@@ -77,3 +77,12 @@
     align-items: center;
     padding-left: 1.25rem;
 }
+
+.faq_page_breakline {
+    height: 2rem;
+}
+
+.faq_container {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}

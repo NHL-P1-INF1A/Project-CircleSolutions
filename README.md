@@ -14,7 +14,7 @@
 
 ###
 
-<p align="left">Code convention: Maak gebruik van de "snake_case"<br>Kleurencode:</p>
+<p align="left">Code convention: Maak gebruik van de "snake_case".<br>Kleurencode:</p>
 
 ###
 
@@ -26,15 +26,15 @@ light blue grey: #dcf1f9
 
 ###
 
+<img align="left" height="66" src="https://encycolorpedia.nl/799dab.svg"  />
+
+###
+
 <img align="left" height="66" src="https://encycolorpedia.nl/c7eaf8.svg"  />
 
 ###
 
 <img align="left" height="66" src="https://encycolorpedia.nl/dcf1f9.svg"  />
-
-###
-
-<img align="left" height="66" src="https://encycolorpedia.nl/799dab.svg"  />
 
 ###
 

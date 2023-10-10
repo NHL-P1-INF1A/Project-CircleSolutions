@@ -21,11 +21,16 @@
     justify-content: flex-end;
     font-size: large;
     margin-bottom: 1rem;
+    color: var(--dark-blue);
+}
+
+.faq_leesmeer:visited {
+    color: var(--dark-blue);
 }
 
 .faq_popup_box_flex { /*Flexbox used for the dropdown popup boxes*/
     display: flex;
-    width: 50vw;
+    width: 70rem;
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
@@ -51,7 +56,7 @@
 }
 
 .faq_text {
-    width: 50vw;
+    width: 70rem;
     padding-left: 1.25rem;
     background-color: #FFFFFF;
     stroke: #D3D3D3;

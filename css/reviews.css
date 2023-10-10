@@ -30,17 +30,21 @@
 .carousel_container {
     position: relative;
     overflow: hidden;
-    width: 58rem;
+    width: 80rem;
 }
 /* collection of slides */
 .carousel_slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 /* single slide */
 .carousel_slide {
-    height: 15.6rem;
-    flex: 0 0 46.5%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
+    height: 17.6rem;
+    flex: 0 0 47.5%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
     box-sizing: border-box;
     margin: 1rem;
     border-radius: 18px;
@@ -69,7 +73,7 @@
     padding-bottom: .4rem;
 }
 .carousel_content p {
-    padding-top: .4rem;
+    padding-top: 1.6rem;
     color: var(--text-color);
 }
 /* navigation arrows */

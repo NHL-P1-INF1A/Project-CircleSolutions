@@ -24,6 +24,10 @@
 
 }*/
 
+body {
+    background-color: #EFEFF1;
+}
+
 :root {
     --dark-blue: #799dab;
     --normal-blue: #c7eaf8;

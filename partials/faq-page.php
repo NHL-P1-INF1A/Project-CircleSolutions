@@ -10,6 +10,8 @@
     <?php
         include "../partials/header.php";
     ?>
+<!-- temporary, remove this when this page is done !-->
+<a href="../partials/faq.php">Terug naar faq.php</a> 
     <main class="faq-outer-flex">
         <!--Header!-->
         <h1>F.A.Q.</h1>

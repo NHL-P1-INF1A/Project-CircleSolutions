@@ -16,7 +16,6 @@
         <div id="faq-inner-flex">
             <!--popup box 1!-->
             <?php
-                $location = 0;
                 $faqtext = array("Hello, World!","Hello, World!","Hello, World!");
                 for($location = 0; $location < count($faqtext); $location++)
                 {

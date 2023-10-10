@@ -8,4 +8,5 @@
     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ut laoreet nisi ligula, sit amet ullamcorper risus tristique ac. Suspendisse potenti.</h3>
     </p>
     <img src="img/hero.svg" alt="hero" id="headerimg">
+    </section>
 </header>

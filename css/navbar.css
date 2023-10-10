@@ -31,3 +31,24 @@ nav ul li {
 nav img {
     padding-left: 10rem;
 }
+
+nav li:nth-child(-n+5) a {
+    position: relative;
+}
+
+nav li:nth-child(-n+5) a::after {
+    content: '';
+    height: 0.2rem;
+    width: 100%;
+    background: var(--dark-blue);
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+nav li:nth-child(-n+5) a:hover::after {
+    opacity: 1;
+}

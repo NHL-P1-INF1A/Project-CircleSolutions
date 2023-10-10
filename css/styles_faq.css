@@ -1,0 +1,52 @@
+#faq-outer-flex { /*Flexbox used for configuring the main FAQ page*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#faq-inner-flex { /*Flexbox used for configuring the dropdown popup boxes*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+#faq-leesmeer { /*Flexbox used for aligning the "Lees Meer" button*/
+    display: flex;
+    width: 32rem;
+    justify-content: flex-end;
+    font-size: large;
+    margin-bottom: 1rem;
+}
+
+.faq-popup-box-flex { /*Flexbox used for the dropdown popup boxes*/
+    display: flex;
+    width: 32rem;
+    height: 3.6rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.25rem;
+    background-color: #FFFFFF;
+    stroke: #D3D3D3;
+    stroke-width: 1px;
+    box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.faq-popup-box-collapsible { /*Box used for the dropdown popup boxes arrows*/
+    border: 0px;
+    height: 3.6rem;
+    width: 3.6rem;
+    background-color: #FFFFFF;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+}
+
+.faq-popup-box-collapsible-content { /*Box used for the dropdown popup boxes dropdowns*/
+    overflow: hidden;
+}

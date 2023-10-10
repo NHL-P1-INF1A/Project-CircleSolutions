@@ -1,4 +1,4 @@
-<div id=footer>
+<div id=footer class="container">
     <div id=footer_container>
         <div>
             <!-- Logo & Social Links -->
@@ -28,6 +28,8 @@
         </div>
     </div>
     <!-- Copyright & Divider -->
-    <hr>
-    <div id=footer_copyright>&copy; 2023 circle solutions. All Rights Reserved.</div>
+    <div class="rowFooter">
+        <hr>
+        <div id=footer_copyright>&copy; 2023 circle solutions. All Rights Reserved.</div>
+    </div>
 </div>

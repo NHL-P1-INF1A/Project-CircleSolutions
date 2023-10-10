@@ -9,12 +9,29 @@
 @import url(footer.css);
 @import url(line.css);
 
+@font-face {
+    font-family: Calibre-Medium;
+    src: url(/fonts/Calibre-Medium.otf);
+}
+
+@font-face {
+    font-family: Calibre-Regular;
+    src: url(/fonts/Calibre-Regular.otf);
+}
+
+@font-face {
+    font-family: Calibre-Bold;
+    src: url(/fonts/Calibre-Bold.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: Calibre-Bold, sans-serif;
+    text-transform: lowercase;
 }
 
 :root {
@@ -39,17 +56,3 @@ body {
     flex-direction: column;
 }
 
-@font-face {
-    font-family: Calibre-Medium;
-    src: url(/fonts/Calibre-Medium.otf);
-}
-
-@font-face {
-    font-family: Calibre-Regular;
-    src: url(/fonts/Calibre-Regular.otf);
-}
-
-@font-face {
-    font-family: Calibre-Bold;
-    src: url(/fonts/Calibre-Bold.otf);
-}

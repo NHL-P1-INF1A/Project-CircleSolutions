@@ -9,7 +9,7 @@
 <body>
     <main  id="faq-outer-flex">
         <!--Header!-->
-        <h1>F.A.Q.</1>
+        <h1>F.A.Q.</h1>
         <h2>Veel gestelde vragen</h2>
         <a id="faq-leesmeer" href="#">Meer weergeven &gt;</a>
         <!--Flexbox for popup boxes!-->
@@ -17,17 +17,17 @@
             <!--popup box 1!-->
             <div class="faq-popup-box-flex">
                 <p>Hello, World!</p>
-                <button type="button" class="faq-popup-box-collapsible">&darr;</button>
+                <button type="button" class="faq-popup-box-collapsible"><img src="../img/arrow-dropdown.svg" alt="&darr;"></button>
             </div>
             <!--popup box 2!-->
             <div class="faq-popup-box-flex">
                 <p>Hello, World!</p>
-                <button type="button" class="faq-popup-box-collapsible">&darr;</button>
+                <button type="button" class="faq-popup-box-collapsible"><img src="../img/arrow-dropdown.svg" alt="&darr;"></button>
             </div>
             <!--popup box 3!-->
             <div class="faq-popup-box-flex">
                 <p>Hello, World!</p>
-                <button type="button" class="faq-popup-box-collapsible">&darr;</button>
+                <button type="button" class="faq-popup-box-collapsible"><img src="../img/arrow-dropdown.svg" alt="&darr;"></button>
             </div>
         </div>
     </main>

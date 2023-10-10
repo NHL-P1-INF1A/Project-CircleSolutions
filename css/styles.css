@@ -32,6 +32,7 @@
     box-sizing: border-box;
     font-family: Calibre-Bold, sans-serif;
     text-transform: lowercase;
+    scroll-behavior: smooth;
 }
 
 :root {

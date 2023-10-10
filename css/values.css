@@ -57,7 +57,8 @@
     color: var(--text-color); /* Set text color to a variable */
     font-family: Calibre-Regular; /* Set font family to Calibre-Regular */
     font-size: 1.2rem; /* Set font size */
-    width: 350px; /* Set width */
+    width: 100%; /* Set width */
+    padding: 0 2rem; /* Add padding */
 }
 
 /* Styling for elements with class "big_middle" */

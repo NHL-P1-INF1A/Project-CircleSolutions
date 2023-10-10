@@ -6,8 +6,9 @@
     for($location = 0; $location < count($faqtext); $location++)        #loop until $location has reached count of items in $locations array, then increase $location by 1
     {
         echo    "<div class='faq-popup-box-flex'>
-                    <p>$faqtext[$location]</p>      
-                    <button type='button' class='faq-popup-box-collapsible'><img src='./img/arrow-dropdown.svg' alt='&darr;'></button>
+                    <p>$faqtext[$location]</p>
+                    <p id='faq-text' style='display:none;'>This is the hidden text that will appear when the button is clicked.</p>      
+                    <button type='button' class='faq-popup-box-collapsible' id='toggle-button'><img src='./img/arrow-dropdown.svg' alt='&darr;'></button>
                 </div>";
     };
 ?>

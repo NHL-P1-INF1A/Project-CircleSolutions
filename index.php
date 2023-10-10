@@ -41,4 +41,14 @@
     ?>
 </body>
 <script src="js/carousel.js"></script>
+<script>
+document.getElementById('toggle-button').addEventListener('click', function() {
+    var textElement = document.getElementById('faq-text');
+    if (textElement.style.display === 'none' || textElement.style.display === '') {
+        textElement.style.display = 'block';
+    } else {
+        textElement.style.display = 'none';
+    }
+});
+</script>
 </html>

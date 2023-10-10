@@ -10,7 +10,7 @@
 <body>
     <?php
 
-    include "partials/navbar.php";
+    // include "partials/navbar.php";
 
     include "partials/header.php";
 

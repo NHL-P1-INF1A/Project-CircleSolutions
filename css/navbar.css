@@ -1,0 +1,33 @@
+/* Dit zorgt voor alle styling van de navbar */
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Calibre-Bold;
+    font-size: 18px;
+    color: var(--dark-blue);
+    position: fixed;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 10rem;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+nav img {
+    padding-left: 10rem;
+}

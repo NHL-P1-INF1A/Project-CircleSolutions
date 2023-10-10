@@ -51,6 +51,10 @@ a:visited {
     color: var(--dark-blue);
 }
 
+.faq-page-breakline {
+    height: 2rem;
+}
+
 .faq-outer-flex { /*Flexbox used for configuring the main FAQ page*/
     display: flex;
     flex-direction: column;

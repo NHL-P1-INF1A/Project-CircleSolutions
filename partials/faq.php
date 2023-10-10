@@ -16,7 +16,7 @@
         <div id="faq-inner-flex">
             <!--PHP function to make the faq popup boxes!-->
             <?php
-                $faqtext = array("Hello, World!","Hello, World!","Hello, World!");  #array with all the text that will be shown initially
+                $faqtext = array("Wat is een intranet?","Wat is het verschil tussen internet en intranet?","Wat is een intranet en een extranet?");  #array with all the text that will be shown initially
                 include "faq-subpartials.php"
             ?>
         </div>

@@ -21,6 +21,7 @@
     justify-content: flex-end;
     font-size: large;
     margin-bottom: 1rem;
+    color: var(--dark-blue);
 }
 
 .faq-popup-box-flex { /*Flexbox used for the dropdown popup boxes*/

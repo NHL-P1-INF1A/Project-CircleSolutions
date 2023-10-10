@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! This is the readme for the project circle solutions.</h2>
+<h2 align="left">Hey 👋! Dit is de readme voor het project circle solutions.</h2>
 
 ###
 

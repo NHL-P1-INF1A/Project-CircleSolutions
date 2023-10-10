@@ -11,17 +11,17 @@
 
 @font-face {
     font-family: Calibre-Medium;
-    src: url(/fonts/Calibre-Medium.otf);
+    src: url(../fonts/Calibre-Medium.otf);
 }
 
 @font-face {
     font-family: Calibre-Regular;
-    src: url(/fonts/Calibre-Regular.otf);
+    src: url(../fonts/Calibre-Regular.otf);
 }
 
 @font-face {
     font-family: Calibre-Bold;
-    src: url(/fonts/Calibre-Bold.otf);
+    src: url(../fonts/Calibre-Bold.otf);
 }
 
 * {
@@ -30,7 +30,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: Calibre-Bold, sans-serif;
+    font-family: Calibre-Regular, sans-serif;
     text-transform: lowercase;
     scroll-behavior: smooth;
 }
@@ -61,10 +61,10 @@ body {
     font-weight: bolder;
     padding-bottom: .2rem;
     color: var(--dark-blue);
-    font-family: Calibre, sans-serif;
+    font-family: Calibre-Bold, sans-serif;
 }
 .sub_title_section {
     font-weight: normal;
     color: var(--dark-blue);
-    font-family: Calibre, sans-serif;
+    font-family: Calibre-Regular, sans-serif;
 }

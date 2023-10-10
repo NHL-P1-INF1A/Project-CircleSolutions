@@ -25,7 +25,7 @@
 
 .faq_popup_box_flex { /*Flexbox used for the dropdown popup boxes*/
     display: flex;
-    width: 32rem;
+    width: 50vw;
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
@@ -51,7 +51,7 @@
 }
 
 .faq_text {
-    width: 32rem;
+    width: 50vw;
     padding-left: 1.25rem;
     background-color: #FFFFFF;
     stroke: #D3D3D3;
@@ -72,7 +72,7 @@
 
 .faq_row {
     display: flex;
-    width: 32rem;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding-left: 1.25rem;

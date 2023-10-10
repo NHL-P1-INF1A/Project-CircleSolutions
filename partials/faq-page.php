@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        include "../partials/header.php"
+        include "../partials/header.php";
     ?>
     <main class="faq-outer-flex">
         <!--Header!-->
@@ -30,9 +30,15 @@
                     "Kan een intranet op afstand worden geopend?",
                     "Wat doet een intranet?"
                 );  #array with all the text that will be shown initially
-                include "faq-subpartials.php"
+                include "faq-subpartials.php";
             ?>
         </div>
     </main>
+    <?php
+        include "../partials/contact.php";
+    ?>
+    <?php
+        include "../partials/footer.php";
+    ?>
 </body>
 </html>

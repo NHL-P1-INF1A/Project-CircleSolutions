@@ -15,20 +15,14 @@
         <!--Flexbox for popup boxes!-->
         <div id="faq-inner-flex">
             <!--popup box 1!-->
-            <div class="faq-popup-box-flex">
-                <p>Hello, World!</p>
-                <button type="button" class="faq-popup-box-collapsible"><img src="../img/arrow-dropdown.svg" alt="&darr;"></button>
-            </div>
-            <!--popup box 2!-->
-            <div class="faq-popup-box-flex">
-                <p>Hello, World!</p>
-                <button type="button" class="faq-popup-box-collapsible"><img src="../img/arrow-dropdown.svg" alt="&darr;"></button>
-            </div>
-            <!--popup box 3!-->
-            <div class="faq-popup-box-flex">
-                <p>Hello, World!</p>
-                <button type="button" class="faq-popup-box-collapsible"><img src="../img/arrow-dropdown.svg" alt="&darr;"></button>
-            </div>
+            <?php
+                $location = 0;
+                $faqtext = array("Hello, World!","Hello, World!","Hello, World!");
+                for($location = 0; $location < count($faqtext); $location++)
+                {
+                    include "faq-subpartials.php";
+                };
+            ?>
         </div>
     </main>
 </body>

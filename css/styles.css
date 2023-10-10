@@ -1,6 +1,29 @@
-@import "navbar.css";
-@import "header.css";
-@import "darkmodebutton.css";
+@import url(navbar.css);
+@import url(header.css);
+@import url(about-us.css);
+@import url(values.css);
+@import url(services.css);
+@import url(styles_faq.css);
+@import url(reviews.css);
+@import url(contact.css);
+@import url(footer.css);
+@import url(line.css);
+@import url(darkmodebutton.css);
+
+@font-face {
+    font-family: Calibre-Medium;
+    src: url(../fonts/Calibre-Medium.otf);
+}
+
+@font-face {
+    font-family: Calibre-Regular;
+    src: url(../fonts/Calibre-Regular.otf);
+}
+
+@font-face {
+    font-family: Calibre-Bold;
+    src: url(../fonts/Calibre-Bold.otf);
+}
 
 * {
     margin: 0;
@@ -8,6 +31,9 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: Calibre-Regular, sans-serif;
+    text-transform: lowercase;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -21,14 +47,9 @@
 }
 
 body {
-    /* Dit geeft de achtergrond van de pagina */
     background-color: var(--light-background);
+    color: var(--text-color);
 }
-
-/* a:visited {
-    /* Dit zorgt ervoor dat alle linkjes dezelfde kleur hebben als ze zijn gebruikt
-    color: var(--dark-blue);
-} */
 
 .container {
     /* Dit zijn de basis wit ruimtes van de pagina. */
@@ -55,17 +76,14 @@ h3 {
     color: var(--dark-blue);
 }
 
-@font-face {
-    font-family: Calibre-Medium;
-    src: url(/fonts/Calibre-Medium.otf);
+.title_section {
+    font-weight: bolder;
+    padding-bottom: .2rem;
+    color: var(--dark-blue);
+    font-family: Calibre-Bold, sans-serif;
 }
-
-@font-face {
-    font-family: Calibre-Regular;
-    src: url(/fonts/Calibre-Regular.otf);
-}
-
-@font-face {
-    font-family: Calibre-Bold;
-    src: url(/fonts/Calibre-Bold.otf);
+.sub_title_section {
+    font-weight: normal;
+    color: var(--dark-blue);
+    font-family: Calibre-Regular, sans-serif;
 }

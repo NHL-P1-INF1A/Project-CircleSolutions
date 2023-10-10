@@ -1,0 +1,115 @@
+/*  */
+/* default styling elements */
+/*  */
+#reviews {
+    background-color: var(--light-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+/*  */
+/* title */
+/*  */
+.title_margin {
+    margin-bottom: 3rem;
+}
+/*  */
+/* carousel */
+/*  */
+.carousel_container {
+    position: relative;
+    overflow: hidden;
+    width: 58rem;
+}
+/* collection of slides */
+.carousel_slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+/* single slide */
+.carousel_slide {
+    height: 15.6rem;
+    flex: 0 0 46.5%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
+    box-sizing: border-box;
+    margin: 1rem;
+    border-radius: 18px;
+    background-color: var(--white);
+    box-shadow: 0px 1.5px 9px rgba(0, 0, 0, 0.20);
+}
+/* contents of the slide */
+.carousel_content {
+    display: flex;
+    padding: 2rem;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel_content img {
+    width: 2.8rem;
+    padding-bottom: 1rem;
+}
+.carousel_content h3 {
+    color: var(--text-color);
+    padding-bottom: .2rem;
+}
+.carousel_content h5 {
+    color: #525252;
+    padding-bottom: .4rem;
+}
+.carousel_content p {
+    padding-top: .4rem;
+    color: var(--text-color);
+}
+/* navigation arrows */
+.carousel_arrow {
+    font-size: 24px;
+    cursor: pointer;
+    background-color: var(--normal-blue);
+    border-radius: 50%;
+    padding: 1rem;
+}
+.carousel_arrow_left {
+    width: 3rem;
+    align-items: center;
+    display: flex;
+}
+.carousel_arrow_right {
+    width: 3rem;
+    align-items: center;
+    display: flex;
+    transform: scaleX(-1);
+}
+/* navigation dots of the carousel */
+.carousel_dots {
+    text-align: center;
+    margin-top: 20px;
+}
+.carousel_dot {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 4px solid #00000080;
+    margin: 0 .3rem;
+    cursor: pointer;
+}
+/* changes color for the active dot */
+.active_dot {
+    background-color: #00000080;
+    border: 0px;
+}
+
+
+

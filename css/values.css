@@ -1,0 +1,138 @@
+/* Styling for elements with class "values_title" */
+.values_title {
+    color: var(--dark-blue); /* Set text color to a variable */
+    text-align: center; /* Center-align text */
+}
+
+/* Styling for h1 elements within ".values_title" */
+.values_title h1 {
+    font-family: Calibre-Bold; /* Set font family to Calibre-Bold */
+    font-size: 1.8rem; /* Set font size */
+}
+
+/* Styling for h2 elements within ".values_title" */
+.values_title h2 {
+    font-family: Calibre-Medium; /* Set font family to Calibre-Medium */
+    font-size: 2.8rem; /* Set font size */
+}
+
+/* Styling for elements with class "values_big_boxes" */
+.values_big_boxes {
+    display: flex; /* Use flex display */
+    justify-content: center; /* Center-align content horizontally */
+    margin-top: 3rem; /* Add top margin */
+}
+
+/* Styling for elements with class "values_big_box" */
+.values_big_box {
+    width: 100%; /* Set width to 100% */
+    height: 30rem; /* Set height */
+    background-color: white; /* Set background color */
+    box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2); /* Apply box shadow */
+    border-radius: 20px; /* Add border radius */
+    display: flex; /* Use flex display */
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: center; /* Center-align content vertically */
+    text-align: center; /* Center-align text */
+    align-items: center; /* Center-align child elements horizontally */
+}
+
+/* Styling for images within ".values_big_box" */
+.values_big_box img {
+    height: 45%; /* Set image height */
+    width: 100%; /* Set image width */
+}
+
+/* Styling for h2 elements within ".values_big_box" */
+.values_big_box h2 {
+    color: var(--dark-blue); /* Set text color to a variable */
+    font-family: Calibre-Bold; /* Set font family to Calibre-Bold */
+    padding-bottom: 0.5rem; /* Add bottom padding */
+    font-size: 1.7rem; /* Set font size */
+    margin-top: 4rem; /* Add top margin */
+}
+
+/* Styling for paragraphs within ".values_big_box" */
+.values_big_box p {
+    color: var(--text-color); /* Set text color to a variable */
+    font-family: Calibre-Regular; /* Set font family to Calibre-Regular */
+    font-size: 1.2rem; /* Set font size */
+    width: 350px; /* Set width */
+}
+
+/* Styling for elements with class "big_middle" */
+.big_middle {
+    margin: 0 15px; /* Set margin */
+}
+
+/* Styling for elements with class "small_middle" */
+.small_middle {
+    margin: 0 38px; /* Set margin */
+}
+
+/* Styling for elements with class "values_small_boxes" */
+.values_small_boxes {
+    display: flex; /* Use flex display */
+    justify-content: center; /* Center-align content horizontally */
+    margin-top: 2rem; /* Add top margin */
+}
+
+/* Styling for elements with class "values_small_box" */
+.values_small_box {
+    width: 360px; /* Set width */
+    height: 110px; /* Set height */
+    background-color: white; /* Set background color */
+    box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2); /* Apply box shadow */
+    border-radius: 20px; /* Add border radius */
+    display: flex; /* Use flex display */
+    align-items: center; /* Center-align child elements vertically */
+}
+
+/* Styling for elements with class "icon" */
+.icon {
+    padding-left: 1rem; /* Add left padding */
+}
+
+/* Styling for images within ".icon" */
+.icon img {
+    height: 3rem; /* Set image height */
+}
+
+/* Styling for elements with class "values_small_box_text" */
+.values_small_box_text {
+    padding-left: 1rem; /* Add left padding */
+    padding-top: 0.6rem; /* Add top padding */
+    line-height: 24px; /* Set line height */
+}
+
+/* Styling for h1 elements within ".values_small_box_text" */
+.values_small_box_text h1 {
+    font-family: Calibre-Bold; /* Set font family to Calibre-Bold */
+    color: var(--dark-blue); /* Set text color to a variable */
+    font-size: 2rem; /* Set font size */
+}
+
+/* Styling for paragraphs within ".values_small_box_text" */
+.values_small_box_text p {
+    font-family: Calibre-Regular; /* Set font family to Calibre-Regular */
+    color: var(--text-color); /* Set text color to a variable */
+    font-size: 1.3rem; /* Set font size */
+}
+
+@media screen and (max-width: 640px) {
+    .values_big_boxes {
+        flex-direction: column; /* Stack child elements horizontally */
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}

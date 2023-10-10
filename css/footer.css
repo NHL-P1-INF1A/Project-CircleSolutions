@@ -1,0 +1,83 @@
+/* Div containing the whole footer, aligns the copyright underneath the socials and subscribe */
+#footer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-top: 0.0625rem #E6E6E6 solid;
+    color: black;
+    width: 100%;
+    height: 10rem;
+    padding: 3rem 5rem;
+    margin-top: 8rem;
+    font-family: 'Calibre', 'sans-serif';
+}
+
+/* Container aligning the socials and subscribe */
+#footer_container{
+    display: flex;
+    flex-direction: row;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+#footer_logo{
+    width: 7.03125rem;
+    height: 2.390625rem;
+}
+
+/* Aligns social images*/
+#footer_socials{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+/* Contains subscribe text and inputs */
+#footer_subscribe_container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Aligns Subscribe button and input field */
+#footer_subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Border color change */
+#footer_subscribe_email{  
+    border: none;
+    border: #D6D6D6 solid 0.0625rem;    
+    color:#A6A7AB;
+    border-radius: 0.5em;
+    padding: 0.4rem 0.8rem;
+}
+
+#footer_subscribe_submit{
+    background-color: rgb(121,157,171);
+    border-color: rgb(121,157,171);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    box-shadow: none;
+}
+
+hr{
+    border-top: 0.0625rem #E6E6E6 solid;
+}
+
+#footer_copyright{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: #A6A7AB;
+    font-size: 0.75rem;
+}
+

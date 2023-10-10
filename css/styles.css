@@ -56,3 +56,14 @@ body {
     flex-direction: column;
 }
 
+.title_section {
+    font-weight: bolder;
+    padding-bottom: .2rem;
+    color: var(--dark-blue);
+    font-family: Calibre, sans-serif;
+}
+.sub_title_section {
+    font-weight: normal;
+    color: var(--dark-blue);
+    font-family: Calibre, sans-serif;
+}

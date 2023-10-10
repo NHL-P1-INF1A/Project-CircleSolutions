@@ -24,17 +24,6 @@
 .title_margin {
     margin-bottom: 3rem;
 }
-.title_margin h4 {
-    font-weight: bolder;
-    padding-bottom: .2rem;
-    color: var(--dark-blue);
-    font-family: Calibre, sans-serif;
-}
-.title_margin h2 {
-    font-weight: normal;
-    color: var(--dark-blue);
-    font-family: Calibre, sans-serif;
-}
 /*  */
 /* carousel */
 /*  */

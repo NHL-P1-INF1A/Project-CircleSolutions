@@ -1,20 +1,46 @@
+@import url(styles.css);
+
+@media (max-width: 1260px) {
+    .contact-left {
+        display: none !important
+    }
+    .contact-right {
+        background-color: white !important
+    }
+}
+
 .contact-form {
     margin-top: 5%;
     display:flex;
-    height: 30rem; 
+    height: 35rem; 
     padding: 1.875rem;
-    border-color: black;
-    border-style: dotted;
+    background-color: white;
+    border-radius: 14.4px;
+}
+
+.contact-form h2 {
+    font-family: Calibre-Bold;
+}
+
+.contact-form p {
+    font-family: Calibre-Regular;
 }
 
 .contact-left {
     flex: 1; 
     padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-right {
-    flex: 1; 
-    background-color: blue; 
+    flex: 1;
+    display: flex; /* Make it a flex container */
+    flex-direction: column; /* Arrange child elements vertically */
+    background-color: #EFEFF1;
+    border-radius: 14.4px;
+    padding: 30px;
+    gap: 2.5rem;
 }
 
 .contact-links { 
@@ -24,3 +50,74 @@
 .contact-links p {
     margin-bottom: 0.5rem; 
 }
+
+.buttons-contact-right {
+    margin-top: 15px;
+}
+
+.selected-button {
+    padding: 9.6px;
+    align-items: flex-start;
+    gap: 6px;
+    flex-shrink: 0;
+    background-color: #799DAB;
+    color: #EFEFEF;
+    border-radius: 4.8px;
+    border-color: #799DAB;
+    margin: 7px;
+    margin-left: 0px;
+
+}
+
+.unselected-button {
+    color: rgba(0, 0, 0, 0.30);
+    text-align: center;
+    padding: 9.6px;
+    
+}
+
+.contact-right h3 {
+    color: #799DAB;
+    font-family: Calibre-Bold;
+
+}
+
+.blue-box {
+border-radius: 9.6px;
+border: 1.8px solid #799DAB;
+background: #799DAB;
+color: white;
+width: 280px;
+height: 40px;
+padding-top: 10px; 
+margin-bottom: 10px;
+}
+
+
+.input-contact{
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    background-color: transparent; /* Make background transparent */
+    border-bottom: 1px solid #000; /* Add a bottom border */
+    padding: 5px; /* Add some padding */
+    width: 100%; /* Make it full width */
+}
+
+.submit-button-contactform {
+    background-color: #799DAB;
+    border-radius: 9.6px;
+    padding: 14.4px 38.4px;
+    color: white;
+    border-color: #799DAB;
+}
+
+
+.social-media-icons-left {
+    margin-top: auto;
+
+}
+
+.social-media-icons-left i {
+    margin-left: 20px; 
+}
+

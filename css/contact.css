@@ -1,0 +1,26 @@
+.contact-form {
+    margin-top: 5%;
+    display:flex;
+    height: 30rem; 
+    padding: 1.875rem;
+    border-color: black;
+    border-style: dotted;
+}
+
+.contact-left {
+    flex: 1; 
+    padding: 0.75rem;
+}
+
+.contact-right {
+    flex: 1; 
+    background-color: blue; 
+}
+
+.contact-links { 
+    margin-top: 3rem;
+}
+
+.contact-links p {
+    margin-bottom: 0.5rem; 
+}

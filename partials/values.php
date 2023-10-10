@@ -1,7 +1,7 @@
 <section id="values">
         <div class="container">
             <div class="values_title">
-                <h4 class="title_section">Waarden</h4>
+                <h1 class="title_section">Waarden</h1>
                 <h2 class="sub_title_section">waar staan wij voor</h2>
             </div>
 

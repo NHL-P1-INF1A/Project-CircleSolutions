@@ -61,4 +61,5 @@
 </body>
 <script src="js/carousel.js"></script>
 <script src="js/faq.js"></script>
+<script src="js/navScroll.js"></script>
 </html>

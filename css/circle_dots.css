@@ -62,6 +62,10 @@
     color: black; /* Set text color to black */
 }
 
+.circle_dots_information_box p {
+    text-transform: none; /* Ensure text capitalization is as entered */
+}
+
 /* Apply the same padding to various elements within the box */
 .circle_dots_information_box img, .circle_dots_information_box h3, .circle_dots_information_box p {
     padding: 0 10%;

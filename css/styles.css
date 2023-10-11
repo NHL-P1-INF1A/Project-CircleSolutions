@@ -8,6 +8,7 @@
 @import url(contact.css);
 @import url(footer.css);
 @import url(line.css);
+@import url(circle_dots.css);
 
 @font-face {
     font-family: Calibre-Medium;
@@ -33,6 +34,7 @@
     font-family: Calibre-Regular, sans-serif;
     text-transform: lowercase;
     scroll-behavior: smooth;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004); /* Make fonts appear smoother */
 }
 
 :root {
@@ -88,3 +90,4 @@ h3 {
     color: var(--dark-blue);
     font-family: Calibre-Regular, sans-serif;
 }
+

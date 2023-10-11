@@ -120,12 +120,8 @@
     font-size: 1.3rem; /* Set font size */
 }
 
-
-
 @media screen and (max-width: 640px) {
-    .values_big_boxes {
-        flex-direction: column; /* Stack child elements horizontally */
-    }
+    
 }
 
 @media screen and (min-width: 768px) {

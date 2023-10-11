@@ -18,7 +18,7 @@
 
 .faq_leesmeer { /*Flexbox used for aligning the "Lees Meer" button*/
     display: flex;
-    width: 80%;
+    width: 60vw;
     justify-content: flex-end;
     font-size: large;
     margin-bottom: 1rem;

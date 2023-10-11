@@ -1,40 +1,40 @@
 #circle_dots_title {
-margin-top: 5rem;
+    margin-top: 5rem; /* Add margin to the top */
 }
 
 .circle_dots_title_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    text-align: center; /* Center the content */
 }
 
 .cirle_dots_title_content h1 {
     text-align: center;
-    padding: 0 5rem;
+    padding: 0 5rem; /* Add padding to the left and right */
     font-size: 2.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1rem; /* Add padding at the bottom */
 }
 
 .cirle_dots_title_content p {
     text-align: center;
-    text-transform: none;
-    padding: 0 5rem;
+    text-transform: none; /* Ensure text capitalization is as entered */
+    padding: 0 5rem; /* Add padding to the left and right */
     font-size: 1.3rem;
 }
 
 .circle_dots_information_title {
-    text-align: center;
-    margin-bottom: 3rem;
+    text-align: center; /* Center the text */
+    margin-bottom: 3rem; /* Add margin at the bottom */
 }
 
 .circle_dots_information_title h1 {
-    font-size: 24px;
+    font-size: 24px; /* Set font size */
 }
 
 .circle_dots_information_title h2 {
     font-size: 36px;
-    font-family: Calibre-Regular, sans-serif;
+    font-family: Calibre-Regular, sans-serif; /* Define font family */
 }
 
 .circle_dots_information_boxes {
@@ -47,36 +47,38 @@ margin-top: 5rem;
     border-radius: 18px;
     box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2); /* Apply box shadow */
     min-height: 400px;
-    margin: 0 1.5rem;
+    margin: 0 1.5rem; /* Add margin to the left and right */
     width: 100%;
 }
 
 .circle_dots_information_box img {
-    margin-top: 15px;
+    margin-top: 15px; /* Add margin to the top of the image */
 }
 
 .circle_dots_information_box h3 {
-    font-family: Calibre-Regular, sans-serif;
-    padding-top: 1rem;
-    margin: .5rem 0 1rem 0;
-    color: black;
+    font-family: Calibre-Regular, sans-serif; /* Define font family */
+    padding-top: 1rem; /* Add padding at the top */
+    margin: .5rem 0 1rem 0; /* Define margins */
+    color: black; /* Set text color to black */
 }
+
+/* Apply the same padding to various elements within the box */
 .circle_dots_information_box img, .circle_dots_information_box h3, .circle_dots_information_box p {
     padding: 0 10%;
 }
 
 .circle_dots_pricing_title {
-    text-align: center;
-    margin-bottom: 3rem;
+    text-align: center; /* Center the text */
+    margin-bottom: 3rem; /* Add margin at the bottom */
 }
 
 .circle_dots_pricing_title h1 {
-    font-size: 24px;
+    font-size: 24px; /* Set font size */
 }
 
 .circle_dots_pricing_title h2 {
     font-size: 36px;
-    font-family: Calibre-Regular, sans-serif;
+    font-family: Calibre-Regular, sans-serif; /* Define font family */
 }
 
 .circle_dots_pricing_boxes {
@@ -90,27 +92,27 @@ margin-top: 5rem;
     border-radius: 18px;
     width: 100%;
     max-width: 375px;
-    margin: 0 3rem;
-    color: var(--text-color);
-
+    margin: 0 3rem; /* Add margin to the left and right */
+    color: var(--text-color); /* Use the specified variable for text color */
 }
 
 .circle_dots_pricing_box_1 {
     display: flex;
-    padding: 1rem;
+    padding: 1rem; /* Add padding */
     justify-content: space-between;
     align-items: center;
 }
 
 .circle_dots_pricing_box_1 p {
-    font-family: Calibre-Medium;
+    font-family: Calibre-Medium; /* Define font family */
 }
+
 .circle_dots_pricing_box_2 {
     padding: 0 0 1rem 1rem;
 }
 
 .circle_dots_pricing_box_2 span {
-    color: black;
+    color: black; /* Set text color to black */
     font-size: 2rem;
-    font-family: Calibre-Bold;
+    font-family: Calibre-Bold; /* Define font family */
 }

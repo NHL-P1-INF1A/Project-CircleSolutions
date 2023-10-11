@@ -13,11 +13,12 @@
     flex-wrap: wrap;
     flex-direction: column;
     gap: 1.25rem;
+    width: 60vw;
 }
 
 .faq_leesmeer { /*Flexbox used for aligning the "Lees Meer" button*/
     display: flex;
-    width: 32rem;
+    width: 80%;
     justify-content: flex-end;
     font-size: large;
     margin-bottom: 1rem;
@@ -30,7 +31,7 @@
 
 .faq_popup_box_flex { /*Flexbox used for the dropdown popup boxes*/
     display: flex;
-    width: 70rem;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
@@ -51,12 +52,8 @@
     cursor: pointer;
 }
 
-.faq_popup_box_collapsible_content { /*Box used for the dropdown popup boxes dropdowns*/
-    overflow: hidden;
-}
-
 .faq_text {
-    width: 70rem;
+    width: 100%;
     padding-left: 1.25rem;
     background-color: #FFFFFF;
     stroke: #D3D3D3;

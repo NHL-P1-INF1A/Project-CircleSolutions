@@ -1,0 +1,83 @@
+/* */
+@import "styles.css"; /* use a string */
+
+/* Style for the container */
+
+#services {
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    align-content: center;
+    height: 37.125rem;
+}
+
+.container_services_deals {
+    display: flex;
+    gap: 3.75rem;
+    align-items: flex-start;
+}
+
+/* Container for service workspace */
+.container_services_workspace {
+    border-radius: 21.6px;
+    border: 0.9px solid var(--neutral-300, #EFF0F6);
+    background: var(--neutral-100, #FFF);
+    box-shadow: 0px 1.5px 9px 0px rgba(20, 20, 43, 0.25);
+    width: 22.556rem;
+    height: 37.125rem;
+    display: flex;
+}
+/* The wrapper */
+.container_workspace_wrapper {
+    width: 21.825rem;
+    height: 32.175rem; 
+    padding-right: 2.25rem;
+    padding-left: 2.25rem;
+    margin-top: 1rem;
+}
+
+.img_service_circle {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    color: #799DAB;
+    font-size: 1.35rem;
+    font-family: calibre,sans-serif;
+}
+/* The icon for circle workspace */
+.icon_circle {
+    width: 4.05rem;
+    height: 4.05rem; 
+}
+
+.circle_text_1 {
+    padding-top: 0.5rem;
+    color: #3C3C43; 
+    font-size: 1.013rem;
+    text-align: start;
+    font-family: calibre,sans-serif;
+}
+
+.circle_text_2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: calibre,sans-serif;
+    text-align: start;
+}
+.money_text{
+    color: #3C3C43;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 59.4px; /* 148.5% */
+    display: inline-flex;
+}
+
+/* Container for the service D.O.T.S.*/
+.container_services_diamond {
+    border-radius: 21.6px;
+    border: 0.9px solid var(--neutral-300, #EFF0F6);
+    background: var(--neutral-100, #FFF);
+    box-shadow: 0px 1.5px 9px 0px rgba(20, 20, 43, 0.25);
+    width: 22.556rem;
+    height: 37.125rem;
+}

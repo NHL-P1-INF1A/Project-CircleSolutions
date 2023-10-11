@@ -42,6 +42,9 @@ light blue grey: #dcf1f9
 <br clear="both">
 <p align="left">Geen Gerard Joling placeholders.<br><br>Maak gebruik van sections met een "ID en class" De containers worden geclassificeerd met de class "container" en een ID met dezelfde naam als je partial naam.<br><br>Zoveel mogelijk flex gebruiken en grid op plekken waar nodig.<br><br>We maken hoofdzakelijk gebruik van REM, en waar nodig PX, % etc.<br><br>Voor de typography wordt gebruik gemaakt van Calibre: Regular, Medium en Bold.<br><br>We gebruiken dezelfde media query breekpunten als Tailwind namelijk;</p>
 
+<p>Alle commits en comments worden in het Engels gedaan.</p>
+
+
 ###
 
 ```

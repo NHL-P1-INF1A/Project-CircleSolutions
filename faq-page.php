@@ -42,7 +42,7 @@
                         "Vroegere on-premise bedrijfsintranetten konden zonder internet werken. Maar om verschillende redenen zijn de meeste bedrijfsintranettoepassingen nu gebaseerd in de cloud, dus is een internetverbinding noodzakelijk.",
                         "Ja, een intranet kan worden geopend op verschillende apparaten, ongeacht de locatie - alles wat nodig is, is een internetverbinding. Dit is ideaal voor elke organisatie met verspreide of frontlinie-werknemers die communicatiemiddelen en toegang tot organisatie-informatie nodig hebben, waar ze zich ook bevinden.",
                         "Intranetsoftware biedt allerlei organisatorische oplossingen, kan de betrokkenheid van werknemers verbeteren, de communicatie ondersteunen en de samenwerking vergroten. Moderne intranetten zijn nu grotendeels gebaseerd in de cloud, wat wereldwijde organisaties in staat stelt om snel en gemakkelijk verbinding te maken, kennis te delen en nieuws uit te zenden."   
-                    );
+                    );  #array with all the text that will be shown once the popup box button has been clicked
                     include "./partials/faq-subpartials.php";
                 ?>
             </div>

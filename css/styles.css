@@ -58,6 +58,10 @@ body {
     flex-direction: column;
 }
 
+a:visited {
+    /* Dit zorgt ervoor dat alle linkjes dezelfde kleur hebben als ze zijn gebruikt */
+    color: var(--dark-blue);
+}
 
 h1 {
     font-family: Calibre-Bold;

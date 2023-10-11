@@ -9,6 +9,7 @@ nav {
     position: fixed;
     top: 0;
     transition: background-color 0.4s ease-in-out;
+    z-index: 100;
 }
 
 nav a {

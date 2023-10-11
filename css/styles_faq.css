@@ -1,4 +1,4 @@
-.faq-outer-flex { /*Flexbox used for configuring the main FAQ page*/
+.faq_outer_flex { /*Flexbox used for configuring the main FAQ page*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,39 +6,43 @@
     justify-content: space-between;
 }
 
-.faq-inner-flex { /*Flexbox used for configuring the dropdown popup boxes*/
+.faq_inner_flex { /*Flexbox used for configuring the dropdown popup boxes*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 1.25rem;
+    width: 60vw;
 }
 
-.faq-leesmeer { /*Flexbox used for aligning the "Lees Meer" button*/
+.faq_leesmeer { /*Flexbox used for aligning the "Lees Meer" button*/
     display: flex;
-    width: 32rem;
+    width: 80%;
     justify-content: flex-end;
     font-size: large;
     margin-bottom: 1rem;
     color: var(--dark-blue);
 }
 
-.faq-popup-box-flex { /*Flexbox used for the dropdown popup boxes*/
+.faq_leesmeer:visited {
+    color: var(--dark-blue);
+}
+
+.faq_popup_box_flex { /*Flexbox used for the dropdown popup boxes*/
     display: flex;
-    width: 32rem;
-    height: 3.6rem;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding-left: 1.25rem;
     background-color: #FFFFFF;
     stroke: #D3D3D3;
     stroke-width: 1px;
     box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
     border-radius: 8px;
+    flex-direction: column;
 }
 
-.faq-popup-box-collapsible { /*Box used for the dropdown popup boxes arrows*/
+.faq_popup_box_collapsible { /*Box used for the dropdown popup boxes arrows*/
     border: 0px;
     height: 3.6rem;
     width: 3.6rem;
@@ -48,6 +52,39 @@
     cursor: pointer;
 }
 
-.faq-popup-box-collapsible-content { /*Box used for the dropdown popup boxes dropdowns*/
-    overflow: hidden;
+.faq_text {
+    width: 100%;
+    padding-left: 1.25rem;
+    background-color: #FFFFFF;
+    stroke: #D3D3D3;
+    stroke-width: 1px;
+    border-radius: 8px;
+    padding-bottom: 1.2rem;
+    padding-right: 1.25rem;
+    display: none;
+}
+
+.faq_text hr {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.faq_text p {
+    padding-top: .5rem;
+}
+
+.faq_row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.25rem;
+}
+
+.faq_page_breakline {
+    height: 2rem;
+}
+
+.faq_container {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }

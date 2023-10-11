@@ -1,7 +1,7 @@
 
 <div class="container" id="reviews">
     <div class="row column title_margin">
-        <h4 class="title_section">reviews</h4>
+        <h1 class="title_section">reviews</h1>
         <h2 class="sub_title_section">wat klanten over ons te zeggen hebben</h2>
     </div>
     <div class="row">

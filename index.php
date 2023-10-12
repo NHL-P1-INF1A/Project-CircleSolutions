@@ -10,8 +10,6 @@
 <body>
     <?php
 
-    include "partials/navbar.php";
-
     include "partials/header.php";
 
     include "partials/about-us.php";
@@ -42,4 +40,5 @@
 </body>
 <script src="js/carousel.js"></script>
 <script src="js/faq.js"></script>
+<script src="js/navScroll.js"></script>
 </html>

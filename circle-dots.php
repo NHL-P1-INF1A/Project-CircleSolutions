@@ -91,4 +91,5 @@
     
     <?php include "partials/footer.php"; ?>
 </body>
+<script src="js/navNoScroll.js"></script>
 </html>

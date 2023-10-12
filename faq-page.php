@@ -56,6 +56,6 @@
         include "./partials/footer.php";
     ?>
 </body>
-<script src="js/carousel.js"></script>
 <script src="js/faq.js"></script>
+<script src="js/navNoScroll.js"></script>
 </html>

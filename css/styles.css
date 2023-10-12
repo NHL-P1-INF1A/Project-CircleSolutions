@@ -1,39 +1,95 @@
+@import url(navbar.css);
+@import url(header.css);
+@import url(about-us.css);
+@import url(values.css);
+@import url(services.css);
+@import url(styles_faq.css);
+@import url(reviews.css);
+@import url(contact.css);
+@import url(footer.css);
+@import url(line.css);
+@import url(circle_dots.css);
+@import url(darkmodebutton.css);
+
+@font-face {
+    font-family: Calibre-Medium;
+    src: url(../fonts/Calibre-Medium.otf);
+}
+
+@font-face {
+    font-family: Calibre-Regular;
+    src: url(../fonts/Calibre-Regular.otf);
+}
+
+@font-face {
+    font-family: Calibre-Bold;
+    src: url(../fonts/Calibre-Bold.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: Calibre-Regular, sans-serif;
+    text-transform: lowercase;
+    scroll-behavior: smooth;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004); /* Make fonts appear smoother */
 }
 
 :root {
     --dark-blue: #799dab;
     --normal-blue: #c7eaf8;
     --light-blue: #dcf1f9;
-
     --light-background: #EFEFF1;
     --dark-background: #1C1C1C;
+    --text-color: #3C3C43;
+    --white: #FFFFFF;
+    --black: #000;
+    --logo-filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1%) hue-rotate(123deg) brightness(105%) contrast(101%);
+}
+
+body {
+    background-color: var(--light-background);
+    color: var(--text-color);
 }
 
 .container {
     /* Dit zijn de basis wit ruimtes van de pagina. */
     display: flex;
-    padding-left: 10rem; 
-    padding-right: 10rem; 
+    padding: 0 20rem;
     flex-direction: column;
 }
 
-@font-face {
-    font-family: Calibre-Medium;
-    src: url(/fonts/Calibre-Medium.otf);
-}
-
-@font-face {
-    font-family: Calibre-Regular;
-    src: url(/fonts/Calibre-Regular.otf);
-}
-
-@font-face {
+h1 {
     font-family: Calibre-Bold;
-    src: url(/fonts/Calibre-Bold.otf);
+    font-size: 36px;
+    color: var(--dark-blue);
 }
+h2 {
+    font-family: Calibre-Medium;
+    font-size: 24px;
+    color: var(--dark-blue);
+}
+
+h3 {
+    font-family: Calibre-Regular;
+    font-size: 18px;
+    color: var(--dark-blue);
+}
+
+.title_section {
+    font-size: 1.8rem; 
+    font-weight: bolder;
+    padding-bottom: .2rem;
+    color: var(--dark-blue);
+    font-family: Calibre-Bold, sans-serif;
+}
+.sub_title_section {
+    font-size: 2.8rem;
+    font-weight: normal;
+    color: var(--dark-blue);
+    font-family: Calibre-Regular, sans-serif;
+}
+

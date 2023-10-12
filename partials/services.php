@@ -1,7 +1,7 @@
     <section id="services" class="container">
-        <div class="container_services_text">
-            <p class=service_text_1> diensten </p>
-            <p class=service_text_2> onze services </p>
+        <div class="container_services_text column title_margin">
+            <h4 class=title_section> diensten </h4>
+            <h2 class=sub_title_section> onze services </h2>
         </div>
         <div class="container_services_deals">
             <div class="container_services_workspace">

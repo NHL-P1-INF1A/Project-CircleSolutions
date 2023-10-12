@@ -35,11 +35,10 @@
 /* Style for the container */
 
 #services {
-    background-color: white;
     margin-bottom: 1.25rem;
     text-align: center;
     align-content: center;
-    height: 37.125rem;
+    padding-bottom: 5rem;
 }
 
 .container_services_deals {

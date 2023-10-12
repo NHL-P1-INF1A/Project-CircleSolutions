@@ -8,6 +8,8 @@
 @import url(contact.css);
 @import url(footer.css);
 @import url(line.css);
+@import url(circle_dots.css);
+@import url(darkmodebutton.css);
 
 @font-face {
     font-family: Calibre-Medium;
@@ -33,6 +35,7 @@
     font-family: Calibre-Regular, sans-serif;
     text-transform: lowercase;
     scroll-behavior: smooth;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004); /* Make fonts appear smoother */
 }
 
 :root {
@@ -43,6 +46,7 @@
     --dark-background: #1C1C1C;
     --text-color: #3C3C43;
     --white: #FFFFFF;
+    --black: #000;
     --logo-filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1%) hue-rotate(123deg) brightness(105%) contrast(101%);
 }
 
@@ -88,3 +92,4 @@ h3 {
     color: var(--dark-blue);
     font-family: Calibre-Regular, sans-serif;
 }
+

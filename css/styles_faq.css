@@ -13,11 +13,12 @@
     flex-wrap: wrap;
     flex-direction: column;
     gap: 1.25rem;
+    width: 60vw;
 }
 
 .faq_leesmeer { /*Flexbox used for aligning the "Lees Meer" button*/
     display: flex;
-    width: 32rem;
+    width: 60vw;
     justify-content: flex-end;
     font-size: large;
     margin-bottom: 1rem;
@@ -30,7 +31,7 @@
 
 .faq_popup_box_flex { /*Flexbox used for the dropdown popup boxes*/
     display: flex;
-    width: 70rem;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
@@ -51,12 +52,8 @@
     cursor: pointer;
 }
 
-.faq_popup_box_collapsible_content { /*Box used for the dropdown popup boxes dropdowns*/
-    overflow: hidden;
-}
-
-.faq_text {
-    width: 70rem;
+.faq_text { /*Box used for the dropped down popup boxes*/
+    width: 100%;
     padding-left: 1.25rem;
     background-color: #FFFFFF;
     stroke: #D3D3D3;
@@ -67,27 +64,32 @@
     display: none;
 }
 
-.faq_text hr {
+.faq_text hr { /*Defines the size and colour of the line seperating the popup boxes with the dropped down popup boxes*/
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.faq_text p {
+.faq_text p { /*Defines the padding of the text used inside of the dopped down popup boxes*/
     padding-top: .5rem;
 }
 
-.faq_row {
+.faq_row { /*Defines the padding of the text used inside of the popup boxes*/
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     padding-left: 1.25rem;
+    cursor: pointer;
 }
 
-.faq_page_breakline {
+.faq_page_breakline { /*Breakline used for making small space between title and popup boxes*/
     height: 2rem;
 }
 
-.faq_container {
+.faq_container { /*Small margin for faq-page.php*/
     margin-top: 6rem;
     margin-bottom: 6rem;
+}
+
+.toggle_image {
+    transform: rotate(0deg);
 }

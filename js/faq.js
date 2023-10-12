@@ -28,4 +28,3 @@ faqs.forEach(function(faq) {
     });
 });
 
-

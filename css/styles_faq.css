@@ -78,6 +78,7 @@
     justify-content: space-between;
     align-items: center;
     padding-left: 1.25rem;
+    cursor: pointer;
 }
 
 .faq_page_breakline { /*Breakline used for making small space between title and popup boxes*/
@@ -87,4 +88,8 @@
 .faq_container { /*Small margin for faq-page.php*/
     margin-top: 6rem;
     margin-bottom: 6rem;
+}
+
+.toggle_image {
+    transform: rotate(0deg);
 }

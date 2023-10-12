@@ -2,7 +2,9 @@
     <!--Header!-->
     <h4 class="title_section">F.A.Q.</h4>
     <h2 class="sub_title_section">Veel gestelde vragen</h2>
-    <a class="faq_leesmeer" href="faq-page.php">Meer weergeven &gt;</a>
+    <div class="faq_leesmeer">
+        <a href="faq-page.php">Meer weergeven &gt;</a>
+    </div>
     <!--Flexbox for popup boxes!-->
     <div class="faq_inner_flex">
         <!--PHP function to make the faq popup boxes!-->

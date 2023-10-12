@@ -7,7 +7,7 @@
         <li><a href="index.php#reviews">Reviews</a></li>
         <li><a href="index.php#contact">Contact</a></li>
         <!-- <li><a href="">Nl</a></li> -->
-        <li><a href="">Darkmode</a></li>
+        <li><a href=""><?php    include "darkmodebutton.php";   ?></a></li>
     </ul>
 
 </nav>

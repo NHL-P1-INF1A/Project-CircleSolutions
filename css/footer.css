@@ -6,7 +6,7 @@
     border-top: 0.0625rem #E6E6E6 solid;
     color: black;
     width: 100%;
-    height: 10rem;
+    height: 100%;
     padding: 3rem 5rem;
     margin-top: 8rem;
     font-family: 'Calibre', 'sans-serif';
@@ -75,9 +75,12 @@ hr{
 
 #footer_copyright{
     padding-top: 2rem;
-    padding-bottom: 2rem;
     text-align: center;
     color: #A6A7AB;
     font-size: 0.75rem;
 }
 
+.rowFooter {
+    display: flex;
+    flex-direction: column;
+}

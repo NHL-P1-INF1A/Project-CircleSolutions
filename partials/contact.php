@@ -3,16 +3,16 @@
         <div class="contact-left">
             <h1>voor vragen, neem gerust contact op</h1>
             <div class="contact-links">
-                <p>contact@circlesolutions.com </p>
-                <div class="blue-box">
-                    <i> <img src="img/phone.svg"></i>
-                    <p> +31 06 123 123 123 </p>
+                <div class="contact-mail">
+                    <p><i><img src="img/e-mail.svg"></i>contact@circlesolutions.com </p>
                 </div>
-                <div class="contact-text-left">
-                    <i><img src="img/location.svg"></i>
-                    <p> Van Schaikweg 94, 7811 KL Emmen </p>
-                </div>
+                <div class="contact-phone">
 
+                    <p> <i> <img src="img/phone.svg"></i>+31 06 123 123 123 </p>
+                </div>
+                <div class="contact-location">
+                    <p><i><img src="img/location.svg"></i> Van Schaikweg 94, 7811 KL Emmen </p>
+                </div>
             </div>
             <div class="social-media-icons-left">
                 <i>

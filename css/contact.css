@@ -1,8 +1,10 @@
 @import url(styles.css);
 
-    /* Als de pagina kleiner wordt dan 1280px dan verdwijnt de linkerzijde */
 
 @media (max-width: 1280px) {
+    .contact-form{
+        background-color: transparent !important;
+    }
     .contact-left {
         display: none !important
     }
@@ -46,6 +48,8 @@
 }
 
 .contact-links { 
+    display: flex;
+    flex-direction: column;
     margin-top: 3rem;
 }
 
@@ -139,12 +143,30 @@ align-items: center; /* Center vertically within the container */
     color: black;
 }
 
-.contact-text-left {
+/* .contact-text-left {
     display: flex;
     align-items: center; /* Vertically center the contents */
-}
+} */
 
-.contact-text-left i {
+/* .contact-text-left i {
+    margin-right: 10px; /* Add some space between the icon and text */
+/* } */ */
+
+.contact-links i {
     margin-right: 10px; /* Add some space between the icon and text */
 }
 
+.contact-mail i,
+.contact-phone i,
+.contact-location i {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+
+.contact-mail,
+.contact-phone,
+.contact-location {
+    flex: 0 0 auto;
+    margin-bottom: 10px;
+}

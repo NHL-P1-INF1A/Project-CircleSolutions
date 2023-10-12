@@ -22,13 +22,13 @@
                     <div class="circle_text_3"> 
                         inhoud
                     </div>
-                    <div>
-                        <p> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> app-beheer </P>
-                        <p> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> communicatie en informatie </P>
-                        <p> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> document beheer </P>
+                    <div class="check_list_services">
+                        <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> app-beheer </P>
+                        <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> communicatie en informatie </P>
+                        <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> document beheer </P>
                     </div>
                     <div class="circle_button">
-                        meer informatie
+                        <p>meer informatie</p>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,20 @@
 /* */
 @import "styles.css"; /* use a string */
 
+@font-face {
+    font-family: Calibre-Medium;
+    src: url(../fonts/Calibre-Medium.otf);
+}
+
+@font-face {
+    font-family: Calibre-Regular;
+    src: url(../fonts/Calibre-Regular.otf);
+}
+
+@font-face {
+    font-family: Calibre-Bold;
+    src: url(../fonts/Calibre-Bold.otf);
+}
 /* Style for the container */
 
 #services {
@@ -42,7 +56,7 @@
     gap: 0.7rem;
     color: #799DAB;
     font-size: 1.35rem;
-    font-family: calibre,sans-serif;
+    font-family: calibre-Bold,sans-serif;
 }
 /* The icon for circle workspace */
 .icon_circle {
@@ -51,25 +65,70 @@
 }
 
 .circle_text_1 {
-    padding-top: 0.5rem;
+    padding-top: 0.7rem;
     color: #3C3C43; 
     font-size: 1.013rem;
     text-align: start;
-    font-family: calibre,sans-serif;
+    font-family: calibre-Medium,sans-serif;
 }
 
 .circle_text_2 {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-family: calibre,sans-serif;
+    font-family: calibre-Medium,sans-serif;
     text-align: start;
+    color: #3C3C43;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 111.111% */ 
+}
+.circle_text_3 {
+    font-family: Calibre-Bold,sans-serif;
+    font-size: 1.013rem;
+    display: flex;
 }
 .money_text{
     color: #3C3C43;
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 59.4px; /* 148.5% */
+    line-height: 59.4px; 
     display: inline-flex;
+    font-family: calibre-Bold,sans-serif;
+    padding-right: 0.4rem;
+}
+
+/* container for the checkmarks and text */
+.check_list_services {
+    display: flex;
+    flex-direction: column;
+    height: 8.55rem;
+}
+.check_circle{
+    display: flex;
+}
+.check_circle_text{
+    display: flex;
+    gap: 0.875rem;
+    color: #3C3C43;
+    font-family: Calibre-Regular,sans-serif;
+    font-size: 1.013rem;
+    align-items: self-end;
+    padding-top: 0.875rem;
+}
+
+.circle_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 277.2px;
+    background-color: #799DAB;
+    border-radius: 18px; 
+    height: 64.8px;
+    font-family: Calibre-Bold,sans-serif;
+    font-size: 16.2px;
+    color: #EFF0F6;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 /* Container for the service D.O.T.S.*/

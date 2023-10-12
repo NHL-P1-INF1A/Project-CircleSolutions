@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Dit zorgt voor alle styling van de navbar */
 nav {
     width: 100%;
@@ -51,6 +52,20 @@ nav.scrolled img {
     filter: none;
 }
 
+=======
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Calibre-Bold;
+    font-size: 18px;
+    color: var(--dark-blue);
+}
+
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
 nav ul {
     display: flex;
     justify-content: space-around;
@@ -66,6 +81,7 @@ nav ul li {
     margin-left: 1rem;
 }
 
+<<<<<<< HEAD
 nav li:nth-child(-n+5) a {
     position: relative;
 }
@@ -90,4 +106,12 @@ nav li:nth-child(-n+5) a:hover::after {
 
 nav.scrolled li:nth-child(-n+5) a::after {
     background: var(--dark-blue);
+=======
+nav ul li a {
+    color: var(--dark-blue);
+}
+
+nav img {
+    padding-left: 10rem;
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
 }

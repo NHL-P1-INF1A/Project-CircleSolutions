@@ -14,6 +14,12 @@
     justify-content: center;
     align-items: center;
 }
+<<<<<<< HEAD
+=======
+.carousel_row {
+    gap: 1rem;
+}
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
 .column{
     display: flex;
     flex-direction: column;
@@ -27,15 +33,39 @@
 /*  */
 /* carousel */
 /*  */
+<<<<<<< HEAD
 .carousel_container {
     position: relative;
     overflow: hidden;
     width: 58rem;
 }
+=======
+
+.carousel_container {
+    position: relative;
+    overflow: hidden;
+    width: 40%;
+}
+
+@media only screen and (min-width: 640px) {
+    .carousel_container {
+        width: 35%;
+    }
+  }
+@media only screen and (min-width: 1280px) {
+    .carousel_container {
+        width: 40%;
+    }
+  }
+
+ 
+
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
 /* collection of slides */
 .carousel_slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
+<<<<<<< HEAD
 }
 /* single slide */
 .carousel_slide {
@@ -43,10 +73,53 @@
     flex: 0 0 46.5%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
     box-sizing: border-box;
     margin: 1rem;
+=======
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1%;
+    gap: 2%
+}
+/* single slide */
+.carousel_slide {
+    height: 17.6rem;
+    flex-basis: 49%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
+    flex-shrink: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
     border-radius: 18px;
     background-color: var(--white);
     box-shadow: 0px 1.5px 9px rgba(0, 0, 0, 0.20);
 }
+<<<<<<< HEAD
+=======
+
+@media only screen and (min-width: 640px) {
+    .carousel_slide {
+        flex-basis: 100%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
+    }
+  }
+@media only screen and (min-width: 1280px) {
+    .carousel_slide {
+        flex-basis: 100%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
+    }
+  }
+
+  @media only screen and (min-width: 1800px) {
+    .carousel_slide {
+        flex-basis: 49%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
+    }
+  }
+
+  @media only screen and (min-width: 2500px) {
+    .carousel_slide {
+        flex-basis: 49%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
+    }
+  }
+
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
 /* contents of the slide */
 .carousel_content {
     display: flex;
@@ -69,7 +142,11 @@
     padding-bottom: .4rem;
 }
 .carousel_content p {
+<<<<<<< HEAD
     padding-top: .4rem;
+=======
+    padding-top: 1.6rem;
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
     color: var(--text-color);
 }
 /* navigation arrows */

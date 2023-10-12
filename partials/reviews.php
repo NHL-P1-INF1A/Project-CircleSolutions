@@ -1,10 +1,17 @@
 
 <div class="container" id="reviews">
     <div class="row column title_margin">
+<<<<<<< HEAD
         <h4 class="title_section">reviews</h4>
         <h2 class="sub_title_section">wat klanten over ons te zeggen hebben</h2>
     </div>
     <div class="row">
+=======
+        <h1 class="title_section">reviews</h1>
+        <h2 class="sub_title_section">wat klanten over ons te zeggen hebben</h2>
+    </div>
+    <div class="row carousel_row">
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
         <div class="carousel_arrow carousel_arrow_left" id="prev_button"><img src="img/icons/arrow.svg" alt="arrow_left"></div>
         <div class="carousel_container">
             <div class="carousel_slides" id="carousel_slides">
@@ -54,7 +61,11 @@
                     ];
                     // loops through the carousel items and inserts it in the default mockup
                     foreach ($carouselItems as $item) {
+<<<<<<< HEAD
                         echo '<div class="carousel_slide"><div class="carousel_content">';
+=======
+                        echo '<div class="carousel_slide" id="carousel_slide"><div class="carousel_content">';
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
                         echo '<img src="img/reviewer.png" alt="reviewer">';
                         echo '<h3>' . $item['name'] . '</h3>';
                         echo '<h5>' . $item['title'] . '</h5>';

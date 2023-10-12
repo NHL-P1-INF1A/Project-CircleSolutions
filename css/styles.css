@@ -8,7 +8,11 @@
 @import url(contact.css);
 @import url(footer.css);
 @import url(line.css);
+<<<<<<< HEAD
 @import url(darkmodebutton.css);
+=======
+@import url(circle_dots.css);
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
 
 @font-face {
     font-family: Calibre-Medium;
@@ -34,6 +38,10 @@
     font-family: Calibre-Regular, sans-serif;
     text-transform: lowercase;
     scroll-behavior: smooth;
+<<<<<<< HEAD
+=======
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004); /* Make fonts appear smoother */
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
 }
 
 :root {
@@ -42,6 +50,7 @@
     --light-blue: #dcf1f9;
     --light-background: #EFEFF1;
     --dark-background: #1C1C1C;
+    --text-color: #3C3C43;
     --white: #FFFFFF;
     --logo-filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1%) hue-rotate(123deg) brightness(105%) contrast(101%);
 }
@@ -58,6 +67,7 @@ body {
     flex-direction: column;
 }
 
+<<<<<<< HEAD
 a:visited {
     /* Dit zorgt ervoor dat alle linkjes dezelfde kleur hebben als ze zijn gebruikt */
     color: var(--dark-blue);
@@ -66,28 +76,54 @@ a:visited {
 h1 {
     font-family: Calibre-Bold;
     font-size: 64px;
+=======
+h1 {
+    font-family: Calibre-Bold;
+    font-size: 36px;
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
     color: var(--dark-blue);
 }
 h2 {
     font-family: Calibre-Medium;
+<<<<<<< HEAD
     font-size: 48px;
+=======
+    font-size: 24px;
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
     color: var(--dark-blue);
 }
 
 h3 {
     font-family: Calibre-Regular;
+<<<<<<< HEAD
     font-size: 24px;
+=======
+    font-size: 18px;
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
     color: var(--dark-blue);
 }
 
 .title_section {
+<<<<<<< HEAD
+=======
+    font-size: 1.8rem; 
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
     font-weight: bolder;
     padding-bottom: .2rem;
     color: var(--dark-blue);
     font-family: Calibre-Bold, sans-serif;
 }
 .sub_title_section {
+<<<<<<< HEAD
     font-weight: normal;
     color: var(--dark-blue);
     font-family: Calibre-Regular, sans-serif;
 }
+=======
+    font-size: 2.8rem;
+    font-weight: normal;
+    color: var(--dark-blue);
+    font-family: Calibre-Regular, sans-serif;
+}
+
+>>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208

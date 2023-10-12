@@ -8,6 +8,7 @@
 @import url(contact.css);
 @import url(footer.css);
 @import url(line.css);
+@import url(circle_dots.css);
 @import url(darkmodebutton.css);
 
 @font-face {
@@ -34,6 +35,7 @@
     font-family: Calibre-Regular, sans-serif;
     text-transform: lowercase;
     scroll-behavior: smooth;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004); /* Make fonts appear smoother */
 }
 
 :root {
@@ -42,7 +44,9 @@
     --light-blue: #dcf1f9;
     --light-background: #EFEFF1;
     --dark-background: #1C1C1C;
+    --text-color: #3C3C43;
     --white: #FFFFFF;
+    --black: #000;
     --logo-filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1%) hue-rotate(123deg) brightness(105%) contrast(101%);
 }
 
@@ -58,36 +62,34 @@ body {
     flex-direction: column;
 }
 
-a:visited {
-    /* Dit zorgt ervoor dat alle linkjes dezelfde kleur hebben als ze zijn gebruikt */
-    color: var(--dark-blue);
-}
-
 h1 {
     font-family: Calibre-Bold;
-    font-size: 64px;
+    font-size: 36px;
     color: var(--dark-blue);
 }
 h2 {
     font-family: Calibre-Medium;
-    font-size: 48px;
+    font-size: 24px;
     color: var(--dark-blue);
 }
 
 h3 {
     font-family: Calibre-Regular;
-    font-size: 24px;
+    font-size: 18px;
     color: var(--dark-blue);
 }
 
 .title_section {
+    font-size: 1.8rem; 
     font-weight: bolder;
     padding-bottom: .2rem;
     color: var(--dark-blue);
     font-family: Calibre-Bold, sans-serif;
 }
 .sub_title_section {
+    font-size: 2.8rem;
     font-weight: normal;
     color: var(--dark-blue);
     font-family: Calibre-Regular, sans-serif;
 }
+

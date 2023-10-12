@@ -19,11 +19,6 @@ nav a {
     transition: color 0.4s ease-in-out;
 }
 
-nav a:visited {
-    /* Dit zorgt ervoor dat alle linkjes dezelfde kleur hebben als ze zijn gebruikt */
-    color: var(--white);
-}
-
 nav img {
     /* Dit geeft het logo in de navbar een padding en een kleur */
     filter: var(--logo-filter);
@@ -68,6 +63,7 @@ nav ul li {
 
 nav li:nth-child(-n+5) a {
     position: relative;
+    text-transform: none;
 }
 
 nav li:nth-child(-n+5) a::after {

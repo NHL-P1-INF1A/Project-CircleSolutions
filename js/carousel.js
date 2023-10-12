@@ -3,10 +3,7 @@ const carouselSlider = document.getElementById('carousel-slides');
     const prevButton = document.querySelector('#prev_button');
     const nextButton = document.querySelector('#next_button');
     const carouselDots = document.querySelector('#carouselDots');
-<<<<<<< HEAD
-=======
     
->>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
     let currentIndex = 0;
     // calculates how many dots are needed based on the slides
     for (let i = 0; i < carouselSlides.length; i++) {
@@ -45,11 +42,6 @@ const carouselSlider = document.getElementById('carousel-slides');
     });
     // updates the active dot and slide
     function updateCarousel() {
-<<<<<<< HEAD
-        const translateXValue = currentIndex * -50 + '%';
-        carousel_slides.style.transform = 'translateX(' + translateXValue + ')';
-        highlightDot();
-=======
         const style = document.querySelector("#carousel_slide"); 
         const value = window.getComputedStyle(style) 
                           .getPropertyValue('flex-basis');
@@ -61,7 +53,6 @@ const carouselSlider = document.getElementById('carousel-slides');
         }
         highlightDot();
         console.log(value);
->>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
     }
     // on start highlight the first dot
     highlightDot();

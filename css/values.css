@@ -57,12 +57,8 @@
     color: var(--text-color); /* Set text color to a variable */
     font-family: Calibre-Regular; /* Set font family to Calibre-Regular */
     font-size: 1.2rem; /* Set font size */
-<<<<<<< HEAD
-    width: 350px; /* Set width */
-=======
     width: 100%; /* Set width */
     padding: 0 2rem; /* Add padding */
->>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
 }
 
 /* Styling for elements with class "big_middle" */
@@ -125,13 +121,7 @@
 }
 
 @media screen and (max-width: 640px) {
-<<<<<<< HEAD
-    .values_big_boxes {
-        flex-direction: column; /* Stack child elements horizontally */
-    }
-=======
     
->>>>>>> d34f5e68fa1ea8f51a6cdd00b8be5dcf7f1df208
 }
 
 @media screen and (min-width: 768px) {

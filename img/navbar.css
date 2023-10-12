@@ -1,0 +1,93 @@
+/* Dit zorgt voor alle styling van de navbar */
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    transition: background-color 0.4s ease-in-out;
+    z-index: 100;
+}
+
+nav a {
+    font-family: Calibre-Bold;
+    font-size: 1.125rem;
+    color: var(--white);
+    transition: color 0.4s ease-in-out;
+}
+
+nav a:visited {
+    /* Dit zorgt ervoor dat alle linkjes dezelfde kleur hebben als ze zijn gebruikt */
+    color: var(--white);
+}
+
+nav img {
+    /* Dit geeft het logo in de navbar een padding en een kleur */
+    filter: var(--logo-filter);
+    padding-left: 10rem;
+    transition: filter 0.4s ease-in-out;
+}
+
+nav.scrolled {
+    /* Dit zorgt ervoor dat de achtergrond van de navbar verandert van kleur als er word gescrolled */
+    background-color: var(--white);
+}
+
+nav.scrolled a {
+    /* Dit zorgt ervoor dat de tekst van de navbar verandert van kleur als er word gescrolled */
+    color: var(--dark-blue);
+}
+
+nav.scrolled a:visited {
+    /* Dit zorgt ervoor dat de links in de navbar veranderen van kleur als er word gescrolled */
+    color: var(--dark-blue);
+}
+
+nav.scrolled img {
+    /* Dit zorgt ervoor dat het logo van de navbar verandert van kleur als er word gescrolled */
+    filter: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 10rem;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+nav li:nth-child(-n+5) a {
+    position: relative;
+}
+
+nav li:nth-child(-n+5) a::after {
+    content: '';
+    height: 0.2rem;
+    width: 100%;
+    background: var(--white);
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+    opacity: 0;
+    transition: background-color 0.4s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+nav li:nth-child(-n+5) a:hover::after {
+    opacity: 1;
+}
+
+nav.scrolled li:nth-child(-n+5) a::after {
+    background: var(--dark-blue);
+}

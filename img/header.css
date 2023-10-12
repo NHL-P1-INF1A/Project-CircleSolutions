@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-image: url("../img/headerbackgroundcircles.svg"), linear-gradient(var(--dark-blue), var(--light-background));
     background-size: cover;
 }

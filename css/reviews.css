@@ -47,9 +47,6 @@
         width: 40%;
     }
   }
-
- 
-
 /* collection of slides */
 .carousel_slides {
     display: flex;
@@ -95,7 +92,6 @@
         flex-basis: 49%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
     }
   }
-
 /* contents of the slide */
 .carousel_content {
     display: flex;

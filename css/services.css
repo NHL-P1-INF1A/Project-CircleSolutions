@@ -1,20 +1,3 @@
-/* */
-@import "styles.css"; /* use a string */
-
-@font-face {
-    font-family: Calibre-Medium;
-    src: url(../fonts/Calibre-Medium.otf);
-}
-
-@font-face {
-    font-family: Calibre-Regular;
-    src: url(../fonts/Calibre-Regular.otf);
-}
-
-@font-face {
-    font-family: Calibre-Bold;
-    src: url(../fonts/Calibre-Bold.otf);
-}
 /* Text header */
 .service_text_1{
     color: #799DAB;
@@ -145,7 +128,7 @@
     font-size: 1.013rem;
     color: #EFF0F6;
     text-align: center;
-    margin-top: 1rem;
+    margin: 1rem 0;
 }
 
 /* Container for the service D.O.T.S.*/

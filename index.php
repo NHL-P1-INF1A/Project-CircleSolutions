@@ -11,19 +11,27 @@
 <body>
     <?php
 
-    include "partials/navbar.php";
-
     include "partials/header.php";
 
     include "partials/about-us.php";
 
+    include "partials/line.php";
+    
     include "partials/values.php";
+
+    include "partials/line.php";
 
     include "partials/services.php";
 
+    include "partials/line.php";
+
     include "partials/faq.php";
 
+    include "partials/line.php";
+
     include "partials/reviews.php";
+
+    include "partials/line.php";
 
     include "partials/contact.php";
 
@@ -32,4 +40,6 @@
     ?>
 </body>
 <script src="js/carousel.js"></script>
+<script src="js/faq.js"></script>
+<script src="js/navScroll.js"></script>
 </html>

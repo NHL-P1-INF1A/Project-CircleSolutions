@@ -3,6 +3,7 @@ const carouselSlider = document.getElementById('carousel-slides');
     const prevButton = document.querySelector('#prev_button');
     const nextButton = document.querySelector('#next_button');
     const carouselDots = document.querySelector('#carouselDots');
+    
     let currentIndex = 0;
     // calculates how many dots are needed based on the slides
     for (let i = 0; i < carouselSlides.length; i++) {
@@ -41,9 +42,17 @@ const carouselSlider = document.getElementById('carousel-slides');
     });
     // updates the active dot and slide
     function updateCarousel() {
-        const translateXValue = currentIndex * -50 + '%';
-        carousel_slides.style.transform = 'translateX(' + translateXValue + ')';
+        const style = document.querySelector("#carousel_slide"); 
+        const value = window.getComputedStyle(style) 
+                          .getPropertyValue('flex-basis');
+        
+        if (value == 100 + "%") {
+            carousel_slides.style.transform = 'translateX(' + currentIndex * -100 + '%' + ')';
+        } else {
+            carousel_slides.style.transform = 'translateX(' + currentIndex * -50 + '%' + ')';
+        }
         highlightDot();
+        console.log(value);
     }
     // on start highlight the first dot
     highlightDot();

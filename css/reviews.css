@@ -58,13 +58,16 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+    padding: 1%;
+    gap: 2%
 }
 /* single slide */
 .carousel_slide {
     height: 17.6rem;
-    flex: 0 0 47.5%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
+    flex-basis: 49%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
+    flex-shrink: 0;
+    flex-grow: 0;
     box-sizing: border-box;
-    margin: 1rem;
     border-radius: 18px;
     background-color: var(--white);
     box-shadow: 0px 1.5px 9px rgba(0, 0, 0, 0.20);
@@ -72,24 +75,24 @@
 
 @media only screen and (min-width: 640px) {
     .carousel_slide {
-        flex: 0 0 94%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
+        flex-basis: 100%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
     }
   }
 @media only screen and (min-width: 1280px) {
     .carousel_slide {
-        flex: 0 0 94%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
+        flex-basis: 100%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
     }
   }
 
   @media only screen and (min-width: 1800px) {
     .carousel_slide {
-        flex: 0 0 46%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
+        flex-basis: 49%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
     }
   }
 
   @media only screen and (min-width: 2500px) {
     .carousel_slide {
-        flex: 0 0 47%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
+        flex-basis: 49%; /* display 2 slides at a time if increased the 2nd slide wil not be visable*/
     }
   }
 
@@ -156,5 +159,6 @@
     background-color: #00000080;
     border: 0px;
 }
+
 
 

@@ -54,7 +54,7 @@
                     ];
                     // loops through the carousel items and inserts it in the default mockup
                     foreach ($carouselItems as $item) {
-                        echo '<div class="carousel_slide" id="carousel_slide"><div class="carousel_content">';
+                        echo '<div class="carousel_slide"><div class="carousel_content">';
                         echo '<img src="img/reviewer.png" alt="reviewer">';
                         echo '<h3>' . $item['name'] . '</h3>';
                         echo '<h5>' . $item['title'] . '</h5>';

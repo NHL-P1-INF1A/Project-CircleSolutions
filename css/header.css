@@ -21,3 +21,20 @@ header {
     align-items: center;
     height: 100vh;
 }
+
+#banner_text h1 {
+    font-family: Calibre-Bold;
+    font-size: 46px;
+    color: var(--dark-blue);
+}
+#banner_text h2 {
+    font-family: Calibre-Medium;
+    font-size: 48px;
+    color: var(--dark-blue);
+}
+
+#banner_text h3 {
+    font-family: Calibre-Regular;
+    font-size: 18px;
+    color: var(--black);
+}

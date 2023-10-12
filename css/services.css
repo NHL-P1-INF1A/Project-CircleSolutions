@@ -15,11 +15,28 @@
     font-family: Calibre-Bold;
     src: url(../fonts/Calibre-Bold.otf);
 }
+/* Text header */
+.service_text_1{
+    color: #799DAB;
+    text-align: center;
+    font-family: Calibre-Bold,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700; 
+}
+
+.service_text_2{
+    color: #799DAB;
+    text-align: center;
+    font-family: Calibre-Medium,sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 4.33rem;
+}
 /* Style for the container */
 
 #services {
     background-color: white;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     text-align: center;
     align-content: center;
     height: 37.125rem;
@@ -28,15 +45,16 @@
 .container_services_deals {
     display: flex;
     gap: 3.75rem;
-    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* Container for service workspace */
 .container_services_workspace {
-    border-radius: 21.6px;
-    border: 0.9px solid var(--neutral-300, #EFF0F6);
+    border-radius: 1.35rem;
+    border: 0.056rem solid var(--neutral-300, #EFF0F6);
     background: var(--neutral-100, #FFF);
-    box-shadow: 0px 1.5px 9px 0px rgba(20, 20, 43, 0.25);
+    box-shadow: 0rem 0.094rem 0.563rem 0rem rgba(20, 20, 43, 0.25);
     width: 22.556rem;
     height: 37.125rem;
     display: flex;
@@ -80,7 +98,7 @@
     color: #3C3C43;
     font-style: normal;
     font-weight: 700;
-    line-height: 18px; /* 111.111% */ 
+    line-height: 1.125rem; /* 111.111% */ 
 }
 .circle_text_3 {
     font-family: Calibre-Bold,sans-serif;
@@ -91,7 +109,7 @@
     color: #3C3C43;
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 59.4px; 
+    line-height: 3.713rem; 
     display: inline-flex;
     font-family: calibre-Bold,sans-serif;
     padding-right: 0.4rem;
@@ -113,19 +131,19 @@
     font-family: Calibre-Regular,sans-serif;
     font-size: 1.013rem;
     align-items: self-end;
-    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
 }
 
 .circle_button{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 277.2px;
+    width: 17.325rem;
     background-color: #799DAB;
-    border-radius: 18px; 
-    height: 64.8px;
+    border-radius: 1.125rem; 
+    height: 4.05rem;
     font-family: Calibre-Bold,sans-serif;
-    font-size: 16.2px;
+    font-size: 1.013rem;
     color: #EFF0F6;
     text-align: center;
     margin-top: 1rem;
@@ -133,10 +151,10 @@
 
 /* Container for the service D.O.T.S.*/
 .container_services_diamond {
-    border-radius: 21.6px;
-    border: 0.9px solid var(--neutral-300, #EFF0F6);
+    border-radius: 1.35rem;
+    border: 0.056rem solid var(--neutral-300, #EFF0F6);
     background: var(--neutral-100, #FFF);
-    box-shadow: 0px 1.5px 9px 0px rgba(20, 20, 43, 0.25);
+    box-shadow: 0rem 0.094rem 0.563rem 0rem rgba(20, 20, 43, 0.25);
     width: 22.556rem;
     height: 37.125rem;
 }

@@ -65,18 +65,18 @@ a:visited {
 
 h1 {
     font-family: Calibre-Bold;
-    font-size: 36px;
+    font-size: 64px;
     color: var(--dark-blue);
 }
 h2 {
     font-family: Calibre-Medium;
-    font-size: 24px;
+    font-size: 48px;
     color: var(--dark-blue);
 }
 
 h3 {
     font-family: Calibre-Regular;
-    font-size: 18px;
+    font-size: 24px;
     color: var(--dark-blue);
 }
 

@@ -14,7 +14,7 @@ nav {
 
 nav a {
     font-family: Calibre-Bold;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: var(--white);
     transition: color 0.4s ease-in-out;
 }

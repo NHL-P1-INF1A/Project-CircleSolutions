@@ -6,6 +6,7 @@
     <title>Cirle Solutions</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/about-us.css">
     <link rel="shortcut icon" href="favicon.png" type="image/png">
 </head>
 <body>

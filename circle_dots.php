@@ -28,7 +28,7 @@
 
             <div class="circle_dots_information_boxes">
                 <div class="circle_dots_information_box">
-                    <img src="/img/Icons/Headphones.svg" alt="Headphones">
+                    <img src="/img/Icons/Headphones.svg" alt="">
                     <h3>Interne Communicatie</h3>
                     <p>Houd iedereen op de hoogte, ongeacht de verandering, dingen veranderen - vooral in de wereld van vandaag. Het bijhouden van iedereen op dezelfde pagina is een uitdaging voor wereldwijde bedrijven. Circle D.O.T.S. maakt het gemakkelijk om nieuws te richten en te verspreiden naar de juiste mensen, de impact te analyseren en de boodschap te optimaliseren. Het resultaat? Iedereen begrijpt waar je naartoe gaat.</p>
                 </div>

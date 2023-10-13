@@ -8,7 +8,7 @@
         echo    "<div class='faq_popup_box_flex'>
                     <div data-target1='faq_text$location' data-target2='faq_image$location' class='faq_row toggle_button'>
                         <p>$faqText[$location]</p>    
-                        <button type='button' class='faq_popup_box_collapsible'><img  class='toggle_image' src='./img/arrow-dropdown.svg' id='faq_image$location' alt='&darr;'></button>
+                        <button type='button' class='faq_popup_box_collapsible'><img  class='toggle_image' src='../../img/arrow-dropdown.svg' id='faq_image$location' alt='&darr;'></button>
                     </div>
                     <div id='faq_text$location' class='faq_text'><hr> <p>$faqAnswer[$location]</p> </div>
                 </div>

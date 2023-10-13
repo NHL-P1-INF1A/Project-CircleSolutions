@@ -20,17 +20,28 @@
 
 
 #about-us_textbox p{
-    color: #3C3C43;
-    font-family: Calibre, sans-serif;
+    color: #3C3C43; 
     font-size: 1.5rem;
     font-weight: 400;
 }
 
-#about-us img{
-    position: relative;
-    left: -3rem;
-    z-index: -100;
-    width: 31.25rem;
-    height: 31.25rem;
-    background-color: #F2F5FC;;
+@media screen and (max-width: 1279px) {
+    #about-us img{
+        display: none;
+    }
 }
+
+@media screen and (min-width: 1280px) {
+    #about-us img{
+        display: block;
+        position: relative;
+        left: -3rem;
+        z-index: -100;
+        width: 31.25rem;
+        height: 31.25rem;
+        background-color: #F2F5FC;
+        flex-shrink: 1;
+        min-width: 20rem;
+    }
+}
+

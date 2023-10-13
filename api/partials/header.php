@@ -1,6 +1,6 @@
 <header>
     <?php
-        include "partials/navbar.php";
+        include "navbar.php";
     ?>
     <section id="banner" class="container"> 
         <div id="banner_items">

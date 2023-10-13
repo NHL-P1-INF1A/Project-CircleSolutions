@@ -4,25 +4,25 @@
             <h1>voor vragen, neem gerust contact op</h1>
             <div class="contact-links">
                 <div class="contact-mail">
-                    <p><i><img class="contact-icon" src="../../img/e-mail.svg"></i>contact@circlesolutions.com </p>
+                    <p><i><img class="contact-icon" src="/img/e-mail.svg"></i>contact@circlesolutions.com </p>
                 </div>
                 <div class="contact-phone">
 
-                    <p> <i> <img class="contact-icon" src="../../img/phone.svg"></i>+31 06 123 123 123 </p>
+                    <p> <i> <img class="contact-icon" src="/img/phone.svg"></i>+31 06 123 123 123 </p>
                 </div>
                 <div class="contact-location">
-                    <p><i><img class="contact-icon" src="../../img/location.svg"></i> Van Schaikweg 94, 7811 KL Emmen </p>
+                    <p><i><img class="contact-icon" src="/img/location.svg"></i> Van Schaikweg 94, 7811 KL Emmen </p>
                 </div>
             </div>
             <div class="social-media-icons-left">
                 <i>
-                    <img src="../../img/facebook.svg" alt="facebook">
+                    <img src="/img/facebook.svg" alt="facebook">
                 </i>
                 <i>
-                    <img src="../../img/instagram.svg" alt="instagram">
+                    <img src="/img/instagram.svg" alt="instagram">
                 </i>
                 <i>
-                    <img src="../../img/twitter.svg" alt="twitter">
+                    <img src="/img/twitter.svg" alt="twitter">
                 </i>
             </div>
         </div>
@@ -40,19 +40,19 @@
                     <input class="input-contact" type="email" placeholder="email" name="lname"><br><br>
                     <input class="input-contact" type="text" placeholder="bericht" name="lname"><br><br>
                     <button type="submit" class="submit-button-contactform"> <i>
-                            <img src="../../img/arrow-sendmessage.svg">
+                            <img src="/img/arrow-sendmessage.svg">
                         </i>
                         bericht versturen</button>
                     <div class="contact-links-right">
                         <div class="contact-mail">
-                            <p><i><img src="../../img/e-mail.svg"></i>contact@circlesolutions.com </p>
+                            <p><i><img src="/img/e-mail.svg"></i>contact@circlesolutions.com </p>
                         </div>
                         <div class="contact-phone">
 
-                            <p> <i> <img src="../../img/phone.svg"></i>+31 06 123 123 123 </p>
+                            <p> <i> <img src="/img/phone.svg"></i>+31 06 123 123 123 </p>
                         </div>
                         <div class="contact-location">
-                            <p><i><img src="../../img/location.svg"></i> Van Schaikweg 94, 7811 KL Emmen </p>
+                            <p><i><img src="/img/location.svg"></i> Van Schaikweg 94, 7811 KL Emmen </p>
                         </div>
                     </div>
                 </form>
@@ -62,4 +62,4 @@
 </div>
 
 
-<script src="../../js/contact.js"></script>
+<script src="/js/contact.js"></script>

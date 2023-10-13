@@ -5,7 +5,7 @@
         <h2 class="sub_title_section">wat klanten over ons te zeggen hebben</h2>
     </div>
     <div class="row carousel_row">
-        <div class="carousel_arrow carousel_arrow_left" id="prev_button"><img src="img/Icons/arrow.svg" alt="arrow_left"></div>
+        <div class="carousel_arrow carousel_arrow_left" id="prev_button"><img src="./img/Icons/arrow.svg" alt="arrow_left"></div>
         <div class="carousel_container">
             <div class="carousel_slides" id="carousel_slides">
                 <?php
@@ -55,7 +55,7 @@
                     // loops through the carousel items and inserts it in the default mockup
                     foreach ($carouselItems as $item) {
                         echo '<div class="carousel_slide" id="carousel_slide"><div class="carousel_content">';
-                        echo '<img src="img/reviewer.png" alt="reviewer">';
+                        echo '<img src="./img/reviewer.png" alt="reviewer">';
                         echo '<h3>' . $item['name'] . '</h3>';
                         echo '<h5>' . $item['title'] . '</h5>';
                         echo '<p>&#8220;' . $item['message'] . '&#8221;</p>';

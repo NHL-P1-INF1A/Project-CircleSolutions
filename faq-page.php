@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Circle Solutions</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
 </head>
 <body>
     <?php
         include "partials/navbar.php";
     ?>
     <div class="faq_container">
-        <main class="faq_outer_flex">
+        <main class="faq_outer_flex container">
             <!--Header!-->
-            <h4 class="title_section">F.A.Q.</h4>
+            <h4 class="title_section">FAQ</h4>
             <h2 class="sub_title_section">Veel gestelde vragen</h2>
             <div class="faq_page_breakline"></div>
             <!--Flexbox for popup boxes!-->
@@ -43,19 +43,19 @@
                         "Ja, een intranet kan worden geopend op verschillende apparaten, ongeacht de locatie - alles wat nodig is, is een internetverbinding. Dit is ideaal voor elke organisatie met verspreide of frontlinie-werknemers die communicatiemiddelen en toegang tot organisatie-informatie nodig hebben, waar ze zich ook bevinden.",
                         "Intranetsoftware biedt allerlei organisatorische oplossingen, kan de betrokkenheid van werknemers verbeteren, de communicatie ondersteunen en de samenwerking vergroten. Moderne intranetten zijn nu grotendeels gebaseerd in de cloud, wat wereldwijde organisaties in staat stelt om snel en gemakkelijk verbinding te maken, kennis te delen en nieuws uit te zenden."   
                     );  #array with all the text that will be shown once the popup box button has been clicked
-                    include "./partials/faq-subpartials.php";
+                    include "partials/faq-subpartials.php";
                 ?>
             </div>
         </main>
     </div>
     <?php
-        include "./partials/line.php";
+        include "partials/line.php";
 
-        include "./partials/contact.php";
+        include "partials/contact.php";
 
-        include "./partials/footer.php";
+        include "partials/footer.php";
     ?>
 </body>
-<script src="js/faq.js"></script>
-<script src="js/navNoScroll.js"></script>
+<script src="./js/faq.js"></script>
+<script src="./js/navNoScroll.js"></script>
 </html>

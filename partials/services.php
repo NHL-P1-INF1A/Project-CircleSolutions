@@ -14,9 +14,9 @@
                         Circle Workspace maakt het beheren van apps, communicatie, en documenten eenvoudig en efficiënt.
                     </div>
                     <div class="circle_text_2">
-                        voor 1-50 Gebruikers
+                        <h2 class="circle_text_4">voor 1-50 Gebruikers </h2>
                         <p><h2 class="money_text">&euro;140</h2> /maandelijks </p>
-                        <p>voor 51-500 Gebruikers </P>
+                        <p><h2 class="circle_text_4">voor 51-500 Gebruikers </h2></P>
                         <p><h2 class="money_text">&euro;740</h2> /maandelijks </p>
                     </div>
                     <div class="circle_text_3"> 
@@ -27,7 +27,7 @@
                         <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Communicatie en informatie </P>
                         <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Document beheer </P>
                     </div>
-                        <a class="circle_button" href="circle_workspace.php">meer informatie</a>
+                        <a class="circle_button" href="api/circle_workspace.php">meer informatie</a>
                 </div>
             </div>
             <div class="container_services_diamond">
@@ -40,9 +40,9 @@
                         Circle D.O.T.S. verbetert communicatie, verbindt teams en optimaliseert met gebruiksvriendelijke analytics.
                     </div>
                     <div class="circle_text_2">
-                        voor 1-50 Gebruikers
-                        <p><h2 class="money_text">&euro;180</h2> /maandelijks </p>
-                        <p>voor 51-500 Gebruikers </P>
+                        <h2 class="circle_text_4">voor 1-50 Gebruikers</h2>
+                        <p><h2 class="money_text">&euro;180</h2> /maandelijks</p>
+                        <p><h2 class="circle_text_4">voor 51-500 Gebruikers </h2></P>
                         <p><h2 class="money_text">&euro;799</h2> /maandelijks </p>
                     </div>
                     <div class="circle_text_3"> 
@@ -54,7 +54,7 @@
                         <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Kennisbeheer </P>
                         <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Analyseren en optimaliseren </P>
                     </div>
-                    <a class="circle_button" href="circle_dots.php">meer informatie</a>
+                    <a class="circle_button" href="api/circle_dots.php">meer informatie</a>
                 </div>
             </div>
         </div>

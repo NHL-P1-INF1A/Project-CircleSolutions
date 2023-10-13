@@ -13,19 +13,23 @@
     flex-wrap: wrap;
     flex-direction: column;
     gap: 1.25rem;
-    width: 60vw;
+    width: 100%;
 }
 
 .faq_leesmeer { /*Flexbox used for aligning the "Lees Meer" button*/
     display: flex;
-    width: 60vw;
+    width: 100%;
     justify-content: flex-end;
     font-size: large;
     margin-bottom: 1rem;
     color: var(--dark-blue);
 }
 
-.faq_leesmeer:visited {
+.faq_leesmeer a {
+    color: var(--dark-blue);
+}
+
+.faq_leesmeer a {
     color: var(--dark-blue);
 }
 

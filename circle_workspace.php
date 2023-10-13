@@ -32,11 +32,13 @@
                     <h3>App-beheer</h3>
                     <p>Creëer in enkele minuten een werkplek. We willen het werk ook gemakkelijk maken voor werkplekbeheerders. We maken het mogelijk om een werkplek te creëren op basis van rollen en voorwaarden die al uw huidige en toekomstige technologieën binnen één werkplek combineren.</p>
                 </div>
+                
                 <div class="circle_workspace_information_box box-middle">
                     <img src="./img/Icons/document.svg" alt="Line">
                     <h3>Communicatie en informatie</h3>
                     <p>Toon informatie van toepassingen direct in Circle Workspace. In één oogopslag ziet u al uw ongelezen e-mails, afspraken, nieuws, recent bewerkte documenten en meer.</p>
                 </div>
+
                 <div class="circle_workspace_information_box">
                     <img src="./img/Icons/books.svg" alt="">
                     <h3>Documentbeheer</h3>

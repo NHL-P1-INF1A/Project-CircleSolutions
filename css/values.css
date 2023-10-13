@@ -41,6 +41,7 @@
 .values_big_box img {
     height: 45%; /* Set image height */
     width: 100%; /* Set image width */
+    align-self: center; /* Center-align image */
 }
 
 /* Styling for h2 elements within ".values_big_box" */
@@ -76,11 +77,14 @@
     display: flex; /* Use flex display */
     justify-content: center; /* Center-align content horizontally */
     margin-top: 2rem; /* Add top margin */
+    flex-wrap: wrap; /* Wrap child elements */
 }
 
 /* Styling for elements with class "values_small_box" */
 .values_small_box {
-    width: 360px; /* Set width */
+    max-width: 360px; /* Set max width */
+    width: 360px;
+    min-width: 250px;
     height: 110px; /* Set height */
     background-color: white; /* Set background color */
     box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2); /* Apply box shadow */
@@ -121,17 +125,62 @@
 }
 
 @media screen and (max-width: 640px) {
+    .values_big_boxes {
+        flex-wrap: wrap; /* Wrap child elements */
+    }
+    .container {
+        padding: 0 2rem;
+    }
+    .values_small_boxes {
+        flex-wrap: wrap; /* Wrap child elements */
+    }
+    .big_middle, .small_middle {
+        margin: 0;
+    }
+    .values_small_box, .values_big_box {
+        width: 100%;
+        margin-bottom: 2rem;
+        max-width: 100%;
+    }
     
 }
 
-@media screen and (min-width: 768px) {
-
+@media screen and (max-width: 768px) {
+    .values_big_boxes {
+        flex-wrap: wrap; /* Wrap child elements */
+    }
+    .container {
+        padding: 0 2rem;
+    }
+    .values_small_boxes {
+        flex-wrap: wrap; /* Wrap child elements */
+    }
+    .big_middle, .small_middle {
+        margin: 0;
+    }
+    .values_small_box, .values_big_box {
+        width: 100%;
+        margin-bottom: 2rem;
+        max-width: 100%;
+    }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
+    .values_small_box {
 
+    }
+    .big_middle, .small_middle {
+        margin: 0;
+    }
+    .small_middle {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    .big_middle {
+        margin: 0 1rem;
+    }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
 
 }

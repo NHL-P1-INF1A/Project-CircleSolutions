@@ -32,25 +32,29 @@
     border-radius: 20px; /* Add border radius */
     display: flex; /* Use flex display */
     flex-direction: column; /* Stack child elements vertically */
-    justify-content: center; /* Center-align content vertically */
     text-align: center; /* Center-align text */
     align-items: center; /* Center-align child elements horizontally */
+}
+
+.values_big_box_text {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /* Styling for images within ".values_big_box" */
 .values_big_box img {
     height: 45%; /* Set image height */
-    width: 100%; /* Set image width */
-    align-self: center; /* Center-align image */
+    width: 90%; /* Set image width */
+    margin-top: 10%;
 }
 
 /* Styling for h2 elements within ".values_big_box" */
 .values_big_box h2 {
     color: var(--dark-blue); /* Set text color to a variable */
     font-family: Calibre-Bold; /* Set font family to Calibre-Bold */
-    padding-bottom: 0.5rem; /* Add bottom padding */
     font-size: 1.7rem; /* Set font size */
-    margin-top: 4rem; /* Add top margin */
 }
 
 /* Styling for paragraphs within ".values_big_box" */
@@ -124,25 +128,29 @@
     font-size: 1.3rem; /* Set font size */
 }
 
-@media screen and (max-width: 640px) {
-    .values_big_boxes {
-        flex-wrap: wrap; /* Wrap child elements */
+@media screen and (max-width: 1280px) {
+    .big_middle, .small_middle {
+        margin: 0;
     }
-    .container {
-        padding: 0 2rem;
+    .small_middle {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
     }
-    .values_small_boxes {
-        flex-wrap: wrap; /* Wrap child elements */
+}
+
+@media screen and (max-width: 1024px) {
+    .values_small_box {
+
     }
     .big_middle, .small_middle {
         margin: 0;
     }
-    .values_small_box, .values_big_box {
-        width: 100%;
-        margin-bottom: 2rem;
-        max-width: 100%;
+    .small_middle {
+        margin: 1rem 0;
     }
-    
+    .big_middle {
+        margin: 0 1rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -165,22 +173,23 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .values_small_box {
-
+@media screen and (max-width: 640px) {
+    .values_big_boxes {
+        flex-wrap: wrap; /* Wrap child elements */
+    }
+    .container {
+        padding: 0 2rem;
+    }
+    .values_small_boxes {
+        flex-wrap: wrap; /* Wrap child elements */
     }
     .big_middle, .small_middle {
         margin: 0;
     }
-    .small_middle {
-        margin-left: 1rem;
-        margin-bottom: 1rem;
+    .values_small_box, .values_big_box {
+        width: 100%;
+        margin-bottom: 2rem;
+        max-width: 100%;
     }
-    .big_middle {
-        margin: 0 1rem;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-
+    
 }

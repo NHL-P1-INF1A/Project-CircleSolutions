@@ -9,21 +9,26 @@
 
                 <div class="values_big_box">
                     <img src="./img/down-to-earth.svg" alt="down-to_earth">
-                    <h2>down to earth</h2>
-                    <p>Wij houden ervan om dingen simpel te houden. Geen grote gebaren, geen theater of veelbelovende utopieën.</p>
+                    <div class="values_big_box_text">
+                        <h2>down to earth</h2>
+                        <p>Wij houden ervan om dingen simpel te houden. Geen grote gebaren, geen theater of veelbelovende utopieën.</p>
+                    </div>
                 </div>
 
                 <div class="values_big_box big_middle">
                     <img src="./img/quality-driven.svg" alt="quality_driven">
-                    <h2>quality driven</h2>
-                    <p>Ons professionalisme volgt geen hype: het volgt kwaliteit. Wij geloven in altijd groeien en streven naar het beste.</p>
+                    <div class="values_big_box_text">
+                        <h2>quality driven</h2>
+                        <p>Ons professionalisme volgt geen hype: het volgt kwaliteit. Wij geloven in altijd groeien en streven naar het beste.</p>
+                    </div>
                 </div>
 
                 <div class="values_big_box">
                     <img src="./img/user-friendly.svg" alt="user_friendly">
-                    <h2>user friendly</h2>
-                    <p>Met onze oplossing bouwen wij bruggen tussen gebruiker en systemen. Wij geloven in een gebruiksvriendelijke aanpak.</p>
-                    </p>
+                    <div class="values_big_box_text">
+                        <h2>user friendly</h2>
+                        <p>Met onze oplossing bouwen wij bruggen tussen gebruiker en systemen. Wij geloven in een gebruiksvriendelijke aanpak.</p>
+                    </div>
                 </div>
             </div>
 

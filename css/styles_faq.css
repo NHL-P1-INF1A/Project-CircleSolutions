@@ -25,7 +25,7 @@
     color: var(--dark-blue);
 }
 
-.faq_leesmeer:visited {
+.faq_leesmeer a {
     color: var(--dark-blue);
 }
 

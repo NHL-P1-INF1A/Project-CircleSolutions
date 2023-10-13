@@ -164,4 +164,5 @@ align-items: center; /* Center vertically within the container */
 .contact-location {
     flex: 0 0 auto;
     margin-bottom: 10px;
+    font-size: 18px;
 }

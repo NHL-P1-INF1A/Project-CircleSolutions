@@ -1,5 +1,5 @@
 <nav>
-    <a href="/api/index.php"><img src="../../img/circle_solutions_logo_darkblue.svg" alt="logocirclesolutions"></a>
+    <a href="/api/index.php"><img src="./img/circle_solutions_logo_darkblue.svg" alt="logocirclesolutions"></a>
     <ul>
         <li><a href="/api/index.php#about-us">Over Ons</a></li>
         <li><a href="/api/index.php#services">Diensten</a></li>

@@ -26,11 +26,23 @@
     font-weight: 400;
 }
 
-#about-us img{
-    position: relative;
-    left: -3rem;
-    z-index: -100;
-    width: 31.25rem;
-    height: 31.25rem;
-    background-color: #F2F5FC;;
+@media screen and (max-width: 1023px) {
+    #about-us img{
+        display: none;
+    }
 }
+
+@media screen and (min-width: 1024px) {
+    #about-us img{
+        display: block;
+        position: relative;
+        left: -3rem;
+        z-index: -100;
+        width: 31.25rem;
+        height: 31.25rem;
+        background-color: #F2F5FC;
+        flex-shrink: 1;
+        min-width: 20rem;
+    }
+}
+

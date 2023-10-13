@@ -28,7 +28,7 @@
 
             <div class="circle_workspace_information_boxes">
                 <div class="circle_workspace_information_box">
-                    <img src="/img/Icons/Grid.svg" alt="Headphones">
+                    <img src="/img/Icons/grid.svg" alt="Headphones">
                     <h3>App-beheer</h3>
                     <p>Creëer in enkele minuten een werkplek. We willen het werk ook gemakkelijk maken voor werkplekbeheerders. We maken het mogelijk om een werkplek te creëren op basis van rollen en voorwaarden die al uw huidige en toekomstige technologieën binnen één werkplek combineren.</p>
                 </div>

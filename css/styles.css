@@ -59,7 +59,7 @@ body {
 .container {
     /* Dit zijn de basis wit ruimtes van de pagina. */
     display: flex;
-    padding: 0 20rem;
+    padding: 0 2rem;
     flex-direction: column;
 }
 
@@ -94,3 +94,27 @@ h3 {
     font-family: Calibre-Regular, sans-serif;
 }
 
+@media (min-width: 768px) {
+    .container {
+        padding: 0 5rem !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        padding: 0 10rem !important;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .container {
+        padding: 0 15rem !important;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        padding: 0 20rem !important;
+    }
+}

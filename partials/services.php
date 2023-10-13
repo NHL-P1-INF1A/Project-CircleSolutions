@@ -27,7 +27,7 @@
                         <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Communicatie en informatie </P>
                         <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Document beheer </P>
                     </div>
-                        <a class="circle_button" href="api/circle_workspace.php">meer informatie</a>
+                        <a class="circle_button" href="/circle_workspace.php">meer informatie</a>
                 </div>
             </div>
             <div class="container_services_diamond">
@@ -54,7 +54,7 @@
                         <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Kennisbeheer </P>
                         <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Analyseren en optimaliseren </P>
                     </div>
-                    <a class="circle_button" href="api/circle_dots.php">meer informatie</a>
+                    <a class="circle_button" href="/circle_dots.php">meer informatie</a>
                 </div>
             </div>
         </div>

@@ -9,7 +9,6 @@
 </head>
 <body>
     <?php include "partials/navbar.php"; ?>
-    
     <section id="circle_dots_title" class="container">
         <div class="cirle_dots_title_content">
             <h1>circle d.o.t.s</h1>

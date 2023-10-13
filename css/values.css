@@ -129,7 +129,7 @@
 }
 
 @media screen and (max-width: 1280px) {
-    .big_middle, .small_middle {
+    .small_middle {
         margin: 0;
     }
     .small_middle {
@@ -150,6 +150,18 @@
     }
     .big_middle {
         margin: 0 1rem;
+    }
+    .values_small_box {
+        width: 100%;
+        margin-bottom: 2rem;
+        max-width: 30%;
+    }
+    .small_middle {
+        margin: 0;
+    }
+    .small_middle {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
     }
 }
 

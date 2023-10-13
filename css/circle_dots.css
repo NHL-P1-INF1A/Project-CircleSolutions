@@ -48,7 +48,6 @@
     background-color: white;
     border-radius: 18px;
     box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2); /* Apply box shadow */
-    min-height: 400px;
     margin: 0 1.5rem; /* Add margin to the left and right */
 }
 
@@ -63,13 +62,14 @@
     color: black; /* Set text color to black */
 }
 
-.circle_dots_information_box p {
-    text-transform: none; /* Ensure text capitalization is as entered */
-}
-
 /* Apply the same padding to various elements within the box */
 .circle_dots_information_box img, .circle_dots_information_box h3, .circle_dots_information_box p {
     padding: 0 10%;
+}
+
+.circle_dots_information_box p {
+    text-transform: none; /* Ensure text capitalization is as entered */
+    padding-bottom: 5rem;
 }
 
 .circle_dots_pricing_title {
@@ -127,7 +127,7 @@
         grid-template-columns: 1fr 1fr;
     }
     .circle_dots_information_box {
-        margin-bottom: 1rem;
+        margin: 1rem;
     }
 }
 @media screen and (max-width: 1280px) {
@@ -140,6 +140,9 @@
     .circle_dots_information_boxes {
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+    }
+    .circle_dots_pricing_box {
+        margin: 0 1rem;
     }
 }
 @media screen and (max-width: 768px) {
@@ -171,9 +174,6 @@
     }
     .circle_dots_pricing_box {
         margin: 1rem 0;
-    }
-    .contact-form {
-        padding: 0;
     }
     .cirle_dots_title_content p {
         padding: 0;

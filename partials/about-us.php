@@ -1,4 +1,4 @@
-<div id="about-us">
+<div id="about-us" class="container">
     <div id="about-us_textbox">
         <h1>wie zijn wij</h1>
         <p><b>

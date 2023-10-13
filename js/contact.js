@@ -37,6 +37,37 @@ buttons.forEach(button => {
 
 
 
+// Define a function to handle the hover event
+function changeClassOnHover(element, selectedLink) {
+  // get contact icon 
+  const imgIcon = element.querySelector('.contact-icon');
+  element.addEventListener("mouseover", function () {
+    // add clases on mouse over
+    element.classList.add('selected-link');
+    imgIcon.classList.add('svg-icon');
+  });
+
+  element.addEventListener("mouseout", function () {
+    //remove classes on mouseover
+    element.classList.remove('selected-link');
+    imgIcon.classList.remove('svg-icon');
+  });
+}
+
+// Get the elements you want to change class on hover
+const mailElement = document.querySelector(".contact-mail");
+const phoneElement = document.querySelector(".contact-phone");
+const locationElement = document.querySelector(".contact-location");
+
+
+// Call the function for each element
+changeClassOnHover(mailElement, "hovered");
+changeClassOnHover(phoneElement, "hovered");
+changeClassOnHover(locationElement, "hovered");
+
+
+
+
 
 
 

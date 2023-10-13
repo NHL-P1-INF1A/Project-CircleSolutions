@@ -158,6 +158,13 @@ align-items: center; /* Center vertically within the container */
     margin-right: 10px;
 }
 
+.contact-mail i,
+.contact-phone i,
+.contact-location i {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
 
 .contact-mail,
 .contact-phone,
@@ -165,4 +172,21 @@ align-items: center; /* Center vertically within the container */
     flex: 0 0 auto;
     margin-bottom: 10px;
     font-size: 18px;
+    padding: 8px;
+
 }
+
+
+
+.selected-link {
+    background-color: #799DAB;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+
+.svg-icon {
+    filter: var(--logo-filter);
+  }
+

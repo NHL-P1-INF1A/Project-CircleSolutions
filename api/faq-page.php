@@ -12,7 +12,7 @@
         include "partials/navbar.php";
     ?>
     <div class="faq_container">
-        <main class="faq_outer_flex">
+        <main class="faq_outer_flex container">
             <!--Header!-->
             <h4 class="title_section">FAQ</h4>
             <h2 class="sub_title_section">Veel gestelde vragen</h2>

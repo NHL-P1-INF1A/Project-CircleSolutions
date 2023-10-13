@@ -4,6 +4,7 @@
 @media (max-width: 1280px) {
     .contact-form{
         background-color: transparent !important;
+        height: 45rem !important
     }
     .contact-left {
         display: none !important
@@ -127,6 +128,7 @@ align-items: center; /* Center vertically within the container */
     padding: 0.9rem 2.4rem;
     color: white;
     border-color: #799DAB;
+    margin-bottom: 20px;
 }
 
 
@@ -143,14 +145,7 @@ align-items: center; /* Center vertically within the container */
     color: black;
 }
 
-/* .contact-text-left {
-    display: flex;
-    align-items: center; /* Vertically center the contents */
-} */
 
-/* .contact-text-left i {
-    margin-right: 10px; /* Add some space between the icon and text */
-/* } */ */
 
 .contact-links i {
     margin-right: 10px; /* Add some space between the icon and text */

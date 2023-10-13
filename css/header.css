@@ -48,3 +48,21 @@ header {
     font-weight: 300;
     font-size: 24px;
 }
+
+@media screen and (max-width: 1279px){
+    .banner_text {
+        width: 100%;
+    }
+    .banner_image {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .banner_text {
+        width: 60%;
+    }
+    .banner_image {
+        display: flex;
+    }
+}

@@ -1,4 +1,4 @@
-<div id=footer class="container">
+<div id=footer>
     <div id=footer_container>
         <div>
             <!-- Logo & Social Links -->

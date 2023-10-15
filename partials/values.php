@@ -15,7 +15,7 @@
                     </div>
                 </div>
 
-                <div class="values_big_box big_middle">
+                <div class="values_big_box">
                     <img src="/img/quality-driven.svg" alt="quality_driven">
                     <div class="values_big_box_text">
                         <h2>quality driven</h2>
@@ -42,7 +42,7 @@
                         <p>Blije klanten</p>
                     </div>
                 </div>
-                <div class="values_small_box small_middle">
+                <div class="values_small_box">
                     <div class="icon">
                         <img src="/img/notebook_icon.svg" alt="notebook_icon">
                     </div>

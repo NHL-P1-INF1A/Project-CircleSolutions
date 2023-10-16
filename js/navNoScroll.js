@@ -1,6 +1,4 @@
-document.addEventListener('scroll', () => {
+window.addEventListener('load', () => {
     const nav = document.querySelector('nav');
-    
-        nav.classList.add('scrolled');
-        nav.style.position = "relative";
-})
+    nav.classList.add('scrolled');
+});

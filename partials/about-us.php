@@ -10,5 +10,5 @@
             Duis aute irure dolor in reprehenderit in voluptate
         </p>
     </div>
-    <img src="./img/wie-zijn-wij.svg" alt="Wie zijn wij">
+    <img src="/img/wie-zijn-wij.svg" alt="Wie zijn wij">
 </div>

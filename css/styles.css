@@ -11,6 +11,7 @@
 @import url(circle_dots.css);
 @import url(circle_workspace.css);
 @import url(darkmodebutton.css);
+@import url(line_small.css);
 
 @font-face {
     font-family: Calibre-Medium;
@@ -114,6 +115,12 @@ h3 {
 }
 
 @media (min-width: 1440px) {
+    .container {
+        padding: 0 15rem !important;
+    }
+}
+
+@media (min-width: 1980px) {
     .container {
         padding: 0 20rem !important;
     }

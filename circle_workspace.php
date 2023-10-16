@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Circle Solutions</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
 </head>
 <body>
     <?php include "partials/navbar.php"; ?>
@@ -32,13 +32,15 @@
                     <h3>App-beheer</h3>
                     <p>Creëer in enkele minuten een werkplek. We willen het werk ook gemakkelijk maken voor werkplekbeheerders. We maken het mogelijk om een werkplek te creëren op basis van rollen en voorwaarden die al uw huidige en toekomstige technologieën binnen één werkplek combineren.</p>
                 </div>
-                <div class="circle_workspace_information_box box-middle">
+                
+                <div class="circle_workspace_information_box">
                     <img src="/img/Icons/document.svg" alt="Line">
                     <h3>Communicatie en informatie</h3>
                     <p>Toon informatie van toepassingen direct in Circle Workspace. In één oogopslag ziet u al uw ongelezen e-mails, afspraken, nieuws, recent bewerkte documenten en meer.</p>
                 </div>
+
                 <div class="circle_workspace_information_box">
-                    <img src="img/Icons/books.svg" alt="">
+                    <img src="/img/Icons/books.svg" alt="">
                     <h3>Documentbeheer</h3>
                     <p>Breng alle documenten samen in één online werkplek. Zo kunt u online en offline werken vanaf elk apparaat. De documenten-app bundelt en brengt structuur aan in Office 365, de bestandsserver, OneDrive en SharePoint.</p>
                 </div>
@@ -86,6 +88,6 @@
     include "partials/footer.php"; 
     ?>
 
-    <script src="js/navNoScroll.js"></script>
+    <script src="/js/navNoScroll.js"></script>
 </body>
 </html>

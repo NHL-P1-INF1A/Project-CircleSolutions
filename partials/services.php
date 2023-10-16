@@ -7,7 +7,7 @@
             <div class="container_services_workspace">
                 <div class="container_workspace_wrapper">
                     <div class="img_service_circle">
-                        <img src="./img/deal_circle.png" name="deal_circle" alt="Icon deal circle" class="icon_circle">
+                        <img src="/img/deal_circle.png" name="deal_circle" alt="Icon deal circle" class="icon_circle">
                         circle workspace
                     </div>
                     <div class="circle_text_1">
@@ -23,17 +23,17 @@
                         inhoud
                     </div>
                     <div class="check_list_services">
-                        <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> App-beheer </P>
-                        <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Communicatie en informatie </P>
-                        <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Document beheer </P>
+                        <p class=check_circle_text> <img src="/img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> App-beheer </P>
+                        <p class=check_circle_text> <img src="/img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Communicatie en informatie </P>
+                        <p class=check_circle_text> <img src="/img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Document beheer </P>
                     </div>
-                        <a class="circle_button" href="circle_workspace.php">meer informatie</a>
+                        <a class="circle_button" href="/circle_workspace.php">meer informatie</a>
                 </div>
             </div>
             <div class="container_services_diamond">
                 <div class="container_workspace_wrapper">
                     <div class="img_service_circle">
-                        <img src="./img/deal_diamond.png" name="deal_circle" alt="Icon deal circle" class="icon_circle">
+                        <img src="/img/deal_diamond.png" name="deal_circle" alt="Icon deal circle" class="icon_circle">
                         circle D.O.T.S.
                     </div>
                     <div class="circle_text_1">
@@ -49,12 +49,12 @@
                         inhoud
                     </div>
                     <div class="check_list_services">
-                        <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Interne communicatie </P>
-                        <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Verbinden en engageren </P>
-                        <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Kennisbeheer </P>
-                        <p class=check_circle_text> <img src="./img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Analyseren en optimaliseren </P>
+                        <p class=check_circle_text> <img src="/img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Interne communicatie </P>
+                        <p class=check_circle_text> <img src="/img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Verbinden en engageren </P>
+                        <p class=check_circle_text> <img src="/img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Kennisbeheer </P>
+                        <p class=check_circle_text> <img src="/img/check_circle.png" name="check_circle" alt="check_circle" class="check_circle"> Analyseren en optimaliseren </P>
                     </div>
-                    <a class="circle_button" href="circle_dots.php">meer informatie</a>
+                    <a class="circle_button" href="/circle_dots.php">meer informatie</a>
                 </div>
             </div>
         </div>

@@ -1,4 +1,7 @@
 <div class="container">
+    <h1 class="title_section">Contact</h1>
+    <h2 class="sub_title_section">Neem gerust contact op voor vragen</h2>
+
     <div class=contact-form>
         <div class="contact-left">
             <h1>voor vragen, neem gerust contact op</h1>

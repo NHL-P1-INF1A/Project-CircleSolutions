@@ -190,3 +190,9 @@ align-items: center; /* Center vertically within the container */
     filter: var(--logo-filter);
   }
 
+.sub_title_section,
+.title_section {
+    text-align: center;
+
+}
+

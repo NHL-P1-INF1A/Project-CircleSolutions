@@ -2,13 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
 }
 
 #about-us_textbox{
     background-color: #C7EAF8;
     display: flex;
     flex-direction: column;
+    width: 39.375rem;
     border-radius: 1.125rem;
     box-shadow: 0rem 0.25rem 3.125rem 0.1875rem rgba(0, 0, 0, 0.25);
     padding: 1.875rem 2.5rem;
@@ -29,24 +29,18 @@
     #about-us img{
         display: none;
     }
-    #about-us_textbox{
-        margin-right: 0rem;
-    }
 }
 
 @media screen and (min-width: 1280px) {
     #about-us img{
         display: block;
         position: relative;
-        left:10rem;
+        left: -3rem;
         z-index: -100;
         width: 31.25rem;
         height: 31.25rem;
-        padding: 3rem;
         background-color: #F2F5FC;
-    }
-    #about-us_textbox{
-        margin-right: -15rem;
+        flex-shrink: 1;
+        min-width: 20rem;
     }
 }
-

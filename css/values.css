@@ -1,39 +1,37 @@
-/* Styling for elements with class "values_title" */
+/* Styles for the title section */
 .values_title {
-    color: var(--dark-blue); /* Set text color to a variable */
-    text-align: center; /* Center-align text */
+    color: var(--dark-blue);
+    text-align: center;
 }
 
-/* Styling for h1 elements within ".values_title" */
 .values_title h1 {
-    font-family: Calibre-Bold; /* Set font family to Calibre-Bold */
-    font-size: 1.8rem; /* Set font size */
+    font-family: Calibre-Bold;
+    font-size: 1.8rem;
 }
 
-/* Styling for h2 elements within ".values_title" */
 .values_title h2 {
-    font-family: Calibre-Medium; /* Set font family to Calibre-Medium */
-    font-size: 2.8rem; /* Set font size */
+    font-family: Calibre-Medium;
+    font-size: 2.8rem;
 }
 
-/* Styling for elements with class "values_big_boxes" */
+/* Styles for the big boxes section */
 .values_big_boxes {
-    display: flex; /* Use flex display */
-    justify-content: center; /* Center-align content horizontally */
-    margin-top: 3rem; /* Add top margin */
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 1rem;
 }
 
-/* Styling for elements with class "values_big_box" */
 .values_big_box {
-    width: 100%; /* Set width to 100% */
-    height: 30rem; /* Set height */
-    background-color: white; /* Set background color */
-    box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2); /* Apply box shadow */
-    border-radius: 20px; /* Add border radius */
-    display: flex; /* Use flex display */
-    flex-direction: column; /* Stack child elements vertically */
-    text-align: center; /* Center-align text */
-    align-items: center; /* Center-align child elements horizontally */
+    width: 100%;
+    height: 30rem;
+    background-color: white;
+    box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
 .values_big_box_text {
@@ -43,142 +41,115 @@
     flex-direction: column;
 }
 
-/* Styling for images within ".values_big_box" */
 .values_big_box img {
-    height: 45%; /* Set image height */
-    width: 90%; /* Set image width */
+    height: 45%;
+    width: 90%;
     margin-top: 10%;
+    margin-bottom: 1rem;
 }
 
-/* Styling for h2 elements within ".values_big_box" */
 .values_big_box h2 {
-    color: var(--dark-blue); /* Set text color to a variable */
-    font-family: Calibre-Bold; /* Set font family to Calibre-Bold */
-    font-size: 1.7rem; /* Set font size */
+    color: var(--dark-blue);
+    font-family: Calibre-Bold;
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
 }
 
-/* Styling for paragraphs within ".values_big_box" */
 .values_big_box p {
-    color: var(--text-color); /* Set text color to a variable */
-    font-family: Calibre-Regular; /* Set font family to Calibre-Regular */
-    font-size: 1.2rem; /* Set font size */
-    width: 100%; /* Set width */
-    padding: 0 2rem; /* Add padding */
+    color: var(--text-color);
+    font-family: Calibre-Regular;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
 }
 
-/* Styling for elements with class "big_middle" */
-.big_middle {
-    margin: 0 15px; /* Set margin */
-}
-
-/* Styling for elements with class "small_middle" */
-.small_middle {
-    margin: 0 38px; /* Set margin */
-}
-
-/* Styling for elements with class "values_small_boxes" */
+/* Styles for the small boxes section */
 .values_small_boxes {
-    display: flex; /* Use flex display */
-    justify-content: center; /* Center-align content horizontally */
-    margin-top: 2rem; /* Add top margin */
-    flex-wrap: wrap; /* Wrap child elements */
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
-/* Styling for elements with class "values_small_box" */
 .values_small_box {
-    max-width: 360px; /* Set max width */
+    max-width: 360px;
     width: 360px;
-    min-width: 250px;
-    height: 110px; /* Set height */
-    background-color: white; /* Set background color */
-    box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2); /* Apply box shadow */
-    border-radius: 20px; /* Add border radius */
-    display: flex; /* Use flex display */
-    align-items: center; /* Center-align child elements vertically */
+    min-width: 220px;
+    height: 110px;
+    background-color: white;
+    box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
 }
 
-/* Styling for elements with class "icon" */
 .icon {
-    padding-left: 1rem; /* Add left padding */
+    padding-left: 1rem;
 }
 
-/* Styling for images within ".icon" */
 .icon img {
-    height: 3rem; /* Set image height */
+    height: 3rem;
 }
 
-/* Styling for elements with class "values_small_box_text" */
 .values_small_box_text {
-    padding-left: 1rem; /* Add left padding */
-    padding-top: 0.6rem; /* Add top padding */
-    line-height: 24px; /* Set line height */
+    padding-left: 1rem;
+    padding-top: 0.6rem;
+    line-height: 24px;
 }
 
-/* Styling for h1 elements within ".values_small_box_text" */
 .values_small_box_text h1 {
-    font-family: Calibre-Bold; /* Set font family to Calibre-Bold */
-    color: var(--dark-blue); /* Set text color to a variable */
-    font-size: 2rem; /* Set font size */
+    font-family: Calibre-Bold;
+    color: var(--dark-blue);
+    font-size: 2rem;
 }
 
-/* Styling for paragraphs within ".values_small_box_text" */
 .values_small_box_text p {
-    font-family: Calibre-Regular; /* Set font family to Calibre-Regular */
-    color: var(--text-color); /* Set text color to a variable */
-    font-size: 1.3rem; /* Set font size */
+    font-family: Calibre-Regular;
+    color: var(--text-color);
+    font-size: 1.3rem;
 }
 
-@media screen and (max-width: 1280px) {
-    .small_middle {
-        margin: 0;
-    }
-    .small_middle {
-        margin-left: 1rem;
-        margin-bottom: 1rem;
+/* Media queries for responsive design */
+@media screen and (max-width: 1440px) {
+    .values_small_box {
+        width: 0px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .values_small_box {
-
-    }
-    .big_middle, .small_middle {
-        margin: 0;
-    }
-    .small_middle {
-        margin: 1rem 0;
-    }
-    .big_middle {
-        margin: 0 1rem;
-    }
-    .values_small_box {
         width: 100%;
-        margin-bottom: 2rem;
         max-width: 30%;
     }
+
     .small_middle {
         margin: 0;
     }
+
     .small_middle {
         margin-left: 1rem;
         margin-bottom: 1rem;
+        margin-right: 1rem;
     }
 }
 
 @media screen and (max-width: 768px) {
     .values_big_boxes {
-        flex-wrap: wrap; /* Wrap child elements */
+        flex-wrap: wrap;
     }
+
     .container {
         padding: 0 2rem;
     }
+
     .values_small_boxes {
-        flex-wrap: wrap; /* Wrap child elements */
+        flex-wrap: wrap;
     }
-    .big_middle, .small_middle {
-        margin: 0;
-    }
-    .values_small_box, .values_big_box {
+
+    .values_small_box,
+    .values_big_box {
         width: 100%;
         margin-bottom: 2rem;
         max-width: 100%;
@@ -187,21 +158,14 @@
 
 @media screen and (max-width: 640px) {
     .values_big_boxes {
-        flex-wrap: wrap; /* Wrap child elements */
+        flex-wrap: wrap;
     }
+
     .container {
         padding: 0 2rem;
     }
+
     .values_small_boxes {
-        flex-wrap: wrap; /* Wrap child elements */
+        flex-wrap: wrap;
     }
-    .big_middle, .small_middle {
-        margin: 0;
-    }
-    .values_small_box, .values_big_box {
-        width: 100%;
-        margin-bottom: 2rem;
-        max-width: 100%;
-    }
-    
 }

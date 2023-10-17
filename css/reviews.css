@@ -146,13 +146,13 @@
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
-    border: 4px solid #00000080;
+    border: 4px solid var(--background-reverse);
     margin: 0 .3rem;
     cursor: pointer;
 }
 /* changes color for the active dot */
 .active_dot {
-    background-color: #00000080;
+    background-color: var(--dark-blue);
     border: 0px;
 }
 

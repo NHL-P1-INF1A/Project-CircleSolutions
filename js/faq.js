@@ -22,8 +22,10 @@ faqs.forEach(function(faq) {
         };
         if (imgElement.style.transform === 'rotate(0deg)' || imgElement.style.transform === '') {
             imgElement.style.transform = 'rotate(180deg)'; 
+            imgElement.classList.remove("faq_shake");
         } else {
             imgElement.style.transform = 'rotate(0deg)';
+            imgElement.classList.add("faq_shake");
         }
     });
 });

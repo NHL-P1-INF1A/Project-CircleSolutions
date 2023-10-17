@@ -1,7 +1,7 @@
 /* Dit zorgt voor alle styling van de navbar */
 nav {
     width: 100%;
-    height: 10vh;
+    height: 5rem;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
@@ -86,4 +86,39 @@ nav li:nth-child(-n+5) a:hover::after {
 
 nav.scrolled li:nth-child(-n+5) a::after {
     background: var(--dark-blue);
+}
+
+/* Media queries for responsive design */
+
+@media screen and (max-width: 1280px) {
+nav img {
+    padding-left: 15rem;   
+}
+nav ul {
+    padding-right: 15rem;
+}
+}
+
+@media screen and (max-width: 1024px) {
+nav img {
+    padding-left: 5rem;
+}
+nav ul {
+    padding-right: 5rem;
+}
+}
+
+@media screen and (max-width: 865px) {
+    nav ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+nav img {
+    padding-left: 2rem;
+}
+nav ul {
+    padding-right: 2rem;
+}
 }

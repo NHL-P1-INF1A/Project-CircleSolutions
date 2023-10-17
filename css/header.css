@@ -39,14 +39,14 @@ header {
 
 .banner_text h1 {
     color: #799DAB;
-    font-size: 64px;
+    font-size: 4rem;
 }
 
 .banner_text h3 {
     color: var(--text-color);
     font-family: Calibre-Regular;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .banner_text a {

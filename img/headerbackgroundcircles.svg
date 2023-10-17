@@ -5,6 +5,7 @@
       .cls-1 {
         fill: #DDF2F9;
         fill-rule: evenodd;
+        opacity: .7;
       }
     </style>
   </defs>

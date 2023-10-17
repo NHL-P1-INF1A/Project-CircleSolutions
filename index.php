@@ -41,5 +41,6 @@
     <script src="./js/faq.js"></script>
     <script src="./js/navScroll.js"></script>
     <script src="./js/contact.js"></script>
+    <script src="./js/darkmode.js"></script>
 </body>
 </html>

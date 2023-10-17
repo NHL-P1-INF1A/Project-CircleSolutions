@@ -64,7 +64,7 @@
                         <img src="./img/Icons/User.svg" alt="">
                     </div>
                     <div class="circle_workspace_pricing_box_2">
-                        <p><span>€140</span>/maandelijks</p>
+                        <p><span>€140 </span>/maandelijks</p>
                     </div>
                 </div>
 
@@ -74,7 +74,7 @@
                         <img src="./img/Icons/Users.svg" alt="">
                     </div>
                     <div class="circle_workspace_pricing_box_2">
-                        <p><span>€760</span>/maandelijks</p>
+                        <p><span>€760 </span>/maandelijks</p>
                     </div>
                 </div>
 

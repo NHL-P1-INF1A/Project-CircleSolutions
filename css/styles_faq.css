@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -96,4 +95,35 @@
 
 .toggle_image {
     transform: rotate(0deg);
+    user-select: none;
 }
+
+.faq_wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0rem 10rem;
+    padding: 0rem 10rem;
+    flex-direction: column;
+}
+
+.toggle_button:hover .faq_shake {
+    animation: shake 0.82s;
+    transition: all .5s;
+} 
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-0.1rem, 0, 0);
+    }
+    20%, 80% {
+        transform: translate3d(0.2rem, 0, 0);
+    }
+    
+    30%, 50%, 70% {
+        transform: translate3d(-0.2rem, 0, 0);
+    }
+    40%, 60% {
+        transform: translate3d(0.2rem, 0, 0);
+    }
+    }

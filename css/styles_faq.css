@@ -28,16 +28,12 @@
     color: var(--dark-blue);
 }
 
-.faq_leesmeer a {
-    color: var(--dark-blue);
-}
-
 .faq_popup_box_flex { /*Flexbox used for the dropdown popup boxes*/
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFFFFF;
+    background-color: var(--white);
     stroke: #D3D3D3;
     stroke-width: 1px;
     box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
@@ -49,7 +45,7 @@
     border: 0px;
     height: 3.6rem;
     width: 3.6rem;
-    background-color: #FFFFFF;
+    background-color: var(--white);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     cursor: pointer;
@@ -58,7 +54,7 @@
 .faq_text { /*Box used for the dropped down popup boxes*/
     width: 100%;
     padding-left: 1.25rem;
-    background-color: #FFFFFF;
+    background-color: var(--white);
     stroke: #D3D3D3;
     stroke-width: 1px;
     border-radius: 8px;

@@ -13,7 +13,7 @@
                 <a class="circle_button" href="index.php#about-us">beginnen</a>
             </div>
             <div class="banner_image">
-                    <img src="/img/hero.svg" alt="hero" id="headerimg">
+                    <img src="./img/hero.svg" alt="hero" id="headerimg">
             </div>
         </div>
     </section>

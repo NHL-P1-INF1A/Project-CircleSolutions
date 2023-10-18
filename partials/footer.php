@@ -21,7 +21,7 @@
                         <input type="email" name="email" id="footer_subscribe_email" placeholder="example@gmail.com" required size="45"> 
                     </div>
                     <div>
-                        <input type="submit" value="Subscribe" id="footer_subscribe_submit">
+                        <input type="submit" value="aanmelden" id="footer_subscribe_submit">
                     </div>
                 </div>
             </form>
@@ -30,6 +30,6 @@
     <!-- Copyright & Divider -->
     <div class="rowFooter">
         <hr>
-        <div id=footer_copyright>&copy; 2023 circle solutions. All Rights Reserved.</div>
+        <div id="footer_copyright">&copy; 2023 circle solutions. All Rights Reserved.</div>
     </div>
 </div>

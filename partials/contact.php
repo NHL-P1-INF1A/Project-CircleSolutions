@@ -38,10 +38,10 @@
                     <button class="unselected_button">Anders</button>
                 </div>
                 <div class="form_contact_right">
-                    <form action="#">
-                        <input class="input_contact" type="text" placeholder="(bedrijf) naam" name="fname"><br><br>
-                        <input class="input_contact" type="email" placeholder="email" name="lname"><br><br>
-                        <input class="input_contact" type="text" placeholder="bericht" name="lname"><br><br>
+                    <form method="POST" action="succes.php">
+                        <input class="input_contact" type="text" placeholder="(bedrijf) naam" name="name"><br><br>
+                        <input class="input_contact" type="email" placeholder="email" name="email"><br><br>
+                        <input class="input_contact" type="text" placeholder="bericht" name="message"><br><br>
                         <button type="submit" class="submit_button_contactform"> <i>
                                 <img src="./img/arrow-sendmessage.svg" alt="arrow_sendmessage">
                             </i>

@@ -98,23 +98,23 @@
 }
 
 .toggle_button:hover .faq_shake {
-    animation: shake 0.82s;
+    animation: shake .7s;
     transition: all .5s;
 } 
 
 @keyframes shake {
     10%, 90% {
-        transform: translate3d(-0.1rem, 0, 0);
+        transform: translate3d(-.1rem, 0, 0);
     }
     20%, 80% {
-        transform: translate3d(0.2rem, 0, 0);
+        transform: translate3d(.11rem, 0, 0);
     }
     
     30%, 50%, 70% {
-        transform: translate3d(-0.2rem, 0, 0);
+        transform: translate3d(-.11rem, 0, 0);
     }
     40%, 60% {
-        transform: translate3d(0.2rem, 0, 0);
+        transform: translate3d(.11rem, 0, 0);
     }
     }
 

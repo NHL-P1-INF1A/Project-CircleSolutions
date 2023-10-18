@@ -186,3 +186,9 @@ align-items: center; /* Center vertically within the container */
 .title_section {
     text-align: center;
 }
+
+@media only screen and (max-width: 680px) and (min-width: 0px) {
+    .contact_form {
+        padding: 0rem;
+    }
+}

@@ -1,4 +1,5 @@
 const root = document.querySelector(':root');
+const darkmodeButton = document.querySelector('#darkmode_button');
 
 const basicColors = {
     '--dark-blue': '#799dab',
@@ -12,6 +13,7 @@ const basicColors = {
     '--white': '#FFFFFF',
     '--black': '#000000',
 };
+
 const darkmodeColors = {
     '--dark-blue': '#799dab',
     '--normal-blue': '#c7eaf8',
@@ -25,19 +27,41 @@ const darkmodeColors = {
     '--black': '#FFFFFF',
 };
 
-var darkmodeButton = document.querySelector('#darkmode_button');
-var isDarkmode = false;
+// Function that can be called to enable darkmode
+function enableDarkMode() {
+    Object.entries(darkmodeColors).forEach(color => {
+        root.style.setProperty(color[0], color[1]);
+    });
+    localStorage.setItem('darkmode', 'enabled');
+}
 
-darkmodeButton.addEventListener('change', () => {
-    isDarkmode = !isDarkmode;
-    if(isDarkmode){
-        Object.entries(darkmodeColors).forEach(color => {
-            root.style.setProperty(color[0], color[1]); 
-        });
+// Function that can be called to disable darkmode
+function disableDarkMode() {
+    Object.entries(basicColors).forEach(color => {
+        root.style.setProperty(color[0], color[1]);
+    });
+    localStorage.setItem('darkmode', 'disabled');
+}
+
+// function that stores the value for your choosen mode
+function setDarkModeStatus() {
+    const darkModeStatus = localStorage.getItem('darkmode');
+    if (darkModeStatus === 'enabled') {
+        enableDarkMode();
+        darkmodeButton.checked = true;
+    } else {
+        disableDarkMode();
+        darkmodeButton.checked = false;
     }
-    else{
-        Object.entries(basicColors).forEach(color => {
-            root.style.setProperty(color[0], color[1]);
-        });
+}
+// Checks if darkmode checkbox is changing and checks if its checked
+darkmodeButton.addEventListener('change', () => {
+    if (darkmodeButton.checked) {
+        enableDarkMode();
+    } else {
+        disableDarkMode();
     }
 });
+
+// Calls the darkmode status when loading page
+setDarkModeStatus();

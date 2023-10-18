@@ -63,5 +63,3 @@
         </div>
     </div>
 </div>
-
-    <script src="./js/contact.js"></script>

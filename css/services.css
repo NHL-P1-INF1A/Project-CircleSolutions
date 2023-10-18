@@ -15,8 +15,8 @@
     font-weight: 500;
     padding-bottom: 4.33rem;
 }
-/* Style for the container */
 
+/* Style for the container */
 #services {
     margin-bottom: 1.25rem;
     text-align: center;
@@ -41,6 +41,7 @@
     height: 37.125rem;
     display: flex;
 }
+
 /* The wrapper */
 .container_workspace_wrapper {
     width: 21.825rem;
@@ -58,6 +59,7 @@
     font-size: 1.35rem;
     font-family: calibre-Bold,sans-serif;
 }
+
 /* The icon for circle workspace */
 .icon_circle {
     width: 4.05rem;
@@ -81,6 +83,7 @@
     font-style: normal;
     line-height: 1.125rem; /* 111.111% */ 
 }
+
 .circle_text_3 {
     font-family: Calibre-Bold,sans-serif;
     font-size: 1.013rem;
@@ -110,9 +113,11 @@
     flex-direction: column;
     height: 8.55rem;
 }
+
 .check_circle{
     display: flex;
 }
+
 .check_circle_text{
     display: flex;
     gap: 0.875rem;
@@ -152,4 +157,10 @@
     width: 22.556rem;
     height: 37.125rem;
     display: flex;
+}
+
+/* If you hover over the item with this element it will slightly grow in size */
+.hover_button:hover{ 
+    transition: transform 0.2s;
+    transform: scale(1.03);
 }

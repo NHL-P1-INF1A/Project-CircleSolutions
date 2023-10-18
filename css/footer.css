@@ -2,9 +2,9 @@
 #footer{
     display: flex;
     flex-direction: column;
-    background-color: white;
-    border-top: 0.0625rem #E6E6E6 solid;
-    color: black;
+    background-color: var(--white);
+    border-top: 0.0625rem var(--light-background) solid;
+    color: var(--black);
     width: 100%;
     height: 100%;
     padding: 3rem 5rem;
@@ -54,29 +54,33 @@
 /* Border color change */
 #footer_subscribe_email{  
     border: none;
-    border: #D6D6D6 solid 0.0625rem;    
+    border: var(--background) solid 0.1rem;    
     color:#A6A7AB;
     border-radius: 0.5em;
     padding: 0.4rem 0.8rem;
+    background-color: transparent;
+    height: 100%;
 }
 
 #footer_subscribe_submit{
-    background-color: rgb(121,157,171);
-    border-color: rgb(121,157,171);
-    color: white;
+    background-color: var(--dark-blue);
+    border-color: var(--dark-blue);
+    color: var(--white);
     border-radius: 0.5rem;
     padding: 0.4rem 0.8rem;
     box-shadow: none;
+    border-style: solid;
+    cursor: pointer;
 }
 
 hr{
-    border-top: 0.0625rem #E6E6E6 solid;
+    border-top: 0.0625rem var(--background) solid;
 }
 
 #footer_copyright{
     padding-top: 2rem;
     text-align: center;
-    color: #A6A7AB;
+    color: var(--text-color);
     font-size: 0.75rem;
 }
 

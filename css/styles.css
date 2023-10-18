@@ -44,8 +44,10 @@
     --dark-blue: #799dab;
     --normal-blue: #c7eaf8;
     --light-blue: #dcf1f9;
-    --light-background: #EFEFF1;
-    --dark-background: #1C1C1C;
+    --background: #EFEFF1;
+    --background-reverse: #1C1C1C;
+    --about-us-background: #c7eaf8;
+    --header-background: url("../img/headerbackgroundcircles.svg"), linear-gradient(rgba(121, 157, 171, 1), rgba(239, 239, 241, 1), rgba(239, 239, 241, 1));
     --text-color: #3C3C43;
     --white: #FFFFFF;
     --black: #000;
@@ -53,7 +55,7 @@
 }
 
 body {
-    background-color: var(--light-background);
+    background-color: var(--background);
     color: var(--text-color);
 }
 

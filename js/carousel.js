@@ -42,7 +42,7 @@ const carouselSlider = document.getElementById('carousel-slides');
     });
     // updates the active dot and slide
     function updateCarousel() {
-        const style = document.querySelector("#carousel_slide"); 
+        const style = document.querySelector(".carousel_slide"); 
         const value = window.getComputedStyle(style) 
                           .getPropertyValue('flex-basis');
         

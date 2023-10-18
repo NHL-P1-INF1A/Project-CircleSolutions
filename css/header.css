@@ -1,7 +1,7 @@
 header {
     height: 100vh;
     width: 100%;
-    background-image: url("../img/headerbackgroundcircles.svg"), linear-gradient(var(--dark-blue), var(--light-background), var(--light-background));
+    background-image: var(--header-background);
     background-size: cover;
 }
 
@@ -39,20 +39,20 @@ header {
 
 .banner_text h1 {
     color: #799DAB;
-    font-size: 64px;
+    font-size: 4rem;
 }
 
 .banner_text h3 {
     color: var(--text-color);
     font-family: Calibre-Regular;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .banner_text a {
     font-family: Calibre-Bold;
-    font-size: 1.125rem;
-    color: var(--white);
+    font-size: 1.3rem;
+    color: white;
 }
 
 @media screen and (max-width: 1279px){

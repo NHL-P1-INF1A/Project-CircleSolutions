@@ -1,0 +1,25 @@
+.line_small {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2rem ;
+    margin-right: 6rem;
+    height: 8px;
+    background-color: var(--normal-blue);
+}
+
+@media screen and (max-width: 1279px) {
+    .line_small {
+        margin-right: 25rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .line_small {
+        margin-right: 15rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .line_small {
+        margin-right: 10rem;
+    }
+}

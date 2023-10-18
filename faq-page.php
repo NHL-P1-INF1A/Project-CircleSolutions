@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Circle Solutions</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
 </head>
 <body>
     <?php
@@ -55,7 +55,9 @@
 
         include "partials/footer.php";
     ?>
+    <script src="./js/faq.js"></script>
+    <script src="./js/navNoScroll.js"></script>
+    <script src="./js/contact.js"></script>  
+    <script src="./js/darkmode.js"></script>  
 </body>
-<script src="/js/faq.js"></script>
-<script src="/js/navNoScroll.js"></script>
 </html>

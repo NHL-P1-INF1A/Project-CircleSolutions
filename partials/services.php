@@ -14,10 +14,10 @@
                         Circle Workspace maakt het beheren van apps, communicatie, en documenten eenvoudig en efficiënt.
                     </div>
                     <div class="circle_text_2">
-                        <h2 class="circle_text_4">voor 1-50 Gebruikers </h2>
-                        <h2 class="money_text">&euro;140</h2> /maandelijks
-                        <h2 class="circle_text_4">voor 51-500 Gebruikers </h2>
-                        <h2 class="money_text">&euro;740</h2> /maandelijks
+                        <p class="circle_text_4">voor 1-50 Gebruikers </p>
+                        <p class="money_text">&euro;140</p> /maandelijks
+                        <p class="circle_text_4">voor 51-500 Gebruikers </p>
+                        <p class="money_text">&euro;740</p> /maandelijks
                     </div>
                     <div class="circle_text_3"> 
                         inhoud
@@ -40,10 +40,10 @@
                         Circle D.O.T.S. verbetert communicatie, verbindt teams en optimaliseert met gebruiksvriendelijke analytics.
                     </div>
                     <div class="circle_text_2">
-                        <h2 class="circle_text_4">voor 1-50 Gebruikers</h2>
-                        <h2 class="money_text">&euro;180</h2> /maandelijks
-                        <h2 class="circle_text_4">voor 51-500 Gebruikers </h2>
-                        <h2 class="money_text">&euro;799</h2> /maandelijks
+                        <p class="circle_text_4">voor 1-50 Gebruikers</p>
+                        <p class="money_text">&euro;180 </p> /maandelijks
+                        <p class="circle_text_4">voor 51-500 Gebruikers </p>
+                        <p class="money_text">&euro;799 </p> /maandelijks
                     </div>
                     <div class="circle_text_3"> 
                         inhoud

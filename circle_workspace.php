@@ -89,5 +89,6 @@
     ?>
 
     <script src="./js/navNoScroll.js"></script>
+    <script src="./js/darkmode.js"></script>
 </body>
 </html>

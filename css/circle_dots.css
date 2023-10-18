@@ -48,7 +48,7 @@
 }
 
 .circle_dots_information_box {
-    background-color: white;
+    background-color: var(--white);
     border-radius: 18px;
     box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
     display: flex;
@@ -67,7 +67,7 @@
     font-family: Calibre-Regular, sans-serif;
     padding-top: 1rem;
     margin: .5rem 0 1rem 0;
-    color: black;
+    color: var(--black);
 }
 
 .circle_dots_information_box h3,
@@ -102,7 +102,7 @@
 }
 
 .circle_dots_pricing_box {
-    background-color: white;
+    background-color: var(--white);
     box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
     border-radius: 18px;
     width: 100%;
@@ -127,7 +127,7 @@
 }
 
 .circle_dots_pricing_box_2 span {
-    color: black;
+    color: var(--black);
     font-size: 2rem;
     font-family: Calibre-Bold;
 }

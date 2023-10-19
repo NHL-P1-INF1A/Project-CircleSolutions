@@ -1,6 +1,5 @@
 @import url(navbar.css);
 @import url(header.css);
-@import url(about-us.css);
 @import url(values.css);
 @import url(services.css);
 @import url(styles_faq.css);
@@ -97,6 +96,31 @@ body {
     padding-left: 0.5rem;
 }
 /*  */
+/* About us */
+/*  */
+#about_us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about_us_textbox {
+    background-color: var(--about-us-background);
+    display: flex;
+    flex-direction: column;
+    width: 39.375rem;
+    border-radius: 1.125rem;
+    box-shadow: 0rem 0.25rem 3.125rem 0.1875rem rgba(0, 0, 0, 0.25);
+    padding: 1.875rem 2.5rem;
+}
+#about_us_textbox h1 {
+    color: var(--about-us-background);
+}
+#about_us_textbox p {
+    color: var(--text-color); 
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+/*  */
 /* Carousel */
 /*  */
 #reviews {
@@ -154,10 +178,6 @@ body {
 .carousel_content h3 {
     color: var(--text-color);
     padding-bottom: .2rem;
-}
-.carousel_content h5 {
-    color: #525252;
-    padding-bottom: .4rem;
 }
 .carousel_content p {
     padding-top: 1.6rem;
@@ -240,10 +260,13 @@ body {
         width: 35%;
         padding: 3rem 25rem;
     }
+    #about_us img{
+        display: none;
+    }
 }
-  @media screen and(min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
     .container {
-        padding: 0 5rem !important;
+        padding: 0 10rem !important;
     }
     .carousel_container {
         width: 35%;
@@ -258,10 +281,13 @@ body {
     .carousel_arrow {
         display: none;
     }
+    #about_us img{
+        display: none;
+    }
 }
-@media screen and (min-width: 1024px)  and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
     .container {
-        padding: 0 10rem !important;
+        padding: 0 5rem !important;
     }
     .carousel_container {
         width: 35%;
@@ -289,6 +315,17 @@ body {
     }
     .carousel_arrow {
         display: flex;
+    }
+    #about_us img{
+        display: block;
+        position: relative;
+        left: -3rem;
+        z-index: -100;
+        width: 31.25rem;
+        height: 31.25rem;
+        background-color: var(--white);
+        flex-shrink: 1;
+        min-width: 20rem;
     }
 }
 @media screen and (min-width: 1440px) {

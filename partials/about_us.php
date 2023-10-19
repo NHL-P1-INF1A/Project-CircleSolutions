@@ -1,6 +1,6 @@
 <div class="container">
-    <div id="about-us">
-        <div id="about-us_textbox">
+    <div id="about_us">
+        <div id="about_us_textbox">
             <h1>wie zijn wij</h1>
             <p><b>
                 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore

@@ -10,7 +10,6 @@
 @import url(circle_workspace.css);
 @import url(darkmodebutton.css);
 @import url(line_small.css);
-@import url(succes.css);
 @font-face {
     font-family: Calibre-Medium;
     src: url(../fonts/Calibre-Medium.otf);
@@ -238,8 +237,63 @@ body {
 
 
 
-
-
+/*  */
+/* Succes page */
+/*  */
+.succes_content {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.succes_title_content {
+    text-align: center;
+}
+.succes_title_content h2 {
+    font-size: 2.5rem;
+}
+.succes_title_content img {
+    width: 5rem;
+    /* Changes de color of the svg to the color of the brandbook */
+    filter: invert(64%) sepia(38%) saturate(265%) hue-rotate(151deg) brightness(89%) contrast(80%);
+}
+.succes_message {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 18px;
+    box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
+    padding-bottom: 3rem;
+    margin-bottom: 10rem;
+}
+.succes_card {
+    padding: 20%
+}
+.succes_message img {
+    margin-top: 3rem;
+    height: 36px;
+    width: 36px;
+    align-self: center;
+    margin-bottom: 1rem;
+    /* Changes de color of the svg to the color of the brandbook */
+    filter: invert(64%) sepia(38%) saturate(265%) hue-rotate(151deg) brightness(89%) contrast(80%);
+}
+.succes_message h2 {
+    align-self: flex-start;
+    margin-bottom: 2rem;
+    padding: 0rem 5rem;
+}
+.succes_message p {
+    align-self: flex-start;
+    text-align: start;
+    margin-bottom: 2rem;
+    padding: 0rem 5rem;
+}
 /*  */
 /* Media queries */
 /*  */
@@ -263,6 +317,9 @@ body {
     #about_us img{
         display: none;
     }
+    .succes_message {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 1280px) {
     .container {
@@ -283,6 +340,9 @@ body {
     }
     #about_us img{
         display: none;
+    }
+    .succes_message {
+        width: 100%;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -329,9 +389,7 @@ body {
     }
 }
 @media screen and (min-width: 1440px) {
-    .container {
-        padding: 0 15rem !important;
-    }
+    
 }
 @media screen and (min-width: 1980px) {
     .container {

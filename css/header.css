@@ -50,8 +50,9 @@ header {
     opacity: 0;
 }
 
-.banner_text h1 {
-    color: #799DAB;
+.banner_text h2 {
+    color: var(--dark-blue);
+    font-family: Calibre-Bold;
     font-size: 4rem;
 }
 

@@ -5,7 +5,7 @@
     <section id="banner" class="container"> 
         <div id="banner_items">
             <div class="banner_text">
-                <h1>just connect the dots</h1>
+                <h2>just connect the dots</h2>
                 <?php
                     include "line_small.php";
                 ?>

@@ -1,8 +1,10 @@
 const carouselSlider = document.getElementById('carousel-slides');
     const carouselSlides = document.querySelectorAll('.carousel_slide');
-    const prevButton = document.querySelector('#prev_button');
-    const nextButton = document.querySelector('#next_button');
-    const carouselDots = document.querySelector('#carouselDots');
+    const prevButton = document.querySelector('.carousel_arrow_left');
+    const nextButton = document.querySelector('.carousel_arrow_right');
+    const prevButtonMobile = document.querySelector('.mobile_left');
+    const nextButtonMobile = document.querySelector('.mobile_right');
+    const carouselDots = document.querySelector('#carousel_dots'); 
     
     let currentIndex = 0;
     // calculates how many dots are needed based on the slides
@@ -27,18 +29,41 @@ const carouselSlider = document.getElementById('carousel-slides');
         });
     }
     // activates on press of nextbutton so it adds 1
+    nextButtonMobile.addEventListener('click', () => {
+        if (currentIndex < carouselSlides.length - 1) {
+            currentIndex++;
+        }else{
+            currentIndex = 0;
+        }
+        updateCarousel();
+    });
+    // activates on press of prevbutton so it subtracts 1
+    prevButtonMobile.addEventListener('click', () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+        } else {
+            currentIndex = carouselSlides.length - 1;
+        }
+        updateCarousel();
+    });
+
+    // activates on press of nextbutton so it adds 1
     nextButton.addEventListener('click', () => {
         if (currentIndex < carouselSlides.length - 1) {
             currentIndex++;
-            updateCarousel();
+        }else{
+            currentIndex = 0;
         }
+        updateCarousel();
     });
     // activates on press of prevbutton so it subtracts 1
     prevButton.addEventListener('click', () => {
         if (currentIndex > 0) {
             currentIndex--;
-            updateCarousel();
+        } else {
+            currentIndex = carouselSlides.length - 1;
         }
+        updateCarousel();
     });
     // updates the active dot and slide
     function updateCarousel() {

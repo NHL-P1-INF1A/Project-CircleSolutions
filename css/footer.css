@@ -54,10 +54,12 @@
 /* Border color change */
 #footer_subscribe_email{  
     border: none;
-    border: var(--light-background) solid 0.0625rem;    
+    border: var(--background) solid 0.1rem;    
     color:#A6A7AB;
     border-radius: 0.5em;
     padding: 0.4rem 0.8rem;
+    background-color: transparent;
+    height: 100%;
 }
 
 #footer_subscribe_submit{
@@ -67,10 +69,12 @@
     border-radius: 0.5rem;
     padding: 0.4rem 0.8rem;
     box-shadow: none;
+    border-style: solid;
+    cursor: pointer;
 }
 
 hr{
-    border-top: 0.0625rem var(--light-background) solid;
+    border-top: 0.0625rem var(--background) solid;
 }
 
 #footer_copyright{

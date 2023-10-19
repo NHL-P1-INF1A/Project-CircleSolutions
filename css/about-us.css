@@ -5,7 +5,7 @@
 }
 
 #about-us_textbox{
-    background-color: #C7EAF8;
+    background-color: var(--about-us-background);
     display: flex;
     flex-direction: column;
     width: 39.375rem;
@@ -39,7 +39,7 @@
         z-index: -100;
         width: 31.25rem;
         height: 31.25rem;
-        background-color: #F2F5FC;
+        background-color: var(--white);
         flex-shrink: 1;
         min-width: 20rem;
     }

@@ -11,20 +11,14 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 1.25rem;
-    width: 100%;
+    gap: 30px;
 }
 
 .faq_leesmeer { /*Flexbox used for aligning the "Lees Meer" button*/
     display: flex;
-    width: 100%;
     justify-content: flex-end;
     font-size: large;
     margin-bottom: 1rem;
-    color: var(--dark-blue);
-}
-
-.faq_leesmeer a {
     color: var(--dark-blue);
 }
 
@@ -37,9 +31,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFFFFF;
-    stroke: #D3D3D3;
-    stroke-width: 1px;
+    background-color: var(--white);
     box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     flex-direction: column;
@@ -49,7 +41,7 @@
     border: 0px;
     height: 3.6rem;
     width: 3.6rem;
-    background-color: #FFFFFF;
+    background-color: var(--white);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     cursor: pointer;
@@ -58,9 +50,7 @@
 .faq_text { /*Box used for the dropped down popup boxes*/
     width: 100%;
     padding-left: 1.25rem;
-    background-color: #FFFFFF;
-    stroke: #D3D3D3;
-    stroke-width: 1px;
+    background-color: var(--white);
     border-radius: 8px;
     padding-bottom: 1.2rem;
     padding-right: 1.25rem;
@@ -108,22 +98,40 @@
 }
 
 .toggle_button:hover .faq_shake {
-    animation: shake 0.82s;
+    animation: shake .7s;
     transition: all .5s;
 } 
 
 @keyframes shake {
     10%, 90% {
-        transform: translate3d(-0.1rem, 0, 0);
+        transform: translate3d(-.1rem, 0, 0);
     }
     20%, 80% {
-        transform: translate3d(0.2rem, 0, 0);
+        transform: translate3d(.11rem, 0, 0);
     }
     
     30%, 50%, 70% {
-        transform: translate3d(-0.2rem, 0, 0);
+        transform: translate3d(-.11rem, 0, 0);
     }
     40%, 60% {
-        transform: translate3d(0.2rem, 0, 0);
+        transform: translate3d(.11rem, 0, 0);
     }
     }
+
+@media screen and (min-width: 720px) {
+    .faq_inner_flex {
+        width: 75%;
+    }
+    .faq_leesmeer{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .faq_inner_flex {
+        width: 100%;
+    }
+    .faq_leesmeer{
+        width: 100%;
+    }
+}

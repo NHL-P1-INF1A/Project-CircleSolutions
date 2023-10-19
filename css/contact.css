@@ -1,20 +1,19 @@
 @import url(styles.css);
 
-
 @media (max-width: 1280px) {
-    .contact-form{
+    .contact_form{
         background-color: transparent !important;
         height: 45rem !important
     }
-    .contact-left {
+    .contact_left {
         display: none !important
     }
-    .contact-right {
+    .contact_right {
         background-color: var(--white) !important
     }
 }
 
-.contact-form {
+.contact_form {
     margin-top: 5%;
     display:flex;
     height: 35rem; 
@@ -23,73 +22,73 @@
     border-radius: 14.4px;
 }
 
-.contact-form h2 {
+.contact_form h2 {
     font-family: Calibre-Bold;
 }
 
-.contact-form p {
+.contact_form p {
     font-family: Calibre-Regular;
 }
 
-.contact-left {
+.contact_left {
     flex: 1; 
     padding: 0.75rem;
     display: flex;
     flex-direction: column;
 }
 
-.contact-right {
+.contact_right {
     flex: 1;
     display: flex; 
     flex-direction: column; 
-    background-color: var(--light-background);
+    background-color: var(--background);
     border-radius: 14.4px;
     padding: 30px;
     gap: 2.5rem;
 }
 
-.contact-links { 
+.contact_links { 
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
 }
 
-.contact-links p {
+.contact_links p {
     margin-bottom: 0.5rem; 
 }
 
-.buttons-contact-right {
+.buttons_contact_right {
     margin-top: 15px;
 }
 
-.selected-button {
+.selected_button {
     padding: 9.6px;
     align-items: flex-start;
     gap: 6px;
     flex-shrink: 0;
     background-color: var(--dark-blue);
-    color: var(--light-background);
+    color: var(--background);
     border-radius: 4.8px;
     border-color: var(--dark-blue);
     margin: 7px;
     margin-left: 0px;
-
 }
 
-.unselected-button {
-    color: rgba(0, 0, 0, 0.30);
+.unselected_button {
+    color: grey;
     text-align: center;
     padding: 9.6px;
-    
+    background-color: transparent;
+    border: solid 1.2px grey;
+    border-radius: 4.8px;
 }
 
-.contact-right h3 {
+.contact_right h3 {
     color: var(--dark-blue);
     font-family: Calibre-Bold;
-
 }
 
-.blue-box {
+.blue_box {
 border-radius: 9.6px;
 border: 1.8px solid var(--dark-blue);
 background: var(--dark-blue);
@@ -102,97 +101,94 @@ display: flex; /* Use flexbox for layout */
 align-items: center; /* Center vertically within the container */
 }
 
-.blue-box i {
+.blue_box i {
     display: inline; 
     margin: 0; 
     padding-right: 5px;
 }
-.blue-box p {
+.blue_box p {
     display: inline; 
     margin: 0; 
 }
 
-
-.input-contact{
+.input_contact{
     border: none; 
     outline: none; 
     background-color: transparent; 
-    border-bottom: 1px solid #000; 
+    border-bottom: 1px solid var(--black); 
     padding: 5px; 
-    width: 100%; 
-}
-
-.submit-button-contactform {
-    background-color: var(--dark-blue);
-    border-radius: 0.6rem;
-    padding: 0.9rem 2.4rem;
-    color: var(--white);
-    border-color: var(--dark-blue);
-    margin-bottom: 20px;
-}
-
-
-.social-media-icons-left {
-    margin-top: auto;
-
-}
-
-.social-media-icons-left i {
-    margin-left: 1.25rem; 
-}
-
-.contact-left h1 {
+    width: 100%;
     color: var(--black);
 }
 
+.submit_button_contactform {
+    background-color: var(--dark-blue);
+    border-radius: 0.6rem;
+    padding: 0.9rem 2.4rem;
+    color: white;
+    border-color: var(--dark-blue);
+    margin-bottom: 20px;
+    border-style: solid;
+    cursor: pointer;
+}
 
+.social_media_icons_left {
+    margin-top: auto;
+}
 
-.contact-links i {
+.social_media_icons_left i {
+    margin-left: 1.25rem; 
+}
+
+.contact_left h1 {
+    color: var(--black);
+}
+
+.contact_links i {
     margin-right: 10px; /* Add some space between the icon and text */
 }
 
-.contact-mail i,
-.contact-phone i,
-.contact-location i {
+.contact_mail i,
+.contact_phone i,
+.contact_location i {
     flex: 0 0 auto;
     margin-right: 10px;
 }
 
-.contact-mail i,
-.contact-phone i,
-.contact-location i {
+.contact_mail i,
+.contact_phone i,
+.contact_location i {
     flex: 0 0 auto;
     margin-right: 10px;
 }
 
-
-.contact-mail,
-.contact-phone,
-.contact-location {
+.contact_mail,
+.contact_phone,
+.contact_location {
     flex: 0 0 auto;
     margin-bottom: 10px;
     font-size: 18px;
     padding: 8px;
-
 }
 
-
-
-.selected-link {
+.selected_link {
     background-color: var(--dark-blue);
     color: var(--white);
     border-radius: 10px;
     padding: 8px;
-
 }
 
-.svg-icon {
+.svg_icon {
     filter: var(--logo-filter);
-  }
+}
 
 .sub_title_section,
 .title_section {
     text-align: center;
-
 }
 
+@media only screen and (max-width: 680px) and (min-width: 0px) {
+    .contact_form {
+        padding: 0rem;
+    }
+}

@@ -7,7 +7,7 @@ const carouselSlider = document.getElementById('carousel-slides');
     const carouselDots = document.querySelector('#carousel_dots'); 
     
     let currentIndex = 0;
-    // calculates how many dots are needed based on the slides
+    // Calculates how many dots are needed based on the slides
     for (let i = 0; i < carouselSlides.length; i++) {
         const dot = document.createElement('div');
         dot.className = 'carousel_dot';
@@ -17,7 +17,7 @@ const carouselSlider = document.getElementById('carousel-slides');
         });
         carouselDots.appendChild(dot);
     }
-    // highlight the active dot
+    // Highlights the active dot
     function highlightDot() {
         const dots = document.querySelectorAll('.carousel_dot');
         dots.forEach((dot, index) => {
@@ -28,7 +28,7 @@ const carouselSlider = document.getElementById('carousel-slides');
             }
         });
     }
-    // activates on press of nextbutton so it adds 1
+    // Activates on press of nextbutton so it adds 1
     nextButtonMobile.addEventListener('click', () => {
         if (currentIndex < carouselSlides.length - 1) {
             currentIndex++;
@@ -37,7 +37,7 @@ const carouselSlider = document.getElementById('carousel-slides');
         }
         updateCarousel();
     });
-    // activates on press of prevbutton so it subtracts 1
+    // Activates on press of prevbutton so it subtracts 1
     prevButtonMobile.addEventListener('click', () => {
         if (currentIndex > 0) {
             currentIndex--;
@@ -46,8 +46,7 @@ const carouselSlider = document.getElementById('carousel-slides');
         }
         updateCarousel();
     });
-
-    // activates on press of nextbutton so it adds 1
+    // Activates on press of nextbutton so it adds 1
     nextButton.addEventListener('click', () => {
         if (currentIndex < carouselSlides.length - 1) {
             currentIndex++;
@@ -56,7 +55,7 @@ const carouselSlider = document.getElementById('carousel-slides');
         }
         updateCarousel();
     });
-    // activates on press of prevbutton so it subtracts 1
+    // Activates on press of prevbutton so it subtracts 1
     prevButton.addEventListener('click', () => {
         if (currentIndex > 0) {
             currentIndex--;
@@ -65,7 +64,7 @@ const carouselSlider = document.getElementById('carousel-slides');
         }
         updateCarousel();
     });
-    // updates the active dot and slide
+    // Updates the active dot and slide
     function updateCarousel() {
         const style = document.querySelector(".carousel_slide"); 
         const value = window.getComputedStyle(style) 
@@ -79,5 +78,5 @@ const carouselSlider = document.getElementById('carousel-slides');
         highlightDot();
         console.log(value);
     }
-    // on start highlight the first dot
+    // On start highlight the first dot
     highlightDot();

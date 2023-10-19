@@ -48,14 +48,15 @@ light blue grey: #dcf1f9
 ###
 
 ```
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
 }
-@media screen and (min-width: 768px) {
+@media screen and(min-width: 768px) and (max-width: 1024px){
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px)  and (max-width: 1280px){
 }
 @media screen and (min-width: 1280px) {
 }
+// etc.
 ```
 
 ###

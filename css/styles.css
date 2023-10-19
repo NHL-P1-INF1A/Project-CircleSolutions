@@ -118,7 +118,6 @@ body {
 #about_us_textbox p {
     color: var(--text-color); 
     font-size: 1.5rem;
-    font-weight: 400;
 }
 /*  */
 /* Carousel */

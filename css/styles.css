@@ -111,8 +111,9 @@ body {
     box-shadow: 0rem 0.25rem 3.125rem 0.1875rem rgba(0, 0, 0, 0.25);
     padding: 1.875rem 2.5rem;
 }
-#about_us_textbox h1 {
-    color: var(--about-us-background);
+#about_us_textbox h2 {
+    font-size: 2.25rem;
+    color: var(--white);
 }
 #about_us_textbox p {
     color: var(--text-color); 

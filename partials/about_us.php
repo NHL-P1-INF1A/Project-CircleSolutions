@@ -1,7 +1,7 @@
 <div class="container">
     <div id="about_us">
         <div id="about_us_textbox">
-            <h1>wie zijn wij</h1>
+            <h2>wie zijn wij</h2>
             <p><b>
                 lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis

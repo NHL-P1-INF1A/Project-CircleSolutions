@@ -12,14 +12,16 @@
     flex-wrap: wrap;
     flex-direction: column;
     gap: 30px;
+    width: 100%;
 }
 
 .faq_leesmeer { /*Flexbox used for aligning the "Lees Meer" button*/
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
     font-size: large;
     margin-bottom: 1rem;
     color: var(--dark-blue);
+    width: 100%;
 }
 
 .faq_leesmeer a {
@@ -83,12 +85,12 @@
     margin-bottom: 6rem;
 }
 
-.toggle_image {
+.toggle_image { /*Rotation of the arrow */
     transform: rotate(0deg);
     user-select: none;
 }
 
-.faq_wrapper{
+.faq_wrapper{ /*  */
     width: 100%;
     display: flex;
     align-items: center;
@@ -97,11 +99,11 @@
     flex-direction: column;
 }
 
-.toggle_button:hover .faq_shake {
+.toggle_button:hover .faq_shake {  /* Trigger for the shake effect*/
     animation: shake .7s;
     transition: all .5s;
 } 
-
+/* Shake effect for the arrow */
 @keyframes shake {
     10%, 90% {
         transform: translate3d(-.1rem, 0, 0);
@@ -116,22 +118,37 @@
     40%, 60% {
         transform: translate3d(.11rem, 0, 0);
     }
-    }
-
-@media screen and (min-width: 720px) {
+}
+/* Media Querries to change the width of the boxes when the resolution changes */
+@media screen and (min-width: 640px) {
     .faq_inner_flex {
-        width: 75%;
+        width: 100%;
     }
     .faq_leesmeer{
-        width: 75%;
+        width: 100%;
     }
 }
-
-@media screen and (max-width: 719px) {
+@media screen and (min-width: 768px) {
     .faq_inner_flex {
-        width: 100%;
+        width: 90%;
     }
     .faq_leesmeer{
-        width: 100%;
+        width: 90%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .faq_inner_flex {
+        width: 80%;
+    }
+    .faq_leesmeer{
+        width: 80%;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .faq_inner_flex {
+        width: 75%;
+    }
+    .faq_leesmeer{
+        width: 75%;
     }
 }

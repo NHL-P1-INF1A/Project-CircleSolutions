@@ -19,7 +19,8 @@ header {
 #banner_items {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
+    margin-top: 10vh;
 }
 
 .banner_image {
@@ -35,6 +36,18 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.banner_arrow_down {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.banner_arrow_down.scrolled {
+    opacity: 0;
 }
 
 .banner_text h1 {

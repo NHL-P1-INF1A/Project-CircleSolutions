@@ -16,5 +16,8 @@
                     <img src="./img/hero.svg" alt="hero" id="headerimg">
             </div>
         </div>
+        <div class="banner_arrow_down">
+                <a href="index.php#about-us" ><img src="./img/circle_arrow_down.svg" alt="arrow down"></a>
+        </div>
     </section>
 </header>

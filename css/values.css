@@ -112,6 +112,36 @@
 }
 
 /* Media queries for responsive design */
+@media screen and (min-width: 1440px) {
+
+    .values_small_boxes{
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .values_small_box{
+        width: 100%;
+        min-width: 210px;
+        flex-direction: column;
+        background-color: var(--background);
+        border: none;
+        box-shadow: unset;
+        gap: 0;
+    }
+    .values_big_box{
+        min-width: 210px;
+    }
+    .values_small_box_text{
+        text-align: center;
+        padding: 0;
+    }
+
+    .icon{
+        padding: 0;
+    }
+}
+
 @media screen and (max-width: 1440px) {
 
     .values_small_boxes{

@@ -5,14 +5,14 @@
 
     <div class="container">
         <div class="overlay-content">
-            <img id="logo-hamburger" src="./img/circle_solutions_logo_darkblue.svg" alt="logocirclesolutions">
+            <img class="logo-hamburger" src="./img/circle_solutions_logo_darkblue.svg" alt="logocirclesolutions">
             <ul class="hamburger-links">
                 <li><a href="index.php#about-us">Over Ons</a></li>
                 <li><a href="index.php#services">Diensten</a></li>
                 <li><a href="index.php#faq">FAQ</a></li>
                 <li><a href="index.php#reviews">Reviews</a></li>
                 <li><a href="index.php#contact">Contact</a></li>
-                <li class="darkmode-hamburger"><a href=""><?php include "darkmodebutton.php";   ?></a></li>
+                <li class="darkmode-hamburger"><?php include "darkmodebutton.php"; ?></li>
             </ul>
         </div>
     </div>

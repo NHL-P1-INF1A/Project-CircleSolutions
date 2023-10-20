@@ -12,8 +12,12 @@ hamburgerCross.addEventListener("click", () => {
 });
 
 const hamburgerLinks = document.querySelector('.hamburger-links');
+const excludedItem = document.querySelector('.darkmode-hamburger');
 
-hamburgerLinks.addEventListener('click', () => {
-    // Hide the overlay
-    overlay.style.display = 'none';
+hamburgerLinks.addEventListener('click', (event) => {
+    // Check if the clicked element is not the excluded item
+    if (event.target !== excludedItem && !excludedItem.contains(event.target)) {
+        // Hide the overlay
+        overlay.style.display = 'none';
+    }
 });

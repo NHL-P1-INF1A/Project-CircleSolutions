@@ -7,9 +7,6 @@
     <title>Circle Solutions</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/reviews.css">
-    <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
 </head>
 
 <body>

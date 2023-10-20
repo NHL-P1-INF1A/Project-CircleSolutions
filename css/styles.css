@@ -58,6 +58,7 @@ body {
 }
 /* Container is the basic padding of each section */
 .container {
+    scroll-margin-top: 200px;
     display: flex;
     padding: 0 2rem;
     flex-direction: column;
@@ -100,6 +101,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
 #about_us_textbox {
     background-color: var(--about-us-background);
@@ -127,11 +129,15 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.hiddenContainer{
     overflow: hidden;
+    width: 100%;
 }
 .carousel_container {
     position: relative;
     overflow: hidden;
+    width: 60%;
 }
 .carousel_row {
     gap: 1rem;
@@ -302,10 +308,6 @@ body {
     .container {
         padding: 0 10rem !important;
     }
-    .carousel_container {
-        width: 35%;
-        padding: 3rem 20rem;
-    }
     .carousel_arrow_mobile {
         display: flex!important;
     }
@@ -326,10 +328,6 @@ body {
     .container {
         padding: 0 5rem !important;
     }
-    .carousel_container {
-        width: 35%;
-        padding: 3rem 20rem;
-    }
     .carousel_slide {
         flex-basis: 100%; 
     }
@@ -340,9 +338,6 @@ body {
 @media screen and (min-width: 1280px) {
     .container {
         padding: 0 15rem !important;
-    }
-    .carousel_container {
-        width: 40%;
     }
     .carousel_slide {
         flex-basis: 49%;
@@ -377,12 +372,11 @@ body {
     .carousel_arrow {
         display: none;
     }
-    #reviews {
-        padding: 0rem;
-    }
     .carousel_container {
-        width: 35%;
-        padding: 3rem 25rem;
+        width: 100%;
+    }
+    #reviews {
+        padding: 1rem!important;
     }
     #about_us img{
         display: none;

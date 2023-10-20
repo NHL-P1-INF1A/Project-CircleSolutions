@@ -12,7 +12,7 @@
 
     include "partials/header.php";
 
-    include "partials/about-us.php";
+    include "partials/about_us.php";
 
     include "partials/line.php";
     

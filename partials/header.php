@@ -5,7 +5,7 @@
     <section id="banner" class="container"> 
         <div id="banner_items">
             <div class="banner_text">
-                <h1>just connect the dots</h1>
+                <h2>just connect the dots</h2>
                 <?php
                     include "line_small.php";
                 ?>
@@ -15,6 +15,9 @@
             <div class="banner_image">
                     <img src="./img/hero.svg" alt="hero" id="headerimg">
             </div>
+        </div>
+        <div class="banner_arrow_down">
+                <a href="index.php#about-us" ><img src="./img/circle_arrow_down.svg" alt="arrow down"></a>
         </div>
     </section>
 </header>

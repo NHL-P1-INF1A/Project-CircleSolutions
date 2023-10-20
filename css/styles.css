@@ -1,10 +1,8 @@
 @import url(navbar.css);
 @import url(header.css);
-@import url(about-us.css);
 @import url(values.css);
 @import url(services.css);
 @import url(styles_faq.css);
-@import url(reviews.css);
 @import url(contact.css);
 @import url(footer.css);
 @import url(line.css);
@@ -12,23 +10,21 @@
 @import url(circle_workspace.css);
 @import url(darkmodebutton.css);
 @import url(line_small.css);
-@import url(succes.css);
-
 @font-face {
     font-family: Calibre-Medium;
     src: url(../fonts/Calibre-Medium.otf);
 }
-
 @font-face {
     font-family: Calibre-Regular;
     src: url(../fonts/Calibre-Regular.otf);
 }
-
 @font-face {
     font-family: Calibre-Bold;
     src: url(../fonts/Calibre-Bold.otf);
 }
-
+/*  */
+/* Default styling elements */
+/*  */
 * {
     margin: 0;
     padding: 0;
@@ -36,11 +32,14 @@
     list-style: none;
     box-sizing: border-box;
     font-family: Calibre-Regular, sans-serif;
-    text-transform: lowercase;
+    text-transform: capitalize;
     scroll-behavior: smooth;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004); /* Make fonts appear smoother */
 }
-
+h1,h2,h3,h4,h5,h6 {
+    text-transform: lowercase;
+}
+/* Vars for the colours so all the colours can be changed easily and reusable */
 :root {
     --dark-blue: #799dab;
     --normal-blue: #c7eaf8;
@@ -54,36 +53,30 @@
     --black: #000;
     --logo-filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1%) hue-rotate(123deg) brightness(105%) contrast(101%);
 }
-
 body {
     background-color: var(--background);
     color: var(--text-color);
 }
-
+/* Container is the basic padding of each section */
 .container {
-    /* Dit zijn de basis wit ruimtes van de pagina. */
     display: flex;
     padding: 0 2rem;
     flex-direction: column;
 }
-
-h1 {
-    font-family: Calibre-Bold;
-    font-size: 36px;
-    color: var(--dark-blue);
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-h2 {
-    font-family: Calibre-Medium;
-    font-size: 24px;
-    color: var(--dark-blue);
+.column {
+    display: flex;
+    flex-direction: column;
 }
-
-h3 {
-    font-family: Calibre-Regular;
-    font-size: 18px;
-    color: var(--dark-blue);
+.center {
+    justify-content: center;
+    align-items: center;
 }
-
+/* The title sections are the basic styling of the titles of each section */
 .title_section {
     font-size: 1.8rem; 
     font-weight: bolder;
@@ -97,34 +90,332 @@ h3 {
     color: var(--dark-blue);
     font-family: Calibre-Regular, sans-serif;
 }
-
-@media (min-width: 768px) {
-    .container {
-        padding: 0 5rem !important;
-    }
+.title_margin {
+    margin-bottom: 3rem;
+    padding-left: 0.5rem;
+}
+/*  */
+/* About us */
+/*  */
+#about_us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about_us_textbox {
+    background-color: var(--about-us-background);
+    display: flex;
+    flex-direction: column;
+    width: 39.375rem;
+    border-radius: 1.125rem;
+    box-shadow: 0rem 0.25rem 3.125rem 0.1875rem rgba(0, 0, 0, 0.25);
+    padding: 1.875rem 2.5rem;
+}
+#about_us_textbox h2 {
+    font-size: 2.25rem;
+    color: var(--white);
+}
+#about_us_textbox p {
+    color: var(--text-color); 
+    font-size: 1.5rem;
+}
+/*  */
+/* Carousel */
+/*  */
+#reviews {
+    background-color: var(--light-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.carousel_container {
+    position: relative;
+    overflow: hidden;
+}
+.carousel_row {
+    gap: 1rem;
+}
+/* Collection of slides */
+.carousel_slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1%;
+    gap: 2%;
+}
+/* Single slide */
+.carousel_slide {
+    height: 17.6rem;
+    flex-shrink: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+    border-radius: 18px;
+    background-color: var(--white);
+    box-shadow: 0px 1.5px 9px rgba(0, 0, 0, 0.20);
+}
+/* Contents of the slide */
+.carousel_content {
+    display: flex;
+    padding: 2rem;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel_content img {
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: fill;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.carousel_content h3 {
+    color: var(--text-color);
+    padding-bottom: .2rem;
+}
+.carousel_content p {
+    padding-top: 1.6rem;
+    color: var(--text-color);
+}
+/* Navigation arrows */
+.carousel_arrow {
+    cursor: pointer;
+    background-color: var(--normal-blue);
+    border-radius: 50%;
+    padding: .5rem;
+    width: 3rem;
+    align-items: center;
+    user-select: none
+}
+/* Navigation arrows for mobile view */
+.carousel_arrow_mobile {
+    cursor: pointer;
+    padding: .5rem;
+    width: 5rem;
+    display: none;
+    user-select: none
+}
+/* Flips the arrow so it points to the right */
+.carousel_arrow_right {
+    transform: scale(-1);
+}
+/* Activates the animation hover on hover */
+.carousel_arrow_left:hover {
+    animation: hover .3s 1 alternate ease-out forwards;
+}
+.carousel_arrow_right:hover {
+    animation: hoverFlip .3s 1 alternate ease-out forwards;
+}
+/* Styling for the navigation dots of the carousel */
+.carousel_dots {
+    text-align: center;
+    margin-top: .5rem;
+}
+.carousel_dot {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 4px solid var(--background-reverse);
+    margin: 0 .3rem;
+    cursor: pointer;
+}
+/* changes color for the active dot */
+.active_dot {
+    background-color: var(--dark-blue);
+    border: 0px;
+}
+/*  Activates the animation hover on hover */
+.carousel_dot:hover { 
+    animation: hover .3s 1 alternate ease-out forwards;
 }
 
-@media (min-width: 1024px) {
+
+
+
+
+/*  */
+/* Succes page */
+/*  */
+.succes_content {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.succes_title_content {
+    text-align: center;
+}
+.succes_title_content h2 {
+    font-size: 2.5rem;
+}
+.succes_title_content img {
+    width: 5rem;
+    /* Changes de color of the svg to the color of the brandbook */
+    filter: invert(64%) sepia(38%) saturate(265%) hue-rotate(151deg) brightness(89%) contrast(80%);
+}
+.succes_message {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 18px;
+    box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
+    padding-bottom: 3rem;
+    margin-bottom: 10rem;
+}
+.succes_card {
+    padding: 20%
+}
+.succes_message img {
+    margin-top: 3rem;
+    height: 36px;
+    width: 36px;
+    align-self: center;
+    margin-bottom: 1rem;
+    /* Changes de color of the svg to the color of the brandbook */
+    filter: invert(64%) sepia(38%) saturate(265%) hue-rotate(151deg) brightness(89%) contrast(80%);
+}
+.succes_message h2 {
+    align-self: flex-start;
+    margin-bottom: 2rem;
+    padding: 0rem 5rem;
+}
+.succes_message p {
+    align-self: flex-start;
+    text-align: start;
+    margin-bottom: 2rem;
+    padding: 0rem 5rem;
+}
+/*  */
+/* Media queries */
+/*  */
+@media screen and (max-width: 1280px) {
     .container {
         padding: 0 10rem !important;
     }
+    .carousel_container {
+        width: 35%;
+        padding: 3rem 20rem;
+    }
+    .carousel_arrow_mobile {
+        display: flex!important;
+    }
+    .carousel_slide {
+        flex-basis: 100%; 
+    }
+    .carousel_arrow {
+        display: none;
+    }
+    #about_us img{
+        display: none;
+    }
+    .succes_message {
+        width: 100%;
+    }
 }
-
-@media (min-width: 1280px) {
-
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 5rem !important;
+    }
+    .carousel_container {
+        width: 35%;
+        padding: 3rem 20rem;
+    }
+    .carousel_slide {
+        flex-basis: 100%; 
+    }
+    .carousel_arrow {
+        display: none;
+    }
+}
+@media screen and (min-width: 1280px) {
     .container {
         padding: 0 15rem !important;
     }
-}
-
-@media (min-width: 1440px) {
-    .container {
-        padding: 0 15rem !important;
+    .carousel_container {
+        width: 40%;
+    }
+    .carousel_slide {
+        flex-basis: 49%;
+    }
+    .carousel_arrow {
+        display: flex;
+    }
+    #about_us img{
+        display: block;
+        position: relative;
+        left: -3rem;
+        z-index: -100;
+        width: 31.25rem;
+        height: 31.25rem;
+        background-color: var(--white);
+        flex-shrink: 1;
+        min-width: 20rem;
     }
 }
-
-@media (min-width: 1980px) {
+@media screen and (min-width: 1440px) {
+    
+}
+@media screen and (min-width: 1980px) {
     .container {
         padding: 0 20rem !important;
     }
 }
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .carousel_slide {
+        flex-basis: 100%; /* Display 1 slides at a time if decreased to 49% the 2nd slide wil be visable*/
+    }
+    .carousel_arrow {
+        display: none;
+    }
+    #reviews {
+        padding: 0rem;
+    }
+    .carousel_container {
+        width: 35%;
+        padding: 3rem 25rem;
+    }
+    #about_us img{
+        display: none;
+    }
+    .succes_message {
+        width: 100%;
+    }
+    .carousel_arrow_mobile {
+        display: none!important;
+    }
+    .carousel_dots {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+/*  */
+/* Animation keyframes */
+/*  */
+@keyframes hoverFlip {
+    100% {
+        transform: scale(-1.3);
+        }
+    }
+@keyframes hover {
+    100% {
+        transform: scale(1.3);
+        }
+    }

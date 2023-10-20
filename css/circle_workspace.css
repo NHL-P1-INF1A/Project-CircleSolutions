@@ -10,12 +10,13 @@
     text-align: center;
 }
 
-.cirle_workspace_title_content h1 {
+.cirle_workspace_title_content h2 {
     text-align: center;
     padding: 0 5rem;
     font-size: 2.5rem;
     padding-bottom: 1rem;
     margin-top: 5rem;
+    font-weight: bold;
 }
 
 .cirle_workspace_title_content p {

@@ -96,6 +96,11 @@ nav.scrolled li:nth-child(-n+5) a::after {
     cursor: pointer;
 }
 
+.hamburger-icon.scrolled {
+    filter: var(--hamburger-filter);
+    color: var(--hamburger-color);
+}
+
 /* Media queries for responsive design */
 
 @media screen and (max-width: 1280px) {

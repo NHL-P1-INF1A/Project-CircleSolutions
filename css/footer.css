@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     background-color: var(--white);
-    border-top: 0.0625rem var(--light-background) solid;
+    border-top: 0.0625rem var(--background) solid;
     color: var(--black);
     width: 100%;
     height: 100%;

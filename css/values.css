@@ -99,7 +99,7 @@
     line-height: 24px;
 }
 
-.values_small_box_text h1 {
+.values_small_box_text span {
     font-family: Calibre-Bold;
     color: var(--dark-blue);
     font-size: 2rem;

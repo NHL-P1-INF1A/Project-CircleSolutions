@@ -17,17 +17,6 @@
                     </p>
                 </div>
             </div>
-            <div class="social_media_icons_left">
-                <i>
-                    <img src="./img/facebook.svg" alt="facebook">
-                </i>
-                <i>
-                    <img src="./img/instagram.svg" alt="instagram">
-                </i>
-                <i>
-                    <img src="./img/twitter.svg" alt="twitter">
-                </i>
-            </div>
         </div>
         <div class="contact_right">
             <h2>Ik ben geïnteresseerd in:</h2>

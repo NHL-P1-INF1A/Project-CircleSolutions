@@ -38,7 +38,7 @@
                         <img src="./img/happy_icon.svg" alt="happy_icon">
                     </div>
                     <div class="values_small_box_text">
-                        <h1>321</h1>
+                        <span>251</span>
                         <p>Blije klanten</p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         <img src="./img/notebook_icon.svg" alt="notebook_icon">
                     </div>
                     <div class="values_small_box_text">
-                        <h1>321</h1>
+                        <span>115</span>
                         <p>Projecten</p>
                     </div>
                 </div>
@@ -56,10 +56,12 @@
                         <img src="./img/group_icon.svg" alt="group_icon">
                     </div>
                     <div class="values_small_box_text">
-                        <h1>321</h1>
+                        <span>5</span>
                         <p>Harde werkers</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <script src="js/values.js"></script>

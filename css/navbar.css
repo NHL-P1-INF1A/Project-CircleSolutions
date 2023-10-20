@@ -88,6 +88,14 @@ nav.scrolled li:nth-child(-n+5) a::after {
     background: var(--dark-blue);
 }
 
+.hamburger-icon {
+    display: none;
+}
+
+.hamburger-icon:hover {
+    cursor: pointer;
+}
+
 /* Media queries for responsive design */
 
 @media screen and (max-width: 1280px) {
@@ -109,10 +117,18 @@ nav ul {
 }
 
 @media screen and (max-width: 865px) {
-    nav ul {
+    nav ul li {
         display: none;
     }
+    nav ul li:last-child {
+        display: flex;
+    }
+    .hamburger-icon {
+        display: flex;
+    }
 }
+
+
 
 @media screen and (max-width: 768px) {
 nav img {

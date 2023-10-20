@@ -2,12 +2,13 @@
     <div id="about_us_textbox">
         <h2>wie zijn wij</h2>
         <p><b>
-            lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-            et dolore magna aliqua. Ut enim ad minim veniam, quis
+            Met productiesoftware optimaliseert circle solutions bedrijfsprocessen.
+            Ze maken de cirkel rond; en besef dat deze cirkel voor ieder bedrijf uniek is.
         </b></p>
         <p>
-            <br>nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate
+            <br>Zo intuïtief als een bezoek aan elkaars kantoor; zo werkt de software van circle solutions
+                verbindt waar nodig. Zo wordt gebruiksvriendelijke software ontwikkeld.
+                Geen overbodige functionaliteiten maar alleen verbindingen waar nodig; Just connect the dots.
         </p>
     </div>
     <img src="./img/wie-zijn-wij.svg" alt="Wie zijn wij">

@@ -125,7 +125,7 @@ body {
 /* Carousel */
 /*  */
 #reviews {
-    background-color: var(--light-background);
+    background-color: var(--background);
     display: flex;
     align-items: center;
     justify-content: center;

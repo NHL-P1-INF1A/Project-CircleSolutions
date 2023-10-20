@@ -6,7 +6,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--light-background); /* Background color and opacity (adjust as needed) */
+    background-color: var(--background); /* Background color and opacity (adjust as needed) */
     display: none; /* Change 'none' to 'block' or 'flex' or 'grid' as per your requirements */
     z-index: 1000; /* Use a high z-index to make sure it's on top of other content */
     justify-content: center;

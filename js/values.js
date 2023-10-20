@@ -1,5 +1,5 @@
 // Select all counter elements based on the HTML structure
-let counters = document.querySelectorAll(".values_small_box_text h1");
+let counters = document.querySelectorAll(".values_small_box_text span");
 let intervals = [];
 
 // Function to check if an element is in the viewport

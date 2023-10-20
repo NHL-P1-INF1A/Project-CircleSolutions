@@ -8,6 +8,6 @@
         <li><a href="index.php#contact">Contact</a></li>
         <!-- <li><a href="">Nl</a></li> -->
         <li><a href=""><?php include "darkmodebutton.php";   ?></a></li>
-        <li><img class="hamburger-icon" src="/img/hamburger.svg"></li>
+        <li><img class="hamburger-icon" src="./img/hamburger.svg"></li>
     </ul>
 </nav>

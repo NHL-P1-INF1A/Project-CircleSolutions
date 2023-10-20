@@ -1,5 +1,5 @@
 <label class="theme-switch">
-  <input type="checkbox" class="theme-switch_checkbox" id="darkmode_button">
+  <input type="checkbox" class="theme-switch_checkbox darkmode_button">
   <div class="theme-switch_container">
     <div class="theme-switch_clouds"></div>
     <div class="theme-switch_stars-container">

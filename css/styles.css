@@ -32,7 +32,6 @@
     list-style: none;
     box-sizing: border-box;
     font-family: Calibre-Regular, sans-serif;
-    text-transform: capitalize;
     scroll-behavior: smooth;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004); /* Make fonts appear smoother */
 }

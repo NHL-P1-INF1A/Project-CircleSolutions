@@ -445,7 +445,7 @@ body {
         padding: 0 15rem !important;
     }
     .carousel_slide {
-        flex-basis: 49%;
+        flex-basis: 100%;
     }
     .carousel_arrow {
         display: flex;
@@ -469,7 +469,9 @@ body {
     }
 }
 @media screen and (min-width: 1440px) {
-    
+    .carousel_slide {
+        flex-basis: 49%;
+    }
 }
 @media screen and (min-width: 1980px) {
     .container {

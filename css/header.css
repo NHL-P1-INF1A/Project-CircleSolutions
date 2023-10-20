@@ -1,7 +1,7 @@
 header {
     height: 100vh;
     width: 100%;
-    background-image: url("../img/headerbackgroundcircles.svg"), linear-gradient(var(--dark-blue), var(--light-background), var(--light-background));
+    background-image: var(--header-background);
     background-size: cover;
 }
 
@@ -19,12 +19,12 @@ header {
 #banner_items {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
+    margin-top: 10vh;
 }
 
 .banner_image {
     width: 40%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,22 +37,35 @@ header {
     justify-content: center;
 }
 
-.banner_text h1 {
-    color: #799DAB;
-    font-size: 64px;
+.banner_arrow_down {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.banner_arrow_down.scrolled {
+    opacity: 0;
+}
+
+.banner_text h2 {
+    color: var(--dark-blue);
+    font-family: Calibre-Bold;
+    font-size: 4rem;
 }
 
 .banner_text h3 {
     color: var(--text-color);
     font-family: Calibre-Regular;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .banner_text a {
     font-family: Calibre-Bold;
-    font-size: 1.125rem;
-    color: var(--white);
+    font-size: 1.3rem;
+    color: white;
 }
 
 @media screen and (max-width: 1279px){

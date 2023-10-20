@@ -1,58 +1,123 @@
-const carouselSlider = document.getElementById('carousel-slides');
-    const carouselSlides = document.querySelectorAll('.carousel_slide');
-    const prevButton = document.querySelector('#prev_button');
-    const nextButton = document.querySelector('#next_button');
-    const carouselDots = document.querySelector('#carouselDots');
+const carouselSlider = document.getElementById('carousel_slides');
+const carouselSlides = document.querySelectorAll('.carousel_slide');
+const prevButton = document.querySelector('.carousel_arrow_left');
+const nextButton = document.querySelector('.carousel_arrow_right');
+const prevButtonMobile = document.querySelector('.mobile_left');
+const nextButtonMobile = document.querySelector('.mobile_right');
+const carouselDots = document.querySelector('#carousel_dots');
     
-    let currentIndex = 0;
-    // calculates how many dots are needed based on the slides
-    for (let i = 0; i < carouselSlides.length; i++) {
-        const dot = document.createElement('div');
-        dot.className = 'carousel_dot';
-        dot.addEventListener('click', () => {
-            currentIndex = i;
-            updateCarousel();
-        });
-        carouselDots.appendChild(dot);
+let currentIndex = 0;
+let touchStartX = 0;
+let touchEndX = 0;
+
+// Calculates how many dots are needed based on the slides
+for (let i = 0; i < carouselSlides.length; i++) {
+    const dot = document.createElement('div');
+    dot.className = 'carousel_dot';
+    dot.addEventListener('click', () => {
+        currentIndex = i;
+        updateCarousel();
+    });
+    carouselDots.appendChild(dot);
+}
+
+// Highlights the active dot
+function highlightDot() {
+    const dots = document.querySelectorAll('.carousel_dot');
+    dots.forEach((dot, index) => {
+        if (index === currentIndex) {
+            dot.classList.add('active_dot');
+        } else {
+            dot.classList.remove('active_dot');
+        }
+    });
+}
+
+// Function to update the carousel based on currentIndex
+function updateCarousel() {
+    const style = document.querySelector(".carousel_slide");
+    const value = window.getComputedStyle(style)
+        .getPropertyValue('flex-basis');
+
+    if (value == 100 + "%") {
+        carouselSlider.style.transform = 'translateX(' + currentIndex * -100 + '%' + ')';
+    } else {
+        carouselSlider.style.transform = 'translateX(' + currentIndex * -50 + '%' + ')';
     }
-    // highlight the active dot
-    function highlightDot() {
-        const dots = document.querySelectorAll('.carousel_dot');
-        dots.forEach((dot, index) => {
-            if (index === currentIndex) {
-                dot.classList.add('active_dot');
-            } else {
-                dot.classList.remove('active_dot');
-            }
-        });
-    }
-    // activates on press of nextbutton so it adds 1
-    nextButton.addEventListener('click', () => {
+    highlightDot();
+}
+
+// Checks if user started touching the carouselSlider
+carouselSlider.addEventListener('touchstart', (e) => {
+    touchStartX = e.touches[0].clientX;
+});
+
+// Checks if user started moving on the the carouselSlider
+carouselSlider.addEventListener('touchmove', (e) => {
+    touchEndX = e.touches[0].clientX;
+});
+
+// Checks if user finished touching the carouselSlider
+carouselSlider.addEventListener('touchend', () => {
+    const minSwipeDistance = 50; // You can adjust this value
+    if (touchStartX - touchEndX > minSwipeDistance) {
+        // Swipe left
         if (currentIndex < carouselSlides.length - 1) {
             currentIndex++;
-            updateCarousel();
+        } else {
+            currentIndex = 0;
         }
-    });
-    // activates on press of prevbutton so it subtracts 1
-    prevButton.addEventListener('click', () => {
+        updateCarousel();
+    } else if (touchEndX - touchStartX > minSwipeDistance) {
+        // Swipe right
         if (currentIndex > 0) {
             currentIndex--;
-            updateCarousel();
-        }
-    });
-    // updates the active dot and slide
-    function updateCarousel() {
-        const style = document.querySelector("#carousel_slide"); 
-        const value = window.getComputedStyle(style) 
-                          .getPropertyValue('flex-basis');
-        
-        if (value == 100 + "%") {
-            carousel_slides.style.transform = 'translateX(' + currentIndex * -100 + '%' + ')';
         } else {
-            carousel_slides.style.transform = 'translateX(' + currentIndex * -50 + '%' + ')';
+            currentIndex = carouselSlides.length - 1;
         }
-        highlightDot();
-        console.log(value);
+        updateCarousel();
     }
-    // on start highlight the first dot
-    highlightDot();
+});
+
+// Activate on press of next button for mobile
+nextButtonMobile.addEventListener('click', () => {
+    if (currentIndex < carouselSlides.length - 1) {
+        currentIndex++;
+    } else {
+        currentIndex = 0;
+    }
+    updateCarousel();
+});
+
+// Activate on press of prev button for mobile
+prevButtonMobile.addEventListener('click', () => {
+    if (currentIndex > 0) {
+        currentIndex--;
+    } else {
+        currentIndex = carouselSlides.length - 1;
+    }
+    updateCarousel();
+});
+
+// Activate on press of next button
+nextButton.addEventListener('click', () => {
+    if (currentIndex < carouselSlides.length - 1) {
+        currentIndex++;
+    } else {
+        currentIndex = 0;
+    }
+    updateCarousel();
+});
+
+// Activate on press of prev button
+prevButton.addEventListener('click', () => {
+    if (currentIndex > 0) {
+        currentIndex--;
+    } else {
+        currentIndex = carouselSlides.length - 1;
+    }
+    updateCarousel();
+});
+
+// On start, highlight the first dot
+highlightDot();

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <meta charset="UTF-8">
@@ -90,6 +90,8 @@
     <?php include "partials/contact.php"; ?>
 
     <?php include "partials/footer.php"; ?>
+    <script src="./js/navNoScroll.js"></script>
+    <script src="./js/contact.js"></script> 
+    <script src="./js/darkmode.js"></script>
 </body>
-<script src="./js/navNoScroll.js"></script>
 </html>

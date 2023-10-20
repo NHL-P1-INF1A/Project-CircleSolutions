@@ -52,6 +52,7 @@ h1,h2,h3,h4,h5,h6 {
     --white: #FFFFFF;
     --black: #000;
     --logo-filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1%) hue-rotate(123deg) brightness(105%) contrast(101%);
+    --hamburger-filter: invert(66%) sepia(26%) saturate(350%) hue-rotate(151deg) brightness(86%) contrast(88%);
 }
 body {
     background-color: var(--background);

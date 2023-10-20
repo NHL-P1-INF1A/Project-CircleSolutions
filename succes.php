@@ -8,15 +8,15 @@
     <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
 </head>
 <body>
-<?php
+    <?php
         include "partials/navbar.php";
 
-		if($_SERVER["REQUEST_METHOD"] == "POST"){
-			//vars from form
-			$name = filter_input(INPUT_POST, "name");
-			//check if it is infact an email
-			$email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
-			$message = filter_input(INPUT_POST, "message");
+        if($_SERVER["REQUEST_METHOD"] == "POST"){
+            //vars from form
+            $name = filter_input(INPUT_POST, "name");
+            //check if it is infact an email
+            $email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
+            $message = filter_input(INPUT_POST, "message");
         }
     ?>
     <section id="succes_title" class="container">

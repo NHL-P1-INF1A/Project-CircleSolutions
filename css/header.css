@@ -19,7 +19,8 @@ header {
 #banner_items {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
+    margin-top: 10vh;
 }
 
 .banner_image {
@@ -37,8 +38,21 @@ header {
     justify-content: center;
 }
 
-.banner_text h1 {
-    color: #799DAB;
+.banner_arrow_down {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.banner_arrow_down.scrolled {
+    opacity: 0;
+}
+
+.banner_text h2 {
+    color: var(--dark-blue);
+    font-family: Calibre-Bold;
     font-size: 4rem;
 }
 

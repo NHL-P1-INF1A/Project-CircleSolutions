@@ -1,7 +1,5 @@
-<meta name="viewport" content="width=device-width, user-scalable=no">
-
 <div class="overlay">
-    <img id="cross-hamburger" src="./img/cross.svg">
+    <img id="cross-hamburger" src="./img/cross.svg" alt="Cross">
 
     <div class="container">
         <div class="overlay-content">

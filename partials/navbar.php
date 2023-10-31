@@ -11,3 +11,4 @@
         <li><img class="hamburger-icon" src="./img/hamburger.svg" alt="Hamburger-Icon"></li>
     </ul>
 </nav>
+<?php include "partials/hamburger.php"; ?>

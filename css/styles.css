@@ -247,7 +247,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
 /*  */
 /* Darkmode Button */
 /*  */
-.theme-switch {
+.theme_switch {
     --toggle-size: 0.5rem;
     /* the size is adjusted using font-size,
        this is not transform scale,
@@ -270,14 +270,14 @@ nav.scrolled li:nth-child(-n+5) a::after {
     --transition: .5s cubic-bezier(0, -0.02, 0.4, 1.25);
     --circle-transition: .3s cubic-bezier(0, -0.02, 0.35, 1.17);
 }
-.theme-switch, .theme-switch *, .theme-switch *::before, .theme-switch *::after {
+.theme_switch, .theme_switch *, .theme_switch *::before, .theme_switch *::after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size: var(--toggle-size);
 }
-.theme-switch_container {
+.theme_switch_container {
     width: var(--container-width);
     height: var(--container-height);
     background-color: var(--container-light-bg);
@@ -291,7 +291,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
     transition: var(--transition);
     position: relative;
 }
-.theme-switch_container::before {
+.theme_switch_container::before {
     content: "";
     position: absolute;
     z-index: 1;
@@ -300,10 +300,10 @@ nav.scrolled li:nth-child(-n+5) a::after {
     box-shadow: 0em 0.05em 0.187em rgba(0, 0, 0, 0.25) inset, 0em 0.05em 0.187em rgba(0, 0, 0, 0.25) inset;
     border-radius: var(--container-radius)
 }
-.theme-switch_checkbox {
+.theme_switch_checkbox {
     display: none;
 }
-.theme-switch_circle-container {
+.theme_switch_circle_container {
     width: var(--circle-container-diameter);
     height: var(--circle-container-diameter);
     background-color: rgba(255, 255, 255, 0.1);
@@ -321,7 +321,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
     transition: var(--circle-transition);
     pointer-events: none;
 }
-.theme-switch_sun-moon-container {
+.theme_switch_sun_moon_container {
     pointer-events: auto;
     position: relative;
     z-index: 2;
@@ -339,7 +339,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
     -o-transition: var(--transition);
     transition: var(--transition);
 }
-.theme-switch_moon {
+.theme_switch_moon {
     -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
@@ -354,7 +354,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
     transition: var(--transition);
     position: relative;
 }
-.theme-switch_spot {
+.theme_switch_spot {
     position: absolute;
     top: 0.75em;
     left: 0.312em;
@@ -365,19 +365,19 @@ nav.scrolled li:nth-child(-n+5) a::after {
     -webkit-box-shadow: 0em 0.0312em 0.062em rgba(0, 0, 0, 0.25) inset;
     box-shadow: 0em 0.0312em 0.062em rgba(0, 0, 0, 0.25) inset;
 }
-.theme-switch_spot:nth-of-type(2) {
+.theme_switch_spot:nth-of-type(2) {
     width: 0.375em;
     height: 0.375em;
     top: 0.937em;
     left: 1.375em;
 }
-.theme-switch_spot:nth-last-of-type(3) {
+.theme_switch_spot:nth-last-of-type(3) {
     width: 0.25em;
     height: 0.25em;
     top: 0.312em;
     left: 0.812em;
 }
-.theme-switch_clouds {
+.theme_switch_clouds {
     width: 1.25em;
     height: 1.25em;
     background-color: var(--clouds-color);
@@ -391,7 +391,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
     -o-transition: 0.5s cubic-bezier(0, -0.02, 0.4, 1.25);
     transition: 0.5s cubic-bezier(0, -0.02, 0.4, 1.25);
 }
-.theme-switch_stars-container {
+.theme_switch_stars_container {
     position: absolute;
     color: var(--stars-color);
     top: -100%;
@@ -403,27 +403,27 @@ nav.scrolled li:nth-child(-n+5) a::after {
     transition: var(--transition);
 }
 /* actions */
-.theme-switch_checkbox:checked + .theme-switch_container {
+.theme_switch_checkbox:checked + .theme_switch_container {
     background-color: var(--container-night-bg);
 }
-.theme-switch_checkbox:checked + .theme-switch_container .theme-switch_circle-container {
+.theme_switch_checkbox:checked + .theme_switch_container .theme_switch_circle_container {
     left: calc(100% - var(--circle-container-offset) - var(--circle-container-diameter));
 }
-.theme-switch_checkbox:checked + .theme-switch_container .theme-switch_circle-container:hover {
+.theme_switch_checkbox:checked + .theme_switch_container .theme_switch_circle_container:hover {
     left: calc(100% - var(--circle-container-offset) - var(--circle-container-diameter) - 0.187em)
 }
-.theme-switch_circle-container:hover {
+.theme_switch_circle_container:hover {
     left: calc(var(--circle-container-offset) + 0.187em);
 }
-.theme-switch_checkbox:checked + .theme-switch_container .theme-switch_moon {
+.theme_switch_checkbox:checked + .theme_switch_container .theme_switch_moon {
     -webkit-transform: translate(0);
     -ms-transform: translate(0);
     transform: translate(0);
 }
-.theme-switch_checkbox:checked + .theme-switch_container .theme-switch_clouds {
+.theme_switch_checkbox:checked + .theme_switch_container .theme_switch_clouds {
     bottom: -4.062em;
 }
-.theme-switch_checkbox:checked + .theme-switch_container .theme-switch_stars-container {
+.theme_switch_checkbox:checked + .theme-switch_container .theme_switch_stars_container {
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);

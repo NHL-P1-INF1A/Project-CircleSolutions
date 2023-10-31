@@ -85,13 +85,15 @@
         </div>
     </section>
 
-    <?php include "partials/line.php"; ?>
-
-    <?php include "partials/contact.php"; ?>
-
-    <?php include "partials/footer.php"; ?>
+    <?php 
+        include "partials/line.php";
+        include "partials/contact.php";
+        include "partials/footer.php"; 
+    ?>
+    
     <script src="./js/navNoScroll.js"></script>
     <script src="./js/contact.js"></script> 
     <script src="./js/darkmode.js"></script>
+    <script src="./js/nav.js"></script>
 </body>
 </html>

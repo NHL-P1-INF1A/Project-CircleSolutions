@@ -1148,7 +1148,7 @@ header {
     margin-top: 3rem;
 }
 .contact_links p {
-    margin-bottom: 0.5rem; 
+    margin: 0.35rem 0; 
 }
 .buttons_contact_right {
     margin-top: 15px;
@@ -1162,8 +1162,9 @@ header {
     color: var(--background);
     border-radius: 4.8px;
     border-color: var(--dark-blue);
-    margin: 7px;
-    margin-left: 0px;
+    border-style: solid;
+    border: solid 1.2px var(--dark-blue);
+    transition: all 0.3s ease;
 }
 .unselected_button {
     color: grey;
@@ -1172,6 +1173,7 @@ header {
     background-color: transparent;
     border: solid 1.2px grey;
     border-radius: 4.8px;
+    transition: all 0.3s ease;
 }
 .contact_right h3 {
     color: var(--dark-blue);
@@ -1251,7 +1253,7 @@ header {
 }
 .selected_link {
     background-color: var(--dark-blue);
-    color: var(--white);
+    color: white;
     border-radius: 10px;
     padding: 8px;
 }
@@ -1707,7 +1709,7 @@ hr {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 845px) {
     .line_small {
         margin-right: 10rem;
     }
@@ -1715,7 +1717,7 @@ hr {
         flex-wrap: wrap;
     }
     .container {
-        padding: 0 2rem;
+        padding: 0 2rem !important;
     }
     .values_small_boxes {
         flex-wrap: wrap;
@@ -1751,7 +1753,7 @@ hr {
         flex-wrap: wrap;
     }
     .container {
-        padding: 0 2rem;
+        padding: 0 2rem !important;
     }
     .values_small_boxes {
         flex-wrap: wrap;
@@ -1876,7 +1878,7 @@ hr {
         padding: 0 20rem !important;
     }
 }
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 845px) {
     .carousel_slide {
         flex-basis: 100%; /* Display 1 slides at a time if decreased to 49% the 2nd slide wil be visable*/
     }

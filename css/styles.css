@@ -1491,6 +1491,147 @@ hr{
 }
 
 /*  */
+/* Circle Workspace */
+/*  */
+
+/* Title section */
+#circle_workspace_title {
+    margin-top: 5rem;
+}
+
+.circle_workspace_title_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cirle_workspace_title_content h2 {
+    text-align: center;
+    padding: 0 5rem;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+    font-weight: bold;
+}
+
+.cirle_workspace_title_content p {
+    text-align: center;
+    text-transform: none;
+    font-size: 1.3rem;
+}
+
+/* Information section */
+.circle_workspace_information_title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.circle_workspace_information_title h1 {
+    font-size: 24px;
+}
+
+.circle_workspace_information_title h2 {
+    font-size: 36px;
+    font-family: Calibre-Regular, sans-serif;
+}
+
+.circle_workspace_information_boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 1rem;
+}
+
+.circle_workspace_information_box {
+    background-color: var(--white);
+    border-radius: 18px;
+    box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.circle_workspace_information_box img {
+    height: 36px;
+    width: 36px;
+    margin-top: 2rem;
+}
+
+.circle_workspace_information_box h3 {
+    font-family: Calibre-Regular, sans-serif;
+    padding-top: 1rem;
+    margin: .5rem 0 1rem 0;
+    color: var(--black);
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.circle_workspace_information_box h3,
+.circle_workspace_information_box p {
+    padding: 0 10%;
+}
+
+.circle_workspace_information_box p {
+    text-transform: none;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+/* Pricing section */
+.circle_workspace_pricing_title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.circle_workspace_pricing_title h1 {
+    font-size: 24px;
+}
+
+.circle_workspace_pricing_title h2 {
+    font-size: 36px;
+    font-family: Calibre-Regular, sans-serif;
+}
+
+.circle_workspace_pricing_boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.circle_workspace_pricing_box {
+    background-color: var(--white);
+    box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    width: 100%;
+    max-width: 375px;
+    margin: 0 3rem;
+    color: var(--text-color);
+}
+
+.circle_workspace_pricing_box_1 {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle_workspace_pricing_box_1 p {
+    font-family: Calibre-Medium;
+    font-weight: 700;
+}
+
+.circle_workspace_pricing_box_2 {
+    padding: 0 0 1rem 1rem;
+}
+
+.circle_workspace_pricing_box_2 span {
+    color: var(--black);
+    font-size: 2rem;
+    font-family: Calibre-Bold;
+}
+
+/*  */
 /* Media tags */
 /*  */
 
@@ -1498,6 +1639,15 @@ hr{
 @media screen and (max-width: 1660px) {
     .line {
         margin: 3rem 8rem;
+    }
+     /* Information section */
+     .circle_workspace_information_boxes {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .circle_workspace_information_boxes {
+        gap: 2rem;
     }
 }
 
@@ -1583,6 +1733,10 @@ hr{
     nav ul {
         padding-right: 5rem;
     }
+    /* Pricing section */
+    .circle_workspace_pricing_boxes {
+        gap: 2rem;
+    }
 }
 
 @media screen and (max-width: 865px) {
@@ -1650,6 +1804,33 @@ hr{
     }
     .line {
         margin: 3rem 3rem;
+    }
+     /* Title section */
+     .cirle_workspace_title_content p {
+        padding: 0;
+    }
+
+    .cirle_workspace_title_content h1 {
+        padding: 0;
+        margin-top: 5rem;
+        padding-bottom: 1rem;
+    }
+
+    /* Information section */
+    .circle_workspace_information_boxes {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+
+    /* Pricing section */
+    .circle_workspace_pricing_boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .circle_workspace_pricing_box {
+        margin: 1rem 0;
     }
 }
 

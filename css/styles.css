@@ -854,7 +854,7 @@ header {
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .faq_text p { /*Defines the padding of the text used inside of the dopped down popup boxes*/
-    padding-top: .5rem;
+    padding-top: 1.2rem;
 }
 .faq_row { /*Defines the padding of the text used inside of the popup boxes*/
     display: flex;

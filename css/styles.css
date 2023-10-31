@@ -1059,7 +1059,6 @@ header {
     gap: 1rem;
 }
 .values_small_box {
-    max-width: 360px;
     width: 360px;
     min-width: 220px;
     height: 110px;

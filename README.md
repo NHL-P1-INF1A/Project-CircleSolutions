@@ -40,7 +40,7 @@ light blue grey: #dcf1f9
 
 <br clear="both">
 <br clear="both">
-<p align="left">Geen Gerard Joling placeholders.<br><br>Maak gebruik van sections met een "ID en class" De containers worden geclassificeerd met de class "container" en een ID met dezelfde naam als je partial naam.<br><br>Zoveel mogelijk flex gebruiken en grid op plekken waar nodig.<br><br>We maken hoofdzakelijk gebruik van REM, en waar nodig PX, % etc.<br><br>Voor de typography wordt gebruik gemaakt van Calibre: Regular, Medium en Bold.<br><br>We gebruiken dezelfde media query breekpunten als Tailwind namelijk;</p>
+<p align="left">Maak gebruik van sections met een "ID en class" De containers worden geclassificeerd met de class "container" en een ID met dezelfde naam als je partial naam.<br><br>Zoveel mogelijk flex gebruiken en grid op plekken waar nodig.<br><br>We maken hoofdzakelijk gebruik van REM, en waar nodig PX, % etc.<br><br>Voor de typography wordt gebruik gemaakt van Calibre: Regular, Medium en Bold.<br><br>We gebruiken dezelfde media query breekpunten als Tailwind namelijk;</p>
 
 <p>Alle commits en comments worden in het Engels gedaan.</p>
 
@@ -48,14 +48,15 @@ light blue grey: #dcf1f9
 ###
 
 ```
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 0px) and (max-width: 768px) {
 }
-@media screen and (min-width: 768px) {
+@media screen and(min-width: 768px) and (max-width: 1024px){
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px)  and (max-width: 1280px){
 }
 @media screen and (min-width: 1280px) {
 }
+// etc.
 ```
 
 ###

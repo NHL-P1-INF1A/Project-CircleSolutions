@@ -1,3 +1,3 @@
-<div class="line">
-    <img src="./img/line.svg" alt="">
+<div class="container">
+    <div class="line"></div>
 </div>

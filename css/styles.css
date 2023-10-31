@@ -1,5 +1,3 @@
-@import url(navbar.css);
-@import url(header.css);
 @import url(services.css);
 @import url(footer.css);
 @import url(line.css);
@@ -92,6 +90,113 @@ body {
     margin-bottom: 3rem;
     padding-left: 0.5rem;
 }
+
+/*  */
+/* Navbar  */
+/*  */
+/* Dit zorgt voor alle styling van de navbar */
+nav {
+    width: 100%;
+    height: 5rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    transition: background-color 0.4s ease-in-out;
+    z-index: 100;
+}
+
+nav a {
+    font-family: Calibre-Bold;
+    font-size: 1.125rem;
+    color: white;
+    transition: color 0.4s ease-in-out;
+}
+
+nav img {
+    /* Dit geeft het logo in de navbar een padding en een kleur */
+    filter: var(--logo-filter);
+    padding-left: 10rem;
+    transition: filter 0.4s ease-in-out;
+}
+
+nav.scrolled {
+    /* Dit zorgt ervoor dat de achtergrond van de navbar verandert van kleur als er word gescrolled */
+    background-color: var(--white);
+}
+
+nav.scrolled a {
+    /* Dit zorgt ervoor dat de tekst van de navbar verandert van kleur als er word gescrolled */
+    color: var(--dark-blue);
+}
+
+nav.scrolled a:visited {
+    /* Dit zorgt ervoor dat de links in de navbar veranderen van kleur als er word gescrolled */
+    color: var(--dark-blue);
+}
+
+nav.scrolled img {
+    /* Dit zorgt ervoor dat het logo van de navbar verandert van kleur als er word gescrolled */
+    filter: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 10rem;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+nav li:nth-child(-n+5) a {
+    position: relative;
+    text-transform: none;
+}
+
+nav li:nth-child(-n+5) a::after {
+    content: '';
+    height: 0.2rem;
+    width: 100%;
+    background: var(--white);
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+    opacity: 0;
+    transition: background-color 0.4s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+nav li:nth-child(-n+5) a:hover::after {
+    opacity: 1;
+}
+
+nav.scrolled li:nth-child(-n+5) a::after {
+    background: var(--dark-blue);
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.hamburger-icon:hover {
+    cursor: pointer;
+}
+
+.hamburger-icon.scrolled {
+    filter: var(--hamburger-filter);
+    color: var(--hamburger-color);
+}
+
 /*  */
 /* Header */
 /*  */
@@ -873,6 +978,12 @@ header {
     .contact_right {
         background-color: var(--white) !important
     }
+    nav img {
+        padding-left: 15rem;   
+    }
+    nav ul {
+        padding-right: 15rem;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -888,6 +999,24 @@ header {
     }
     .line_small {
         margin-right: 15rem;
+    }
+    nav img {
+        padding-left: 5rem;
+    }
+    nav ul {
+        padding-right: 5rem;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    nav ul li {
+        display: none;
+    }
+    nav ul li:last-child {
+        display: flex;
+    }
+    .hamburger-icon {
+        display: flex;
     }
 }
 
@@ -919,6 +1048,12 @@ header {
         background-color: var(--white);
         box-shadow: 0 1.5px 9px 0 rgba(0, 0, 0, 0.2);
         border-radius: 20px;
+    }
+    nav img {
+        padding-left: 2rem;
+    }
+    nav ul {
+        padding-right: 2rem;
     }
 }
 @media screen and (max-width: 640px) {
@@ -1000,8 +1135,6 @@ header {
         padding: 0;
     }
 }
-
-
 
 @media screen and (min-width: 1980px) {
     .container {

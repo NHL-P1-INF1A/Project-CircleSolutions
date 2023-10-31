@@ -1,7 +1,6 @@
 @import url(circle_dots.css);
 @import url(circle_workspace.css);
 @import url(darkmodebutton.css);
-@import url(hamburger.css);
 @font-face {
     font-family: Calibre-Medium;
     src: url(../fonts/Calibre-Medium.otf);
@@ -193,6 +192,91 @@ nav.scrolled li:nth-child(-n+5) a::after {
     filter: var(--hamburger-filter);
     color: var(--hamburger-color);
 }
+
+/*  */
+/* Hamburger menu */
+/*  */
+
+.overlay {
+    position: fixed; /* This is important for keeping the overlay fixed on the screen */
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--background); /* Background color and opacity (adjust as needed) */
+    display: none; /* Change 'none' to 'block' or 'flex' or 'grid' as per your requirements */
+    z-index: 1000; /* Use a high z-index to make sure it's on top of other content */
+    justify-content: center;
+
+}
+
+#logo-hamburger {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 3rem;
+    justify-content: flex-end;
+}
+
+#logo-hamburger {
+    cursor:pointer;
+}
+
+#cross-hamburger {
+    width: 80px;
+    height: 32px;
+    position: absolute; /* Change position to absolute */
+    top: 25px; /* Adjust top positioning as needed */
+    right: 25px; /* Align to the right by adjusting the right positioning */
+}
+
+#cross-hamburger:hover {
+    cursor:pointer;
+}
+
+.overlay-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    flex-direction: column;
+}
+
+.hamburger-links li a {
+    font-family: Calibre-Bold;
+    font-size: 1.8rem;
+    color: var(--dark-blue);
+    transition: color 0.4s ease-in-out;
+}
+
+
+.hamburger-links li {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.hamburger-links li a {
+    position: relative;
+    text-decoration: none;
+  }
+
+  .hamburger-links li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--dark-blue); /* Use the same background color as your other underline */
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+
+  .hamburger-links li a:hover::before {
+    transform: scaleX(1);
+  }
 
 /*  */
 /* Header */

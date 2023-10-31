@@ -248,6 +248,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
 /* Darkmode Button */
 /*  */
 .theme_switch {
+    display: block;
     --toggle-size: 0.5rem;
     /* the size is adjusted using font-size,
        this is not transform scale,
@@ -278,6 +279,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
     font-size: var(--toggle-size);
 }
 .theme_switch_container {
+    display: block;
     width: var(--container-width);
     height: var(--container-height);
     background-color: var(--container-light-bg);
@@ -304,6 +306,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
     display: none;
 }
 .theme_switch_circle_container {
+    display: block;
     width: var(--circle-container-diameter);
     height: var(--circle-container-diameter);
     background-color: rgba(255, 255, 255, 0.1);
@@ -322,6 +325,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
     pointer-events: none;
 }
 .theme_switch_sun_moon_container {
+    display: block;
     pointer-events: auto;
     position: relative;
     z-index: 2;
@@ -340,6 +344,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
     transition: var(--transition);
 }
 .theme_switch_moon {
+    display: block;
     -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
     transform: translateX(100%);
@@ -355,6 +360,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
     position: relative;
 }
 .theme_switch_spot {
+    display: block;
     position: absolute;
     top: 0.75em;
     left: 0.312em;
@@ -378,6 +384,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
     left: 0.812em;
 }
 .theme_switch_clouds {
+    display: block;
     width: 1.25em;
     height: 1.25em;
     background-color: var(--clouds-color);
@@ -392,6 +399,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
     transition: 0.5s cubic-bezier(0, -0.02, 0.4, 1.25);
 }
 .theme_switch_stars_container {
+    display: block;
     position: absolute;
     color: var(--stars-color);
     top: -100%;
@@ -1737,9 +1745,6 @@ hr {
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
-    }
-    .circle_dots_information_box {
-        width: 1fr;
     }
 }
 @media screen and (max-width: 640px) {

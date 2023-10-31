@@ -15,7 +15,7 @@
                 <p><b>Nieuwsbrief</b></p>
                 <p>Abonneer op onze nieuwsbrief om altijd de allernieuwste updates te krijgen</p>
             </div>
-            <form action="index.php" method="POST" name="nieuwsbrief"> 
+            <form action="success_newsletter.php" method="POST" name="nieuwsbrief"> 
                 <div id=footer_subscribe>
                     <div>
                         <input type="email" name="email" id="footer_subscribe_email" placeholder="example@gmail.com" required size="45"> 

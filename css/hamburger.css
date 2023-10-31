@@ -1,5 +1,3 @@
-@import url(styles.css);
-
 .overlay {
     position: fixed; /* This is important for keeping the overlay fixed on the screen */
     top: 0;

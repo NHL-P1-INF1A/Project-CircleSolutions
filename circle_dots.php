@@ -13,7 +13,7 @@
     <?php include "partials/navbar.php"; ?>
     <section id="circle_dots_title" class="container">
         <div class="cirle_dots_title_content">
-            <h1>circle d.o.t.s</h1>
+            <h2 class="sub_title_section">circle d.o.t.s</h2>
             <p>Circle D.O.T.S. helpt met interne communicatie. Het houdt iedereen op de hoogte van veranderingen, verbindt mensen en teams, en organiseert kennis op één plek. Bovendien maakt het het gemakkelijk om te analyseren en te verbeteren hoe je communiceert.</p>
         </div>
     </section>
@@ -23,8 +23,8 @@
     <section id="circle_dots_information" class="container">
         <div class="circle_dots_information_content">
             <div class="circle_dots_information_title">
-                <h1>informatie</h1>
-                <h2>over onze pakketen</h2>
+                <h4 class="title_section">informatie</h4>
+                <h2 class="sub_title_section">over onze pakketen</h2>
             </div>
 
             <div class="circle_dots_information_boxes">
@@ -57,8 +57,8 @@
     <section id="circle_dots_pricing" class="container">
         <div class="circle_dots_pricing_content">
             <div class="circle_dots_pricing_title">
-                <h1>prijzen</h1>
-                <h2>onze tarieven</h2>
+                <h4 class="title_section">prijzen</h4>
+                <h2 class="sub_title_section">onze tarieven</h2>
             </div>
 
             <div class="circle_dots_pricing_boxes">

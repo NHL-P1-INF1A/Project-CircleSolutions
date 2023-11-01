@@ -22,8 +22,8 @@
             <h2>Ik ben geïnteresseerd in:</h2>
             <div class="buttons_contact_right">
                 <button class="selected_button">Algemene Vraag</button>
-                <button class="unselected_button">Circle D.O.T.S</button>
-                <button class="unselected_button">Circle Workspace</button>
+                <button class="unselected_button" id="dots_button">Circle D.O.T.S</button>
+                <button class="unselected_button" id="workspace_button">Circle Workspace</button>
                 <button class="unselected_button">Anders</button>
             </div>
             <div class="form_contact_right">

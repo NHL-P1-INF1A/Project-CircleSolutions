@@ -31,8 +31,8 @@
             <h2>Ik ben geïnteresseerd in:</h2>
             <div class="buttons_contact_right">
                 <button class="selected_button">Algemene Vraag</button>
-                <button class="unselected_button">Circle D.O.T.S</button>
-                <button class="unselected_button">Circle Workspace</button>
+                <button class="unselected_button" id="dots_button">Circle D.O.T.S</button>
+                <button class="unselected_button" id="workspace_button">Circle Workspace</button>
                 <button class="unselected_button">Anders</button>
             </div>
             <div class="form_contact_right">
@@ -48,6 +48,7 @@
                         <div class="contact_mail">
                             <p><i><img src="./img/e-mail.svg" alt="e-mail"></i><a
                                     href="mailto:contact@circlesolutions.com">contact@circlesolutions.com</a> </p>
+
                         </div>
                         <div class="contact_phone">
                             <p> <i> <img src="./img/phone.svg" alt="phone"></i>+31 06 123 123 123 </p>

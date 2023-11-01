@@ -2,6 +2,7 @@ const contactLinks = document.querySelector('.contact_links');
 const contactRight = document.querySelector('.contact_links_right');
 const mediaQuery = window.matchMedia('(max-width: 1280px)');
 
+
 function handleMediaChange(event) {
   if (event.matches) {
     contactLinks.style.display = 'none';
@@ -44,6 +45,7 @@ function changeClassOnHover(element, selectedLink) {
   element.addEventListener("mouseover", function () {
     // add clases on mouse over
     element.classList.add('selected_link');
+
     imgIcon.classList.add('svg_icon');
   });
 
@@ -64,7 +66,6 @@ const locationElement = document.querySelector(".contact_location");
 changeClassOnHover(mailElement, "hovered");
 changeClassOnHover(phoneElement, "hovered");
 changeClassOnHover(locationElement, "hovered");
-
 
 
 

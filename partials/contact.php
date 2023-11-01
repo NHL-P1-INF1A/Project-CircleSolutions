@@ -37,7 +37,7 @@
                         bericht versturen</button>
                     <div class="contact_links_right">
                         <div class="contact_mail">
-                            <p><i><img src="./img/e-mail.svg" alt="e-mail"></i>contact@circlesolutions.com </p>
+                            <p><i><img src="./img/e-mail.svg" alt="e-mail"></i><a href="mailto:contact@circlesolutions.com">contact@circlesolutions.com</a> </p>
                         </div>
                         <div class="contact_phone">
                             <p> <i> <img src="./img/phone.svg" alt="phone"></i>+31 06 123 123 123 </p>

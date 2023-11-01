@@ -19,7 +19,8 @@ function animateNumber(counterElement, targetValue) {
   let duration = 2000;  // Duration of the animation in milliseconds (2 seconds)
 
   // Function that updates the counter based on eased progress
-  function updateCounter(timestamp) {
+function updateCounter(timestamp) 
+{
     if (!startTime) startTime = timestamp;
 
     let elapsed = timestamp - startTime;
@@ -31,25 +32,25 @@ function animateNumber(counterElement, targetValue) {
 
     // Continue the animation if not yet complete
     if (progress < 1) {
-      requestAnimationFrame(updateCounter);
+    requestAnimationFrame(updateCounter);
     } else {
       // Ensure the counter displays the final target value
-      counterElement.innerText = targetValue;
+    counterElement.innerText = targetValue;
     }
-  }
+}
 
   // Start the animation
-  requestAnimationFrame(updateCounter);
+requestAnimationFrame(updateCounter);
 }
 
 // Listen for scroll events to trigger the animation
 window.addEventListener("scroll", function() {
-  counters.forEach((counter, index) => {
+counters.forEach((counter, index) => {
     // Animate only if the counter is in the viewport and not yet animated
     if (isInViewport(counter) && !intervals[index]) {
-      let targetValue = parseInt(counter.innerText, 10);
+    let targetValue = parseInt(counter.innerText, 10);
       intervals[index] = true; // Mark as animated
-      animateNumber(counter, targetValue);
+    animateNumber(counter, targetValue);
     }
-  });
+});
 });

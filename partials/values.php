@@ -4,7 +4,6 @@
                 <h4 class="title_section">Waarden</h4>
                 <h2 class="sub_title_section">waar staan wij voor</h2>
             </div>
-
             <div class="values_big_boxes">
 
                 <div class="values_big_box">
@@ -14,7 +13,6 @@
                         <p>Wij houden ervan om dingen simpel te houden. Geen grote gebaren, geen theater of veelbelovende utopieën.</p>
                     </div>
                 </div>
-
                 <div class="values_big_box">
                     <img src="./img/quality-driven.svg" alt="quality_driven">
                     <div class="values_big_box_text">
@@ -22,7 +20,6 @@
                         <p>Ons professionalisme volgt geen hype: het volgt kwaliteit. Wij geloven in altijd groeien en streven naar het beste.</p>
                     </div>
                 </div>
-
                 <div class="values_big_box">
                     <img src="./img/user-friendly.svg" alt="user_friendly">
                     <div class="values_big_box_text">
@@ -31,7 +28,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="values_small_boxes">
                 <div class="values_small_box">
                     <div class="icon">
@@ -63,5 +59,4 @@
             </div>
         </div>
     </section>
-
     <script src="js/values.js"></script>

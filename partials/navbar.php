@@ -8,7 +8,7 @@
         <li><a href="index.php#contact">Contact</a></li>
         <!-- <li><a href="">Nl</a></li> -->
         <li><?php include "darkmodebutton.php";   ?></li>
-        <li><img class="hamburger-icon" src="./img/hamburger.svg" alt="Hamburger-Icon"></li>
+        <li><img class="hamburger_icon" src="./img/hamburger.svg" alt="Hamburger-Icon"></li>
     </ul>
 </nav>
 <?php include "partials/hamburger.php"; ?>

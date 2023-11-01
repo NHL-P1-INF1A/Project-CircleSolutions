@@ -163,13 +163,13 @@ nav li:nth-child(-n+5) a:hover::after {
 nav.scrolled li:nth-child(-n+5) a::after {
     background: var(--dark-blue);
 }
-.hamburger-icon {
+.hamburger_icon {
     display: none;
 }
-.hamburger-icon:hover {
+.hamburger_icon:hover {
     cursor: pointer;
 }
-.hamburger-icon.scrolled {
+.hamburger_icon.scrolled {
     filter: var(--hamburger-filter);
     color: var(--hamburger-color);
 }
@@ -187,26 +187,26 @@ nav.scrolled li:nth-child(-n+5) a::after {
     z-index: 1000; /* Use a high z-index to make sure it's on top of other content */
     justify-content: center;
 }
-#logo-hamburger {
+#logo_hamburger {
     width: 300px;
     height: 100px;
     margin-bottom: 3rem;
     justify-content: flex-end;
 }
-#logo-hamburger {
+#logo_hamburger {
     cursor:pointer;
 }
-#cross-hamburger {
+#cross_hamburger {
     width: 80px;
     height: 32px;
     position: absolute; /* Change position to absolute */
     top: 25px; /* Adjust top positioning as needed */
     right: 25px; /* Align to the right by adjusting the right positioning */
 }
-#cross-hamburger:hover {
+#cross_hamburger:hover {
     cursor:pointer;
 }
-.overlay-content {
+.overlay_content {
     width: 100%;
     height: 100%;
     display: flex;
@@ -215,22 +215,22 @@ nav.scrolled li:nth-child(-n+5) a::after {
     padding: 0 2rem;
     flex-direction: column;
 }
-.hamburger-links li a {
+.hamburger_links li a {
     font-family: Calibre-Bold;
     font-size: 1.8rem;
     color: var(--dark-blue);
     transition: color 0.4s ease-in-out;
 }
-.hamburger-links li {
+.hamburger_links li {
     margin-top: 25px;
     display: flex;
     justify-content: center;
 }
-.hamburger-links li a {
+.hamburger_links li a {
     position: relative;
     text-decoration: none;
 }
-.hamburger-links li a::before {
+.hamburger_links li a::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -241,7 +241,7 @@ nav.scrolled li:nth-child(-n+5) a::after {
     transform: scaleX(0);
     transition: transform 0.3s ease;
 }
-.hamburger-links li a:hover::before {
+.hamburger_links li a:hover::before {
     transform: scaleX(1);
 }
 /*  */
@@ -1708,7 +1708,7 @@ hr {
     nav ul li:last-child {
         display: flex;
     }
-    .hamburger-icon {
+    .hamburger_icon {
         display: flex;
     }
 }

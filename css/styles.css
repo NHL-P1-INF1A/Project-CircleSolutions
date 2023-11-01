@@ -1393,7 +1393,7 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-    gap: 1rem;
+    gap: 2rem;
 }
 .circle_workspace_information_box {
     background-color: var(--white);
@@ -1403,6 +1403,7 @@ hr {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    transition: 0.5s;
 }
 .circle_workspace_information_box img {
     height: 36px;
@@ -1450,6 +1451,11 @@ hr {
     max-width: 375px;
     margin: 0 3rem;
     color: var(--text-color);
+    transition: 0.5s;
+}
+
+.circle_workspace_pricing_box:hover {
+    scale: 1.05;
 }
 .circle_workspace_pricing_box_1 {
     display: flex;
@@ -1522,6 +1528,11 @@ hr {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    transition: 0.5s;
+}
+.circle_dots_information_box:hover,
+.circle_workspace_information_box:hover {
+    scale: 1.05;
 }
 .circle_dots_information_box img {
     margin-top: 1rem;
@@ -1566,6 +1577,10 @@ hr {
     width: 100%;
     max-width: 375px;
     color: var(--text-color);
+    transition: 0.5s;
+}
+.circle_dots_pricing_box:hover {
+    scale: 1.05;
 }
 .circle_dots_pricing_box_1 {
     display: flex;

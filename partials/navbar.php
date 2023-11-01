@@ -5,7 +5,7 @@
         <li><a href="index.php#services">Diensten</a></li>
         <li><a href="index.php#faq">FAQ</a></li>
         <li><a href="index.php#reviews">Reviews</a></li>
-        <li><a href="index.php#contact">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
         <!-- <li><a href="">Nl</a></li> -->
         <li><?php include "darkmodebutton.php";   ?></li>
         <li><img class="hamburger_icon" src="./img/hamburger.svg" alt="Hamburger-Icon"></li>

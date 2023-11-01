@@ -1931,6 +1931,12 @@ hr {
     .contact_form {
         padding: 0rem;
     }
+    .banner_text h2 {
+        font-size: 3rem;
+    }
+    .banner_text h3 {
+        font-size: 1.2rem;
+    }
 }
 /*  */
 /* Animation keyframes */

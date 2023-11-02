@@ -2,6 +2,7 @@ const contactLinks = document.querySelector(".contact_links");
 const contactRight = document.querySelector(".contact_links_right");
 const mediaQuery = window.matchMedia("(max-width: 1280px)");
 
+
 function handleMediaChange(event) {
   if (event.matches) {
     contactLinks.style.display = "none";

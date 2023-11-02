@@ -1215,6 +1215,7 @@ header {
     padding: 5px; 
     width: 100%;
     color: var(--black);
+    margin-bottom: 20px;
 }
 .submit_button_contactform {
     background-color: var(--dark-blue);

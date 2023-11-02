@@ -1,4 +1,4 @@
-    <section id="services" class="container">
+<section id="services" class="container">
         <div class="container_services_text column title_margin">
             <h4 class=title_section> diensten </h4>
             <h2 class=sub_title_section> onze services </h2>
@@ -11,7 +11,7 @@
                         circle workspace
                     </div>
                     <div class="circle_text_1">
-                        Circle Workspace maakt het beheren van apps, communicatie, en documenten eenvoudig en efficiënt.
+                        Circle Workspace maakt het beheren van apps, communicatie, en documenten eenvoudig en efficiÃ«nt.
                     </div>
                     <div class="circle_text_2">
                         <p class="circle_text_4">voor 1-50 Gebruikers </p>
@@ -27,7 +27,7 @@
                         <p class=check_circle_text> <img src="./img/check_circle.png" alt="check_circle" class="check_circle"> Communicatie en informatie </p>
                         <p class=check_circle_text> <img src="./img/check_circle.png" alt="check_circle" class="check_circle"> Document beheer </p>
                     </div>
-                        <a class="circle_button hover_button" href="circle_workspace.php">meer informatie</a>
+                        <a class="services_button hover_button" href="circle_workspace.php">meer informatie</a>
                 </div>
             </div>
             <div class="container_services_diamond">
@@ -54,7 +54,7 @@
                         <p class=check_circle_text> <img src="./img/check_circle.png" alt="check_circle" class="check_circle"> Kennisbeheer </p>
                         <p class=check_circle_text> <img src="./img/check_circle.png" alt="check_circle" class="check_circle"> Analyseren en optimaliseren </p>
                     </div>
-                    <a class="circle_button hover_button" href="circle_dots.php">meer informatie</a>
+                    <a class="services_button hover_button" href="circle_dots.php">meer informatie</a>
                 </div>
             </div>
         </div>

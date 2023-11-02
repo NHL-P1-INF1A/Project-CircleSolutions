@@ -20,7 +20,8 @@
                     <p>
                         <i><img class="contact_icon" src="./img/location.svg" alt="contact_icon"></i>
                         <a class="contact_text"
-                            href="https://www.google.com/maps/place/Van+Schaikweg+94,+7811+KL+Emmen/@52.7781134,6.9113003,17z/data=!4m6!3m5!1s0x47b7e7799418a4e1:0x1576cbebe1f251b7!8m2!3d52.7781102!4d6.9138752!16s%2Fg%2F11sg_7_g4c?entry=ttu">
+                            href="https://www.google.com/maps/place/Van+Schaikweg+94,+7811+KL+Emmen/@52.7781134,6.9113003,17z/data=!4m6!3m5!1s0x47b7e7799418a4e1:0x1576cbebe1f251b7!8m2!3d52.7781102!4d6.9138752!16s%2Fg%2F11sg_7_g4c?entry=ttu" 
+                            target="_blank">
                             Van Schaikweg 94, 7811 KL Emmen
                         </a>
                     </p>
@@ -37,9 +38,9 @@
             </div>
             <div class="form_contact_right">
                 <form method="POST" action="succes.php">
-                    <input class="input_contact" type="text" placeholder="(bedrijf) naam" name="name"><br><br>
-                    <input class="input_contact" type="email" placeholder="email" name="email"><br><br>
-                    <input class="input_contact" type="text" placeholder="bericht" name="message"><br><br>
+                    <input class="input_contact" type="text" placeholder="(bedrijf) naam" name="name">
+                    <input class="input_contact" type="email" placeholder="email" name="email">
+                    <input class="input_contact" type="text" placeholder="bericht" name="message">
                     <button type="submit" class="submit_button_contactform"> <i>
                             <img src="./img/arrow-sendmessage.svg" alt="arrow_sendmessage">
                         </i>
@@ -57,7 +58,8 @@
                             <p>
                                 <i><img src="./img/location.svg" alt="location"></i>
                                 <a
-                                    href="https://www.google.com/maps/place/Van+Schaikweg+94,+7811+KL+Emmen/@52.7781134,6.9113003,17z/data=!4m6!3m5!1s0x47b7e7799418a4e1:0x1576cbebe1f251b7!8m2!3d52.7781102!4d6.9138752!16s%2Fg%2F11sg_7_g4c?entry=ttu">
+                                    href="https://www.google.com/maps/place/Van+Schaikweg+94,+7811+KL+Emmen/@52.7781134,6.9113003,17z/data=!4m6!3m5!1s0x47b7e7799418a4e1:0x1576cbebe1f251b7!8m2!3d52.7781102!4d6.9138752!16s%2Fg%2F11sg_7_g4c?entry=ttu" 
+                                    target="_blank">
                                     Van Schaikweg 94, 7811 KL Emmen
                                 </a>
                             </p>

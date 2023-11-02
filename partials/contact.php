@@ -38,9 +38,9 @@
             </div>
             <div class="form_contact_right">
                 <form method="POST" action="succes.php">
-                    <input class="input_contact" type="text" placeholder="(bedrijf) naam" name="name"><br><br>
-                    <input class="input_contact" type="email" placeholder="email" name="email"><br><br>
-                    <input class="input_contact" type="text" placeholder="bericht" name="message"><br><br>
+                    <input class="input_contact" type="text" placeholder="(bedrijf) naam" name="name">
+                    <input class="input_contact" type="email" placeholder="email" name="email">
+                    <input class="input_contact" type="text" placeholder="bericht" name="message">
                     <button type="submit" class="submit_button_contactform"> <i>
                             <img src="./img/arrow-sendmessage.svg" alt="arrow_sendmessage">
                         </i>

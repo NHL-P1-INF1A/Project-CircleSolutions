@@ -1440,6 +1440,10 @@ header {
     font-family: 'Calibre', 'sans-serif';
 }
 
+.twitter {
+    padding-top: 2px;
+}
+
 /* Container aligning the socials and subscribe */
 #footer_container {
     display: flex;

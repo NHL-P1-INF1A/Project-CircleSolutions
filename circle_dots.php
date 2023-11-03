@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="nl">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,8 +56,8 @@
             <div class="circle_dots_pricing_boxes">
                 <div class="circle_dots_pricing_box">
                     <div class="circle_dots_pricing_box_1">
-                        <p>Voor 1-50 Gebruikers</p>
-                        <img src="./img/Icons/User.svg" alt="">
+                        <p>Voor 1-50 gebruikers</p>
+                        <img src="./img/Icons/User.svg" alt="User">
                     </div>
                     <div class="circle_dots_pricing_box_2">
                         <p><span>€180 </span>/maandelijks</p>
@@ -66,8 +65,8 @@
                 </div>
                 <div class="circle_dots_pricing_box">
                     <div class="circle_dots_pricing_box_1">
-                        <p>Voor 51-500 Gebruikers</p>
-                        <img src="./img/Icons/Users.svg" alt="">
+                        <p>Voor 51-500 gebruikers</p>
+                        <img src="./img/Icons/Users.svg" alt="Users">
                     </div>
                     <div class="circle_dots_pricing_box_2">
                         <p><span>€799 </span>/maandelijks</p>

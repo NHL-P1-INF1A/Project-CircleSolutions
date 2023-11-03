@@ -1,4 +1,4 @@
-<div class="container" id="about_us">
+<section class="container" id="about_us">
     <div id="about_us_textbox">
         <h2>wie zijn wij</h2>
         <p><b>
@@ -12,4 +12,4 @@
         </p>
     </div>
     <img src="./img/wie-zijn-wij.svg" alt="Wie zijn wij">
-</div>
+</section>

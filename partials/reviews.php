@@ -1,5 +1,5 @@
-<div class="container" id="reviews">
-    <div class="hiddenContainer">
+<section class="container" id="reviews">
+    <div class="hidden_container">
         <div class="column center title_margin">
             <h4 class="title_section">reviews</h4>
             <h2 class="sub_title_section">wat klanten over ons te zeggen hebben</h2>
@@ -53,4 +53,4 @@
             </div>
         </div>
     </div>
-</div>
+</section>

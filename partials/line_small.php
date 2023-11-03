@@ -1,3 +1,3 @@
-<div>
+<section>
     <div class="line_small"></div>
-</div>
+</section>

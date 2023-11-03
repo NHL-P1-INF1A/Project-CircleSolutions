@@ -9,19 +9,19 @@
 </head>
     <body>
         <?php
-        include "partials/header.php";
-        include "partials/about_us.php";
-        include "partials/line.php";
-        include "partials/values.php";
-        include "partials/line.php";
-        include "partials/services.php";
-        include "partials/line.php";
-        include "partials/faq.php";
-        include "partials/line.php";
-        include "partials/reviews.php";
-        include "partials/line.php";
-        include "partials/contact.php";
-        include "partials/footer.php";
+            include "partials/header.php";
+            include "partials/about_us.php";
+            include "partials/line.php";
+            include "partials/values.php";
+            include "partials/line.php";
+            include "partials/services.php";
+            include "partials/line.php";
+            include "partials/faq.php";
+            include "partials/line.php";
+            include "partials/reviews.php";
+            include "partials/line.php";
+            include "partials/contact.php";
+            include "partials/footer.php";
         ?>
         <script src="./js/carousel.js"></script>
         <script src="./js/faq.js"></script>

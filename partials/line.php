@@ -1,3 +1,3 @@
-<div class="container">
+<section class="container">
     <div class="line"></div>
-</div>
+</section>

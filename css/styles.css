@@ -558,7 +558,6 @@ header {
 .sub_title {
     font-size: 2rem;
     font-weight: 500;
-    padding-bottom: 4.33rem;
 }
 
 .services_deals {
@@ -600,7 +599,6 @@ header {
 
 .service_icon span {
     font-family: calibre-Bold, sans-serif;
-
 }
 
 .service_icons {

@@ -6,7 +6,7 @@
                 <h2>just connect the dots</h2>
                 <?php include "line_small.php";?>
                 <h3>Ons doel is om software te ontwikkelen die past bij de individuele kwaliteiten van individuele behoeften Mensen en bedrijven sterker maken met softwareoplossingen.</h3>
-                <a class="circle_button" href="index.php#about_us">beginnen</a>
+                <a class="service_btn hover_effect" href="index.php#about_us">beginnen</a>
             </div>
             <div class="banner_image">
                 <img src="./img/hero.svg" alt="hero" id="headerimg">

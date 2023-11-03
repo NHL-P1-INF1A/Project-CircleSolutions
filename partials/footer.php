@@ -6,7 +6,8 @@
             <div id="footer_socials">
                 <a href="#"><img src="./img/facebook.svg" alt="facebook"></a>
                 <a href="#"><img src="./img/instagram.svg" alt="instagram"></a>
-                <a href="#"><img src="./img/twitter.svg" alt="twitter"></a>
+                <a class="twitter" href="#"><img src="./img/x.svg" alt="twitter"></a>
+                <a href="#"><img src="./img/linkedin.svg" alt="linkedin"></a>
             </div>
         </div>
         <!-- Nieuwsbrief inschrijven -->

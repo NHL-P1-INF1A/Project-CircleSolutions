@@ -689,7 +689,6 @@ header {
 
 .service_icon span {
     font-family: calibre-Bold, sans-serif;
-
 }
 
 .service_icons {
@@ -1086,22 +1085,6 @@ header {
 /*  */
 /* Values */
 /*  */
-/* Styles for the title section */
-.values_title {
-    color: var(--dark-blue);
-    text-align: center;
-}
-
-.values_title h1 {
-    font-family: Calibre-Bold;
-    font-size: 1.8rem;
-}
-
-.values_title h2 {
-    font-family: Calibre-Medium;
-    font-size: 2.8rem;
-}
-
 /* Styles for the big boxes section */
 .values_big_boxes {
     display: flex;
@@ -1439,6 +1422,10 @@ header {
     padding: 3rem 5rem;
     margin-top: 8rem;
     font-family: 'Calibre', 'sans-serif';
+}
+
+.twitter {
+    padding-top: 2px;
 }
 
 /* Container aligning the socials and subscribe */

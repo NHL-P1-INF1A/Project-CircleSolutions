@@ -1,7 +1,7 @@
 <section id="services" class="container">
     <div class="services_text column title_margin">
-        <h4 class="section_title">diensten</h4>
-        <h2 class="sub_title">onze services</h2>
+        <h4 class="title_section">diensten</h4>
+        <h2 class="sub_title_section">onze services</h2>
     </div>
     <div class="services_deals">
         <div class="service_item">

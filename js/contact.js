@@ -1,20 +1,3 @@
-const contactLinks = document.querySelector(".contact_links");
-const contactRight = document.querySelector(".contact_links_right");
-const mediaQuery = window.matchMedia("(max-width: 1280px)");
-
-
-function handleMediaChange(event) {
-  if (event.matches) {
-    contactLinks.style.display = "none";
-    contactRight.style.display = "block";
-  } else {
-    contactRight.style.display = "none";
-    contactLinks.style.display = "block";
-  }
-}
-mediaQuery.addListener(handleMediaChange);
-handleMediaChange(mediaQuery);
-
 // Get all the buttons
 const buttons = document.querySelectorAll(".buttons_contact_right button");
 

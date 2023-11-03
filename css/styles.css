@@ -1155,7 +1155,6 @@ header {
 .contact_form {
     margin-top: 5%;
     display:flex;
-    height: 35rem; 
     padding: 1.875rem;
     background-color: var(--white);
     border-radius: 14.4px;
@@ -1312,10 +1311,12 @@ header {
         text-decoration: none; 
         color: var(--black); 
     }
-
-    .selected_link a {
-        color: var(--background);
-    }
+.selected_link a {
+    color: var(--background);
+}
+.contact_links_right {
+    display: none;
+}
 /*  */
 /* Footer */
 /*  */
@@ -1726,6 +1727,12 @@ hr {
     .circle_dots_information_boxes {
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+    }
+    .contact_links {
+        display: none;
+    }
+    .contact_links_right {
+        display: block;
     }
 }
 

@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="banner_arrow_down">
-                <a href="index.php#about_us" ><img src="./img/circle_arrow_down.svg" alt="arrow down"></a>
+            <a href="index.php#about_us" ><img src="./img/circle_arrow_down.svg" alt="arrow down"></a>
         </div>
     </section>
 </header>

@@ -6,7 +6,7 @@
             Ze maken de cirkel rond; en besef dat deze cirkel voor ieder bedrijf uniek is.
         </b></p>
         <p>
-            <br>Zo intuïtief als een bezoek aan elkaars kantoor; zo werkt de software van circle solutions
+            Zo intuïtief als een bezoek aan elkaars kantoor; zo werkt de software van circle solutions
             verbindt waar nodig. Zo wordt gebruiksvriendelijke software ontwikkeld.
             Geen overbodige functionaliteiten maar alleen verbindingen waar nodig; Just connect the dots.
         </p>

@@ -1,6 +1,5 @@
 <section class="overlay">
     <img id="cross_hamburger" src="./img/cross.svg" alt="Cross">
-
     <div class="container">
         <div class="overlay_content">
             <img class="logo_hamburger" src="./img/circle_solutions_logo_darkblue.svg" alt="logocirclesolutions">

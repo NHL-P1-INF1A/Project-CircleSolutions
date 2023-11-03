@@ -51,7 +51,7 @@
             <div class="circle_workspace_pricing_boxes">
                 <div class="circle_workspace_pricing_box">
                     <div class="circle_workspace_pricing_box_1">
-                        <p>Voor 1-50 Gebruikers</p>
+                        <p>Voor 1-50 gebruikers</p>
                         <img src="./img/Icons/User.svg" alt="">
                     </div>
                     <div class="circle_workspace_pricing_box_2">
@@ -60,7 +60,7 @@
                 </div>
                 <div class="circle_workspace_pricing_box">
                     <div class="circle_workspace_pricing_box_1">
-                        <p>Voor 51-500 Gebruikers</p>
+                        <p>Voor 51-500 gebruikers</p>
                         <img src="./img/Icons/Users.svg" alt="">
                     </div>
                     <div class="circle_workspace_pricing_box_2">

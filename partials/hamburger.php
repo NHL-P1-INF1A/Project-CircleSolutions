@@ -1,4 +1,4 @@
-<div class="overlay">
+<section class="overlay">
     <img id="cross_hamburger" src="./img/cross.svg" alt="Cross">
 
     <div class="container">
@@ -14,4 +14,4 @@
             </ul>
         </div>
     </div>
-</div>
+</section>

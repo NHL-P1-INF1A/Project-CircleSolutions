@@ -1,4 +1,4 @@
-<div class="container" id="about_us">
+<section class="container" id="about_us">
     <div id="about_us_textbox">
         <h2>wie zijn wij</h2>
         <p><b>
@@ -7,9 +7,9 @@
         </b></p>
         <p>
             <br>Zo intuïtief als een bezoek aan elkaars kantoor; zo werkt de software van circle solutions
-                verbindt waar nodig. Zo wordt gebruiksvriendelijke software ontwikkeld.
-                Geen overbodige functionaliteiten maar alleen verbindingen waar nodig; Just connect the dots.
+            verbindt waar nodig. Zo wordt gebruiksvriendelijke software ontwikkeld.
+            Geen overbodige functionaliteiten maar alleen verbindingen waar nodig; Just connect the dots.
         </p>
     </div>
     <img src="./img/wie-zijn-wij.svg" alt="Wie zijn wij">
-</div>
+</section>

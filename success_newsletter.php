@@ -8,9 +8,8 @@
     <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
 </head>
 <body>
-<?php
+    <?php
         include "partials/navbar.php";
-
         if($_SERVER["REQUEST_METHOD"] == "POST"){
             $email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
         }

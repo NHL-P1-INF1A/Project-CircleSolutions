@@ -10,7 +10,6 @@
 <body>
     <?php
         include "partials/navbar.php";
-
         if($_SERVER["REQUEST_METHOD"] == "POST"){
             //vars from form
             $name = filter_input(INPUT_POST, "name");

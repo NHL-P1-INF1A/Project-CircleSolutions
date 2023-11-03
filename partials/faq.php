@@ -1,4 +1,4 @@
-<div class="faq_outer_flex container"  id="faq">
+<section class="faq_outer_flex container"  id="faq">
     <!--Header!-->
     <h4 class="title_section">FAQ</h4>
     <h2 class="sub_title_section">Veel gestelde vragen</h2>
@@ -13,4 +13,4 @@
             include "faq-subpartials.php";
         ?>
     </div>
-</div>
+</section>

@@ -21,7 +21,7 @@
             <div class="faq_inner_flex">
                 <!--PHP function to make the faq popup boxes!-->
                 <?php
-                    $maxItems = 9;
+                    $maxItems = 10000;
                     include "partials/faq-subpartials.php";
                 ?>
             </div>

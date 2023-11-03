@@ -1,4 +1,4 @@
-<div id=footer>
+<section id=footer>
     <div id=footer_container>
         <div>
             <!-- Logo & Social Links -->
@@ -32,4 +32,4 @@
         <hr>
         <div id="footer_copyright">&copy; 2023 circle solutions. All Rights Reserved.</div>
     </div>
-</div>
+</section>

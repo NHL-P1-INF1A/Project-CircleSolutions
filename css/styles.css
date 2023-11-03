@@ -1085,22 +1085,6 @@ header {
 /*  */
 /* Values */
 /*  */
-/* Styles for the title section */
-.values_title {
-    color: var(--dark-blue);
-    text-align: center;
-}
-
-.values_title h1 {
-    font-family: Calibre-Bold;
-    font-size: 1.8rem;
-}
-
-.values_title h2 {
-    font-family: Calibre-Medium;
-    font-size: 2.8rem;
-}
-
 /* Styles for the big boxes section */
 .values_big_boxes {
     display: flex;

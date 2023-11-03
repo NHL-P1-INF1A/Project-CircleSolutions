@@ -8,14 +8,14 @@
     <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
 </head>
 <body>
-    <?php include "partials/navbar.php"; ?>
+    <?php include "partials/navbar.php";?>
     <section id="circle_dots_title" class="container">
         <div class="cirle_dots_title_content">
             <h2 class="sub_title_section">circle d.o.t.s</h2>
             <p>Circle D.O.T.S. helpt met interne communicatie. Het houdt iedereen op de hoogte van veranderingen, verbindt mensen en teams, en organiseert kennis op één plek. Bovendien maakt het het gemakkelijk om te analyseren en te verbeteren hoe je communiceert.</p>
         </div>
     </section>
-    <?php include "partials/line.php"; ?>
+    <?php include "partials/line.php";?>
     <section id="circle_dots_information" class="container">
         <div class="circle_dots_information_content">
             <div class="circle_dots_information_title">
@@ -46,7 +46,7 @@
             </div>
         </div>
     </section>
-    <?php include "partials/line.php"; ?>
+    <?php include "partials/line.php";?>
     <section id="circle_dots_pricing" class="container">
         <div class="circle_dots_pricing_content">
             <div class="circle_dots_pricing_title">

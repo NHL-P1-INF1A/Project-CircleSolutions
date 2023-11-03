@@ -29,9 +29,7 @@
     </section>
     <?php
         include "partials/line.php";
-
         include "partials/contact.php";
-
         include "partials/footer.php";
     ?>
     <script src="./js/faq.js"></script>

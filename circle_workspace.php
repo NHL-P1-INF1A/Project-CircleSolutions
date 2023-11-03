@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
 </head>
 <body>
-    <?php include "partials/navbar.php"; ?>
+    <?php include "partials/navbar.php";?>
     <section id="circle_workspace_title" class="container">
         <div class="cirle_workspace_title_content">
             <h2 class="sub_title_section">circle workspace</h2>

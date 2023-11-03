@@ -562,14 +562,18 @@ header {
     border-radius: 1.35rem;
     background: var(--white);
     box-shadow: 0rem 0.094rem 0.563rem 0rem rgba(20, 20, 43, 0.25);
-    width: 22.556rem;
-    height: 37.125rem;
+    width: 100%;
+    height: 100%;
+    max-width: 22.556rem;
+    max-height: 37.125rem;
     display: flex;
 }
 /* The wrapper */
 .container_workspace_wrapper {
-    width: 21.825rem;
-    height: 32.175rem; 
+    width: 100%;
+    height: 100%;
+    max-width: 22.556rem;
+    max-height: 37.125rem;
     padding-right: 2.25rem;
     padding-left: 2.25rem;
     margin-top: 1rem;
@@ -665,14 +669,44 @@ header {
     border-radius: 1.35rem;
     background: var(--white);
     box-shadow: 0rem 0.094rem 0.563rem 0rem rgba(20, 20, 43, 0.25);
-    width: 22.556rem;
-    height: 37.125rem;
+    max-width: 22.556rem;
+    max-height: 37.125rem;
+    width: 100%;
+    height: 100%;
     display: flex;
+}
+
+.services_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #799DAB;
+    border-radius: 1.125rem; 
+    height: 4.05rem;
+    font-family: Calibre-Bold,sans-serif;
+    font-size: 1.013rem;
+    color: white;
+    margin: 1rem 0;
 }
 /* If you hover over the item with this element it will slightly grow in size */
 .hover_button:hover{ 
     transition: transform 0.2s;
     transform: scale(1.03);
+}
+
+@media screen and (max-width: 640px) {
+    .container_services_workspace {
+        max-width: 5000rem;
+        max-height: 5000rem;
+    }
+    .container_services_diamond {
+        max-width: 5000rem;
+        max-height: 5000rem;
+    }
+    .container_workspace_wrapper {
+        max-width: 5000rem;
+        max-height: 5000rem;
+    }
 }
 /*  */
 /* Carousel */

@@ -575,10 +575,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 17.325rem;
     background-color: #799DAB;
-    border-radius: 1.125rem;
+    border-radius: 1.125rem; 
     height: 4.05rem;
-    font-family: Calibre-Bold, sans-serif;
+    font-family: Calibre-Bold,sans-serif;
     font-size: 1.013rem;
     color: white;
     margin: 1rem 0;

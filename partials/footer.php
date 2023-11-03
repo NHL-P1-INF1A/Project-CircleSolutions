@@ -2,7 +2,7 @@
     <div id=footer_container>
         <div>
             <!-- Logo & Social Links -->
-            <img src="./img/circle_solutions_logo_03.svg" alt="logo" id="footer_logo">
+            <a href="#banner"><img src="./img/circle_solutions_logo_03.svg" alt="logo" id="footer_logo"></a>
             <div id="footer_socials">
                 <a href="#"><img src="./img/facebook.svg" alt="facebook"></a>
                 <a href="#"><img src="./img/instagram.svg" alt="instagram"></a>

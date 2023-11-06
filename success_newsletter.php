@@ -11,11 +11,7 @@
     <?php
         include "partials/navbar.php";
         if($_SERVER["REQUEST_METHOD"] == "POST"){
-            //vars from form
-            $name = filter_input(INPUT_POST, "name");
-            //check if it is infact an email
             $email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
-            $message = filter_input(INPUT_POST, "message");
         }
     ?>
     <section id="succes_title" class="container">
@@ -26,10 +22,10 @@
             </div>
             <div class="succes_message">
                 <img src="./img/Icons/check.svg" alt="check">
-                <h2>Bedankt voor je mail, <?php echo $name ?>!</h2>
-                <p>Hartelijk dank voor uw interesse in de aanschaf van ons intranet. We willen u graag laten weten dat we uw e-mail met enthousiasme hebben ontvangen. Uw keuze om met ons in zee te gaan wordt zeer gewaardeerd, en we zijn ervan overtuigd dat u geen spijt zult krijgen van deze beslissing.</p>
-                <p>Ons team zal zo spoedig mogelijk reageren op uw aanvraag op het volgende e-mail adres; <b><?php echo $email ?></b>. Ook zullen we u voorzien van alle benodigde informatie en begeleiding om uw intranetproject tot een succes te maken.</p>
-                <p>Nogmaals bedankt voor uw vertrouwen in ons. We kijken ernaar uit om met u samen te werken en uw intranetbehoeften te vervullen.</p>
+                <h2>Bedankt voor je aanmelding!</h2>
+                <p>Bedankt voor het aanmelden voor onze nieuwsbrief. We zijn blij dat je geïnteresseerd bent in onze updates.</p>
+                <p>We sturen de nieuwsbrief naar het volgende e-mailadres: <b><?php echo $email ?></b>.  Je krijgt binnenkort nieuws en updates van ons.</p>
+                <p>Als u vragen heeft, horen we het graag.</p>
                 <p>Met vriendelijke groet,</p>
                 <p>Het team van circle solutions</p>
             </div>

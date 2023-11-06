@@ -1,61 +1,53 @@
-    <section id="services" class="container">
-        <div class="container_services_text column title_margin">
-            <h4 class=title_section> diensten </h4>
-            <h2 class=sub_title_section> onze services </h2>
-        </div>
-        <div class="container_services_deals">
-            <div class="container_services_workspace">
-                <div class="container_workspace_wrapper">
-                    <div class="img_service_circle">
-                        <img src="./img/deal_circle.png" alt="Icon deal circle" class="icon_circle">
-                        circle workspace
-                    </div>
-                    <div class="circle_text_1">
-                        Circle Workspace maakt het beheren van apps, communicatie, en documenten eenvoudig en efficiënt.
-                    </div>
-                    <div class="circle_text_2">
-                        <p class="circle_text_4">voor 1-50 Gebruikers </p>
-                        <p class="money_text">&euro;140</p> /maandelijks
-                        <p class="circle_text_4">voor 51-500 Gebruikers </p>
-                        <p class="money_text">&euro;740</p> /maandelijks
-                    </div>
-                    <div class="circle_text_3"> 
-                        inhoud
-                    </div>
-                    <div class="check_list_services">
-                        <p class=check_circle_text> <img src="./img/check_circle.png" alt="check_circle" class="check_circle"> App-beheer </p>
-                        <p class=check_circle_text> <img src="./img/check_circle.png" alt="check_circle" class="check_circle"> Communicatie en informatie </p>
-                        <p class=check_circle_text> <img src="./img/check_circle.png" alt="check_circle" class="check_circle"> Document beheer </p>
-                    </div>
-                        <a class="circle_button hover_button" href="circle_workspace.php">meer informatie</a>
+<section id="services" class="container">
+    <div class="services_text column title_margin">
+        <h4 class="title_section">diensten</h4>
+        <h2 class="sub_title_section">onze services</h2>
+    </div>
+    <div class="services_deals">
+        <div class="service_item">
+            <div class="service_wrapper">
+                <div class="service_icon">
+                    <img src="./img/deal_circle.png" alt="Icon deal circle" class="icon">
+                    <span>circle workspace</span>
                 </div>
-            </div>
-            <div class="container_services_diamond">
-                <div class="container_workspace_wrapper">
-                    <div class="img_service_circle">
-                        <img src="./img/deal_diamond.png" alt="Icon deal circle" class="icon_circle">
-                        circle D.O.T.S.
-                    </div>
-                    <div class="circle_text_1">
-                        Circle D.O.T.S. verbetert communicatie, verbindt teams en optimaliseert met gebruiksvriendelijke analytics.
-                    </div>
-                    <div class="circle_text_2">
-                        <p class="circle_text_4">voor 1-50 Gebruikers</p>
-                        <p class="money_text">&euro;180 </p> /maandelijks
-                        <p class="circle_text_4">voor 51-500 Gebruikers </p>
-                        <p class="money_text">&euro;799 </p> /maandelijks
-                    </div>
-                    <div class="circle_text_3"> 
-                        inhoud
-                    </div>
-                    <div class="check_list_services">
-                        <p class=check_circle_text> <img src="./img/check_circle.png" alt="check_circle" class="check_circle"> Interne communicatie </p>
-                        <p class=check_circle_text> <img src="./img/check_circle.png" alt="check_circle" class="check_circle"> Verbinden en engageren </p>
-                        <p class=check_circle_text> <img src="./img/check_circle.png" alt="check_circle" class="check_circle"> Kennisbeheer </p>
-                        <p class=check_circle_text> <img src="./img/check_circle.png" alt="check_circle" class="check_circle"> Analyseren en optimaliseren </p>
-                    </div>
-                    <a class="circle_button hover_button" href="circle_dots.php">meer informatie</a>
+                <p class="service_description">
+                    Circle Workspace maakt het beheren van apps, communicatie, en documenten eenvoudig en efficiënt.
+                </p>
+                <div class="pricing">
+                    <p class="price_info">voor 1-50 gebruikers</p><p> <span class="price">&euro;140</span> /maandelijks</p>
+                    <p class="price_info">voor 51-500 gebruikers</p><p> <span class="price">&euro;740</span> /maandelijks</p>
                 </div>
+                <p class="content_title">inhoud</p>
+                <div class="features_list">
+                    <p class="feature"> <img src="./img/check_circle.png" alt="check_circle" class="check_icon"> App-beheer </p>
+                    <p class="feature"> <img src="./img/check_circle.png" alt="check_circle" class="check_icon"> Communicatie en informatie </p>
+                    <p class="feature"> <img src="./img/check_circle.png" alt="check_circle" class="check_icon"> Document beheer </p>
+                </div>
+                <a class="service_btn hover_effect" href="circle_workspace.php">meer informatie</a>
             </div>
         </div>
-    </section>
+        <div class="service_item">
+            <div class="service_wrapper">
+                <div class="service_icon">
+                    <img src="./img/deal_diamond.png" alt="Icon deal circle" class="service_icons">
+                    <span>circle D.O.T.S.</span>
+                </div>
+                <p class="service_description">
+                    Circle D.O.T.S. verbetert communicatie, verbindt teams en optimaliseert met gebruiksvriendelijke analytics.
+                </p>
+                <div class="pricing">
+                    <p class="price_info">voor 1-50 gebruikers</p><p> <span class="price">&euro;180</span> /maandelijks</p>
+                    <p class="price_info">voor 51-500 gebruikers</p><p> <span class="price">&euro;799</span> /maandelijks</p>
+                </div>
+                <p class="content_title">inhoud</p>
+                <div class="features_list">
+                    <p class="feature"> <img src="./img/check_circle.png" alt="check_circle" class="check_icon"> Interne communicatie </p>
+                    <p class="feature"> <img src="./img/check_circle.png" alt="check_circle" class="check_icon"> Verbinden en engageren </p>
+                    <p class="feature"> <img src="./img/check_circle.png" alt="check_circle" class="check_icon"> Kennisbeheer </p>
+                    <p class="feature"> <img src="./img/check_circle.png" alt="check_circle" class="check_icon"> Analyseren en optimaliseren </p>
+                </div>
+                <a class="service_btn hover_effect" href="circle_dots.php">meer informatie</a>
+            </div>
+        </div>
+    </div>
+</section>
